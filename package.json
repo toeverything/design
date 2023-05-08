@@ -1,0 +1,6 @@
+{
+  "name": "@toeverything/design",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.4.0"
+}
