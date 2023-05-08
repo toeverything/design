@@ -49,10 +49,11 @@ jobs:
       - name: Write footer to style.css
         run: echo "\`\`\`" >> ./output.txt
 
+      - name: Write metadata to style.css
+        run: echo "_(execution **${{ github.run_id }}** / attempt **${{ github.run_attempt }}**)_\n" >> ./output.txt
+
       - name: Print style.css on PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: |
-            _(execution **${{ github.run_id }}** / attempt **${{ github.run_attempt }}**)_
           filePath: ./output.txt
           comment_tag: execution
