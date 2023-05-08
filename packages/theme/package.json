@@ -23,7 +23,8 @@
         "require": "./dist/index.cjs"
       },
       "./style.css": "./dist/style.css"
-    }
+    },
+    "types": "./dist/index.d.ts"
   },
   "devDependencies": {
     "@vanilla-extract/css": "^1.11.0",
