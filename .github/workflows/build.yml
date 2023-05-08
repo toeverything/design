@@ -1,0 +1,59 @@
+name: Build
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-theme:
+    name: Build @toeverything/theme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+      - name: Use Node.js LTS
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build @toeverything/theme
+        run: pnpm run build
+        working-directory: packages/theme
+
+      - name: Write header to style.css
+        run: echo "\`\`\`css" > ./output.txt
+
+      - name: Format style.css
+        run: pnpm dlx prettier ./packages/theme/dist/style.css >> ./output.txt
+
+      - name: Write footer to style.css
+        run: echo "\`\`\`" >> ./output.txt
+
+      - name: Write metadata to style.css
+        run: echo "_(execution **${{ github.run_id }}** / attempt **${{ github.run_attempt }}**)_" >> ./output.txt
+
+      - name: Print style.css on PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: ./output.txt
+          comment_tag: execution
