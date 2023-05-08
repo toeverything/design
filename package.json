@@ -2,5 +2,8 @@
   "name": "@toeverything/design",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@8.4.0"
+  "packageManager": "pnpm@8.4.0",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
