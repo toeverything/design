@@ -4,6 +4,8 @@ packages=(
   "theme"
 )
 
+npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+
 for package in "${packages[@]}"; do
   cd "packages/$package"
   pnpm run build
