@@ -39,15 +39,15 @@ jobs:
         working-directory: packages/theme
 
       - name: Write header to style.css
-        run: echo "```css" > ./dist/output.txt
+        run: echo "\`\`\`css" > ./output.txt
 
       - name: Format style.css
-        run: pnpm dlx prettier ./packages/theme/dist/style.css >> ./dist/output.txt
+        run: pnpm dlx prettier ./packages/theme/dist/style.css >> ./output.txt
 
       - name: Write footer to style.css
-        run: echo "```" >> ./dist/output.txt
+        run: echo "\`\`\`" >> ./output.txt
 
       - name: Print style.css on PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          filePath: ./dist/output.txt
+          filePath: ./output.txt
