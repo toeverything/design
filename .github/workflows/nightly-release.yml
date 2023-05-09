@@ -1,16 +1,19 @@
-name: Build
+# This workflow will release a new version that follows `0.0.0-${version}-${date}-${hash}`
+name: Nightly Release
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
 jobs:
-  build-theme:
-    name: Build @toeverything/theme
+  nightly-release:
+    name: Publish npm@nightly release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -36,6 +39,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build @toeverything/theme
-        run: pnpm run build
-        working-directory: packages/theme
+      - uses: toeverything/set-build-version@latest
+
+      - name: Replace nightly version fields
+        run: ./scripts/replace-nightly-version.sh
+
+      - name: Try publishing to NPM
+        run: ./scripts/publish.sh
+        env:
+          NIGHTLY: true
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
