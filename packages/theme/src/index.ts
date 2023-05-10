@@ -151,6 +151,7 @@ export const lightTheme = {
     '0px 0px 30px rgba(75, 75, 75, 0.2), 0px 0px 4px rgba(75, 75, 75, 0.3), inset 0px 0px 0px rgba(227, 226, 228, 1)',
   floatButtonShadow:
     '0px 10px 12px -3px rgba(66, 65, 73, 0.1), 0px 4px 6px -2px rgba(66, 65, 73, 0.05)',
+  dragOverlayShadow: 'var(--affine-shadow-1)',
 };
 
 export const darkTheme = {
@@ -203,7 +204,7 @@ export const darkTheme = {
   backgroundSecondaryColor: 'rgb(32, 32, 32)',
   backgroundModalColor: 'rgba(0, 0, 0, 0.5)',
   backgroundOverlayPanelColor: 'rgb(30, 30, 30)',
-  dragOverlayBg: 'rgba(0, 0, 0, 0.4)',
+  dragOverlayBg: 'rgba(255, 255, 255, 0.15)',
   tagBlue: 'rgba(8, 67, 136, 1)',
   tagGreen: 'rgba(44, 108, 63, 1)',
   tagTeal: 'rgba(26, 115, 110, 1)',
@@ -224,6 +225,7 @@ export const darkTheme = {
     '0px 0px 30px rgba(12, 12, 12, 0.8), 0px 0px 8px rgba(12, 12, 12, 1), inset 0px 0px 0px rgba(46, 46, 46, 1)',
   floatButtonShadow:
     ' 0px 10px 12px -3px rgba(15, 15, 15, 0.88), 0px 4px 6px -2px rgba(0, 0, 0, 0.88)',
+  dragOverlayShadow: 'none',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
