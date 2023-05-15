@@ -88,6 +88,7 @@ export const lightTheme = {
   brandColor: 'rgb(84, 56, 255)',
   tertiaryColor: 'rgb(243, 240, 255)',
   primaryColor: 'rgb(84, 56, 255)',
+  primaryColor04: 'rgba(84, 56, 255, 0.04)',
   secondaryColor: 'rgb(125, 145, 255)',
   backgroundSuccessColor: 'rgba(231, 250, 243, 1)',
   backgroundErrorColor: 'rgba(253, 236, 235, 1)',
@@ -159,6 +160,7 @@ export const darkTheme = {
 
   brandColor: 'rgba(156, 140, 255, 1)',
   primaryColor: 'rgba(106, 86, 229, 1)',
+  primaryColor04: 'rgba(84, 56, 255, 0.1)',
   secondaryColor: 'rgb(144, 150, 245)',
   tertiaryColor: 'rgb(30, 30, 30)',
   hoverColor: 'rgba(255, 255, 255, 0.1)',
