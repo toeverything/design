@@ -227,7 +227,7 @@ export const darkTheme = {
     '0px 0px 30px rgba(12, 12, 12, 0.8), 0px 0px 8px rgba(12, 12, 12, 1), inset 0px 0px 0px rgba(46, 46, 46, 1)',
   floatButtonShadow:
     ' 0px 10px 12px -3px rgba(15, 15, 15, 0.88), 0px 4px 6px -2px rgba(0, 0, 0, 0.88)',
-  buttonGrayColor: 'rgba(rgb(85, 85, 85, 1)',
+  buttonGrayColor: 'rgba(85, 85, 85, 1)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
