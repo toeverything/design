@@ -96,7 +96,7 @@ export const lightTheme = {
   backgroundWarningColor: 'rgba(255, 239, 233, 1)',
   backgroundPrimaryColor: 'rgb(255, 255, 255)',
   backgroundOverlayPanelColor: 'rgb(251, 251, 252)',
-  backgroundSecondaryColor: 'rgb(251, 250, 252)',
+  backgroundSecondaryColor: 'rgba(252, 252, 253, 1)',
   backgroundTertiaryColor: 'rgb(245, 243, 247)',
   backgroundCodeBlock: 'rgba(247, 246, 250, 1)',
   backgroundModalColor: 'rgba(0, 0, 0, 0.4)',
@@ -153,6 +153,8 @@ export const lightTheme = {
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
+  cardBackgroundBlue:'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
+  cardBackgroundGreen:'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)'
 };
 
 export const darkTheme = {
@@ -228,6 +230,8 @@ export const darkTheme = {
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
+  cardBackgroundBlue:'linear-gradient(180deg, #14171F 0%, #202020 100%)',
+  cardBackgroundGreen:'linear-gradient(180deg, #192023 0%, #202020 100%)'
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
