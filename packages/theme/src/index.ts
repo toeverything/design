@@ -77,6 +77,8 @@ export const baseTheme = {
   paletteShapeWhite: 'rgb(255, 255, 255)',
   paletteShapeBlack: 'rgb(0, 0, 0)',
   paletteShapeGrey: 'rgb(194, 194, 194)',
+
+  blue: 'rgba(30, 150, 235, 1)',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
