@@ -51,6 +51,7 @@ export const baseTheme = {
   paragraphSpace: '8px',
   popoverRadius: '12px',
 
+  editorWidth: '800px',
   zoom: '1',
   scale: 'calc(1 / var(--affine-zoom))',
   paletteLineYellow: 'rgb(255, 232, 56)',
@@ -159,8 +160,8 @@ export const lightTheme = {
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
-  cardBackgroundBlue:'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
-  cardBackgroundGreen:'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)'
+  cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
+  cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
 };
 
 export const darkTheme = {
@@ -236,8 +237,8 @@ export const darkTheme = {
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
-  cardBackgroundBlue:'linear-gradient(180deg, #14171F 0%, #202020 100%)',
-  cardBackgroundGreen:'linear-gradient(180deg, #192023 0%, #202020 100%)'
+  cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
+  cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
