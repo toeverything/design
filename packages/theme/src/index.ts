@@ -79,6 +79,10 @@ export const baseTheme = {
   paletteShapeGrey: 'rgb(194, 194, 194)',
 
   blue: 'rgba(30, 150, 235, 1)',
+  pureBlack10: 'rgba(0, 0, 0, 0.1)',
+  toggleCircleBackgroundColor: 'rgba(0, 0, 0, 0.1)',
+  toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
+  toggleCircleShadow: '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
