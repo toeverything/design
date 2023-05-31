@@ -106,7 +106,7 @@ export const lightTheme = {
   backgroundSecondaryColor: 'rgba(252, 252, 253, 1)',
   backgroundTertiaryColor: 'rgb(245, 243, 247)',
   backgroundCodeBlock: 'rgba(247, 246, 250, 1)',
-  backgroundModalColor: 'rgba(0, 0, 0, 0.4)',
+  backgroundModalColor: 'rgba(0, 0, 0, 0.75)',
   textPrimaryColor: 'rgb(66, 65, 73)',
   textSecondaryColor: 'rgb(142, 141, 145)',
   textDisableColor: 'rgb(169, 169, 173)',
