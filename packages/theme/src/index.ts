@@ -163,6 +163,8 @@ export const lightTheme = {
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
+  cardBackgroundGrey: 'linear-gradient(180deg, #F1F1F1 0%, #FCFCFD 100%)',
+
 };
 
 export const darkTheme = {
@@ -241,6 +243,7 @@ export const darkTheme = {
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
+  cardBackgroundGrey: 'linear-gradient(180deg, #313131 0%, #202020 100%)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
