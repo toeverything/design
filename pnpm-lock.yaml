@@ -1,27 +1,31 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
     devDependencies:
       typescript:
-        specifier: ^5.0.4
-        version: 5.0.4
+        specifier: ^5.1.3
+        version: 5.1.3
 
   packages/theme:
     devDependencies:
       '@vanilla-extract/css':
-        specifier: ^1.11.0
-        version: 1.11.0
+        specifier: ^1.11.1
+        version: 1.11.1
       '@vanilla-extract/vite-plugin':
-        specifier: ^3.8.0
-        version: 3.8.0(vite@4.3.5)
+        specifier: ^3.8.2
+        version: 3.8.2(vite@4.3.9)
       vite:
-        specifier: ^4.3.5
-        version: 4.3.5
+        specifier: ^4.3.9
+        version: 4.3.9
       vite-plugin-dts:
         specifier: ^2.3.0
-        version: 2.3.0(vite@4.3.5)
+        version: 2.3.0(vite@4.3.9)
 
 packages:
 
@@ -820,14 +824,14 @@ packages:
       - supports-color
     dev: true
 
-  /@vanilla-extract/css@1.11.0:
-    resolution: {integrity: sha512-uohj+8cGWbnrVzTfrjlJeXqdGjH3d3TcscdQxKe3h5bb5QQXTpPSq+c+SeWADIGiZybzcW0CBvZV8jsy1ywY9w==}
+  /@vanilla-extract/css@1.11.1:
+    resolution: {integrity: sha512-iLalh4K4sXgkfzsiFUsiek4IY1/N4jtJKdr1ubpyszPE7W7G2v+DAl8KcmKkRA6vS7k5mFNW34e4fNki6T2cbQ==}
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.3
       ahocorasick: 1.0.2
       chalk: 4.1.2
-      css-what: 5.1.0
+      css-what: 6.1.0
       cssesc: 3.0.0
       csstype: 3.1.2
       deep-object-diff: 1.1.9
@@ -842,7 +846,7 @@ packages:
       '@babel/core': 7.21.8
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.21.8)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.2
-      '@vanilla-extract/css': 1.11.0
+      '@vanilla-extract/css': 1.11.1
       esbuild: 0.17.6
       eval: 0.1.6
       find-up: 5.0.0
@@ -850,7 +854,7 @@ packages:
       lodash: 4.17.21
       mlly: 1.2.0
       outdent: 0.8.0
-      vite: 4.3.5
+      vite: 4.3.9
       vite-node: 0.28.5
     transitivePeerDependencies:
       - '@types/node'
@@ -866,8 +870,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vanilla-extract/vite-plugin@3.8.0(vite@4.3.5):
-    resolution: {integrity: sha512-HBCecR4eTbweo7wQPq9g/HBvxUi6Cua8O4Xk6t1by4W/imgEsHbRCCa9SowzZwg8lub7uJHBAdzWWpqY+LdH0w==}
+  /@vanilla-extract/vite-plugin@3.8.2(vite@4.3.9):
+    resolution: {integrity: sha512-i0vpuBUoh10Obl0hJr0dWQa6M3Udu/irm4tnsg1lUze8DXTbv3ctHmVu/wrRZHKw1EzzW/v+nLoJJRvisApspQ==}
     peerDependencies:
       vite: ^2.2.3 || ^3.0.0 || ^4.0.3
     dependencies:
@@ -875,7 +879,7 @@ packages:
       outdent: 0.8.0
       postcss: 8.4.23
       postcss-load-config: 3.1.4(postcss@8.4.23)
-      vite: 4.3.5
+      vite: 4.3.9
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1025,8 +1029,8 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
 
-  /css-what@5.1.0:
-    resolution: {integrity: sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==}
+  /css-what@6.1.0:
+    resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
     engines: {node: '>= 6'}
     dev: true
 
@@ -1649,9 +1653,9 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.0.4:
-    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
-    engines: {node: '>=12.20'}
+  /typescript@5.1.3:
+    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
@@ -1703,7 +1707,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.3.5
+      vite: 4.3.9
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1714,7 +1718,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@2.3.0(vite@4.3.5):
+  /vite-plugin-dts@2.3.0(vite@4.3.9):
     resolution: {integrity: sha512-WbJgGtsStgQhdm3EosYmIdTGbag5YQpZ3HXWUAPCDyoXI5qN6EY0V7NXq0lAmnv9hVQsvh0htbYcg0Or5Db9JQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1730,15 +1734,15 @@ packages:
       kolorist: 1.8.0
       magic-string: 0.29.0
       ts-morph: 18.0.0
-      vite: 4.3.5
+      vite: 4.3.9
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: true
 
-  /vite@4.3.5:
-    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
+  /vite@4.3.9:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
