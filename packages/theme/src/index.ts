@@ -93,11 +93,25 @@ export const lightTheme = {
 
   themeMode: 'light',
 
-  brandColor: 'rgb(84, 56, 255)',
+  brandColor: 'rgba(30, 150, 235, 1)',
   tertiaryColor: 'rgb(243, 240, 255)',
-  primaryColor: 'rgb(84, 56, 255)',
-  primaryColor04: 'rgba(84, 56, 255, 0.04)',
+  primaryColor: 'rgba(30, 150, 235, 1)',
+  primaryColor04: 'rgba(30, 150, 235, 0.04)',
   secondaryColor: 'rgb(125, 145, 255)',
+
+  affineBlue50: 'rgba(239, 250, 255, 1)',
+  affineBlue100: 'rgba(219, 244, 254, 1)',
+  affineBlue200: 'rgba(191, 236, 254, 1)',
+  affineBlue300: 'rgba(147, 226, 253, 1)',
+  affineBlue400: 'rgba(96, 207, 250, 1)',
+  affineBlue500: 'rgba(58, 181, 247, 1)',
+  affineBlue600: 'rgba(30, 150, 235, 1)',
+  affineBlue700: 'rgba(28, 129, 217, 1)',
+  affineBlue800: 'rgba(30, 103, 175, 1)',
+  affineBlue900: 'rgba(30, 87, 138, 1)',
+  affineBlue950: 'rgba(23, 54, 84, 1)',
+
+
   backgroundSuccessColor: 'rgba(231, 250, 243, 1)',
   backgroundErrorColor: 'rgba(253, 236, 235, 1)',
   backgroundProcessingColor: 'rgba(233, 241, 255, 1)',
@@ -172,11 +186,24 @@ export const darkTheme = {
 
   themeMode: 'dark',
 
-  brandColor: 'rgba(156, 140, 255, 1)',
-  primaryColor: 'rgba(106, 86, 229, 1)',
-  primaryColor04: 'rgba(84, 56, 255, 0.1)',
+  brandColor: 'rgba(52, 116, 173, 1)',
+  primaryColor: 'rgba(52, 116, 173, 1)',
+  primaryColor04: 'rgba(52, 116, 173, 0.1)',
   secondaryColor: 'rgb(144, 150, 245)',
   tertiaryColor: 'rgb(30, 30, 30)',
+
+  affineBlue950: 'rgba(32, 45, 55, 1)',
+  affineBlue50: 'rgba(181, 208, 242, 1)',
+  affineBlue100: 'rgba(171, 204, 237, 1)',
+  affineBlue200: 'rgba(149, 194, 234, 1)',
+  affineBlue300: 'rgba(115, 182, 226, 1)',
+  affineBlue400: 'rgba(79, 162, 216, 1)',
+  affineBlue500: 'rgba(53, 140, 208, 1)',
+  affineBlue600: 'rgba(52, 116, 173, 1)',
+  affineBlue700: 'rgba(55, 106, 154, 1)',
+  affineBlue800: 'rgba(51, 88, 122, 1)',
+  affineBlue900: 'rgba(47, 75, 96, 1)',
+
   hoverColor: 'rgba(255, 255, 255, 0.1)',
   hoverColorFilled: 'rgb(35, 35, 35)',
   iconColor: 'rgb(168, 168, 160)',
