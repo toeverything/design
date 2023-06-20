@@ -93,10 +93,10 @@ export const lightTheme = {
 
   themeMode: 'light',
 
-  brandColor: 'rgb(84, 56, 255)',
+  brandColor: 'rgba(30, 150, 235, 1)',
   tertiaryColor: 'rgb(243, 240, 255)',
-  primaryColor: 'rgb(84, 56, 255)',
-  primaryColor04: 'rgba(84, 56, 255, 0.04)',
+  primaryColor: 'rgba(30, 150, 235, 1)',
+  primaryColor04: 'rgba(30, 150, 235, 0.04)',
   secondaryColor: 'rgb(125, 145, 255)',
 
   affineBlue50: 'rgba(239, 250, 255, 1)',
@@ -186,9 +186,9 @@ export const darkTheme = {
 
   themeMode: 'dark',
 
-  brandColor: 'rgba(156, 140, 255, 1)',
-  primaryColor: 'rgba(106, 86, 229, 1)',
-  primaryColor04: 'rgba(84, 56, 255, 0.1)',
+  brandColor: 'rgba(52, 116, 173, 1)',
+  primaryColor: 'rgba(52, 116, 173, 1)',
+  primaryColor04: 'rgba(52, 116, 173, 0.1)',
   secondaryColor: 'rgb(144, 150, 245)',
   tertiaryColor: 'rgb(30, 30, 30)',
 
