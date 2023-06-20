@@ -83,7 +83,8 @@ export const baseTheme = {
   pureBlack10: 'rgba(0, 0, 0, 0.1)',
   toggleCircleBackgroundColor: 'rgba(255, 255, 255, 1)',
   toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
-  toggleCircleShadow: '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
+  toggleCircleShadow:
+    '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -163,6 +164,7 @@ export const lightTheme = {
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
+  cardBackgroundGrey: 'linear-gradient(180deg, #F1F1F1 0%, #FCFCFD 100%)',
 };
 
 export const darkTheme = {
@@ -241,6 +243,7 @@ export const darkTheme = {
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
+  cardBackgroundGrey: 'linear-gradient(180deg, #313131 0%, #202020 100%)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
