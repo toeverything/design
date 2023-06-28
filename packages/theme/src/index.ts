@@ -94,7 +94,7 @@ export const lightTheme = {
   themeMode: 'light',
 
   brandColor: '#1E96EB',
-  tertiaryColor: 'rgb(243, 240, 255)',
+  tertiaryColor: '7rgba(239, 250, 255, 1)',
   primaryColor: '#1E96EB',
   primaryColor04: 'rgba(30, 150, 235, 0.04)',
   secondaryColor: 'rgb(125, 145, 255)',
