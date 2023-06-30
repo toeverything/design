@@ -111,7 +111,6 @@ export const lightTheme = {
   blue900: 'rgba(30, 87, 138, 1)',
   blue950: 'rgba(23, 54, 84, 1)',
 
-
   backgroundSuccessColor: 'rgba(231, 250, 243, 1)',
   backgroundErrorColor: 'rgba(253, 236, 235, 1)',
   backgroundProcessingColor: 'rgba(233, 241, 255, 1)',
@@ -168,6 +167,7 @@ export const lightTheme = {
   tooltip: 'rgba(66, 65, 73, 1)',
   menuShadow:
     '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
+  activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(66, 65, 73, 0.14)',
   shadow2: '0px 0px 12px 0px rgba(66, 65, 73, 0.18)',
   shadow3: '0px 0px 20px 0px rgba(66, 65, 73, 0.22)',
@@ -260,6 +260,7 @@ export const darkTheme = {
   tooltip: 'rgba(234, 234, 234, 1)',
   menuShadow:
     '0px 0px 12px rgba(0, 0, 0, 1), inset 0px 0px 0px 0.5px rgba(46, 46, 46, 1)',
+  activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
   shadow1: '0px 0px 4px 2px rgba(15, 15, 15, 1)',
   shadow2: '0px 0px 12px 4px rgba(15, 15, 15, 0.8)',
   shadow3: '0px 0px 22px 8px rgba(15, 15, 15, 0.9)',
