@@ -25,13 +25,17 @@ export type AffineCssVariables = {
 };
 
 const basicFontFamily =
-  'apple-system, BlinkMacSystemFont,Helvetica Neue, Tahoma, PingFang SC, Microsoft Yahei, Arial,Hiragino Sans GB, sans-serif, Apple Color Emoji, Segoe UI Emoji,Segoe UI Symbol, Noto Color Emoji';
+  `apple-system, BlinkMacSystemFont,'Helvetica Neue', Tahoma, 'PingFang SC', 'Microsoft Yahei', Arial,'Hiragino Sans GB', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 
 export const baseTheme = {
   // font
-  fontFamily: `Avenir Next, Poppins, ${basicFontFamily}`,
-  fontNumberFamily: `Roboto Mono, ${basicFontFamily}`,
-  fontCodeFamily: `Space Mono, Consolas, Menlo, Monaco, Courier, monospace, ${basicFontFamily}`,
+  fontFamily: `'Inter', 'Source Sans 3', Poppins, ${basicFontFamily}`,
+  fontSerifFamily: `'Source Serif 4', serif, 'Cambria', ${basicFontFamily}`,
+  fontMonoFamily: `'Source Code Pro', 'IBM Plex Mono', 'Roboto Mono', ${basicFontFamily}`,
+  fontSansFamily: `'Inter', 'Source Sans 3', Poppins, sans-serif ${basicFontFamily}`,
+
+  fontNumberFamily: `'Roboto Mono', ${basicFontFamily}`,
+  fontCodeFamily: `'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicFontFamily}`,
   fontTitle: '36px',
   fontH1: '28px',
   fontH2: '26px',
