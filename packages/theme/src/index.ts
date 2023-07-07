@@ -32,7 +32,7 @@ export const baseTheme = {
   fontFamily: `'Inter', 'Source Sans 3', Poppins, ${basicFontFamily}`,
   fontSerifFamily: `'Source Serif 4', serif, 'Cambria', ${basicFontFamily}`,
   fontMonoFamily: `'Source Code Pro', 'IBM Plex Mono', 'Roboto Mono', ${basicFontFamily}`,
-  fontSansFamily: `'Inter', 'Source Sans 3', Poppins, sans-serif ${basicFontFamily}`,
+  fontSansFamily: `'Inter', 'Source Sans 3', Poppins, ${basicFontFamily}`,
 
   fontNumberFamily: `'Roboto Mono', ${basicFontFamily}`,
   fontCodeFamily: `'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicFontFamily}`,
