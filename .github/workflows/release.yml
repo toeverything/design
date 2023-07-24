@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 # Pending until other workflows done
 concurrency: ${{ github.workflow }}-${{ github.ref }}
