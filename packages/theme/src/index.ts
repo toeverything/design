@@ -89,6 +89,8 @@ export const baseTheme = {
   toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
   toggleCircleShadow:
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
+  buttonInnerShadow:
+    ' 0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -179,6 +181,10 @@ export const lightTheme = {
     '0px 0px 30px rgba(75, 75, 75, 0.2), 0px 0px 4px rgba(75, 75, 75, 0.3), inset 0px 0px 0px rgba(227, 226, 228, 1)',
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
+  floatButtonShadow1:
+    '0px 4px 6px -3px rgba(66, 65, 73, 0.10), 0px 10px 12px -2px rgba(66, 65, 73, 0.10)',
+  floatButtonShadow2:
+    '0px 4px 4px -2px rgba(66, 65, 73, 0.10), 0px 6px 8px 1px rgba(66, 65, 73, 0.05)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
@@ -273,6 +279,10 @@ export const darkTheme = {
     '0px 0px 30px rgba(12, 12, 12, 0.8), 0px 0px 8px rgba(12, 12, 12, 1), inset 0px 0px 0px rgba(46, 46, 46, 1)',
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
+  floatButtonShadow1:
+    '0px 4px 6px -3px rgba(0, 0, 0, 0.10), 0px 10px 12px -2px rgba(15, 15, 15, 0.10)',
+  floatButtonShadow2:
+    '0px 4px 4px -2px rgba(15, 15, 15, 0.10), 0px 6px 8px 1px rgba(15, 15, 15, 0.05)',
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
