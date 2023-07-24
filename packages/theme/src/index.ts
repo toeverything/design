@@ -84,7 +84,10 @@ export const baseTheme = {
   paletteShapeBlack: 'rgb(35, 35, 35)',
   paletteShapeGrey: 'rgb(216, 217, 216)',
   blue: 'rgba(30, 150, 235, 1)',
+  pureBlack: 'rgba(0, 0, 0, 1)',
   pureBlack10: 'rgba(0, 0, 0, 0.1)',
+  pureWhite: 'rgba(255, 255, 255, 1)',
+  pureWhite10: 'rgba(255, 255, 255, 0.1)',
   toggleCircleBackgroundColor: 'rgba(255, 255, 255, 1)',
   toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
   toggleCircleShadow:
