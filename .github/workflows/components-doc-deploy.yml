@@ -1,5 +1,7 @@
 name: Build and Deploy Components Doc
 on:
+  push:
+    paths: [ 'packages/components/**' ]
   pull_request:
     paths: ['packages/components/**']
 

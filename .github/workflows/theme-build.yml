@@ -3,6 +3,8 @@ name: Build
 on:
   pull_request:
     paths: ['packages/theme/**']
+  push:
+    paths: ['packages/theme/**']
 
 jobs:
   build-theme:
