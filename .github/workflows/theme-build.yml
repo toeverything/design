@@ -2,8 +2,7 @@ name: Build
 
 on:
   pull_request:
-    branches:
-      - main
+    paths: ['packages/theme/**']
 
 jobs:
   build-theme:

@@ -1,0 +1,73 @@
+{
+  "name": "@toeverything/components",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/react-components.umd.js",
+  "module": "./dist/react-components.es.js",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-components.es.js",
+      "require": "./dist/react-components.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc --project tsconfig.build.json",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "dev": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
+    "dev:test": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@blocksuite/icons": "^2.1.26",
+    "clsx": "^2.0.0",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook-dark-mode": "^3.0.0",
+    "vite-plugin-lib-inject-css": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "@storybook/addon-actions": "^7.0.24",
+    "@storybook/addon-essentials": "^7.0.24",
+    "@storybook/addon-interactions": "^7.0.24",
+    "@storybook/addon-links": "^7.0.24",
+    "@storybook/addon-mdx-gfm": "^7.1.0",
+    "@storybook/addon-storysource": "^7.0.24",
+    "@storybook/blocks": "^7.0.24",
+    "@storybook/builder-vite": "^7.0.24",
+    "@storybook/jest": "^0.1.0",
+    "@storybook/react": "^7.0.24",
+    "@storybook/react-vite": "^7.0.24",
+    "@storybook/test-runner": "^0.11.0",
+    "@storybook/testing-library": "^0.2.0",
+    "@toeverything/theme": "^0.7.6",
+    "@types/node": "^20.4.4",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vanilla-extract/css": "^1.12.0",
+    "@vanilla-extract/dynamic": "^2.0.3",
+    "@vanilla-extract/vite-plugin": "^3.8.2",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-i": "^2.27.5-3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "storybook": "^7.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

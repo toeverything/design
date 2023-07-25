@@ -3,8 +3,8 @@ name: Nightly Release
 
 on:
   push:
-    branches:
-      - main
+    paths: ['packages/theme/**']
+
   workflow_dispatch:
 
 jobs:

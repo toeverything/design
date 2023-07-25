@@ -4,6 +4,7 @@
   "type": "module",
   "packageManager": "pnpm@8.6.2",
   "devDependencies": {
+    "prettier": "^3.0.0",
     "typescript": "^5.1.3"
   }
 }

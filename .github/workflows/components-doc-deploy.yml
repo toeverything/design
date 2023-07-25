@@ -1,25 +1,17 @@
-name: Release
-
+name: Build and Deploy Doc
 on:
-  push:
-    paths: ['packages/theme/**']
-
-  workflow_dispatch:
-
-# Pending until other workflows done
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+  pull_request:
+    paths: ['packages/components/**']
 
 permissions:
-  id-token: write
+  contents: write
 
 jobs:
-  release:
-    name: Try publishing npm@latest release
+  build-theme:
+    name: Build @toeverything/theme
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -45,8 +37,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Try publishing to NPM
-        run: ./scripts/publish.sh
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
+      - name: Build @toeverything/components
+        run: pnpm run storybook:build
+        working-directory: packages/components
+
+      - name: Add nojekyll
+        run: touch ./storybook-static/.nojekyll
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          FOLDER: storybook-static
+          CLEAN: true
