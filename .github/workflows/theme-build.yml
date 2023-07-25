@@ -2,9 +2,9 @@ name: Build
 
 on:
   pull_request:
-    paths: ['packages/theme/**']
+    paths: ['packages/theme/src/**']
   push:
-    paths: ['packages/theme/**']
+    paths: ['packages/theme/src/**']
 
 jobs:
   build-theme:
