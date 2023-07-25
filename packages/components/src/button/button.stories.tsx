@@ -12,6 +12,12 @@ export default {
 
 const Template: StoryFn<ButtonProps> = args => <Button {...args} />;
 
+export const Default = Template.bind(undefined);
+Default.args = {
+  type: 'default',
+  children: 'This is a default button',
+};
+
 export const Primary = Template.bind(undefined);
 Primary.args = {
   type: 'primary',
@@ -19,20 +25,20 @@ Primary.args = {
   icon: <InformationIcon />,
 };
 
-export const Default = Template.bind(undefined);
-Default.args = {
-  type: 'default',
-  children: 'This is a default button',
+export const Disabled = Template.bind(undefined);
+Disabled.args = {
+  disabled:true,
+  children: 'This is a disabled button',
 };
 
 export const LargeSizeButton = Template.bind(undefined);
 LargeSizeButton.args = {
   size: 'large',
-  children: 'This is a light button',
+  children: 'This is a large button',
 };
 
 export const ExtraLargeSizeButton = Template.bind(undefined);
 ExtraLargeSizeButton.args = {
   size: 'extraLarge',
-  children: 'This is a warning button',
+  children: 'This is a extra large button',
 };
