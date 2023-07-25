@@ -1,9 +1,10 @@
 name: Build and Deploy Components Doc
 on:
   push:
-    paths: [ 'packages/components/**' ]
+    paths: ['packages/components/**']
   pull_request:
     paths: ['packages/components/**']
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,9 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
         id: pnpm-install
+
       - name: Use Node.js LTS
         uses: actions/setup-node@v3
         with:
@@ -37,7 +39,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build @toeverything/components
         run: pnpm run storybook:build
