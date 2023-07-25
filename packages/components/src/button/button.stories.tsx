@@ -25,14 +25,14 @@ Default.args = {
   children: 'This is a default button',
 };
 
-export const Light = Template.bind(undefined);
-Light.args = {
-  type: 'error',
+export const LargeSizeButton = Template.bind(undefined);
+LargeSizeButton.args = {
+  size: 'large',
   children: 'This is a light button',
 };
 
-export const Warning = Template.bind(undefined);
-Warning.args = {
-  type: 'warning',
+export const ExtraLargeSizeButton = Template.bind(undefined);
+ExtraLargeSizeButton.args = {
+  size: 'extraLarge',
   children: 'This is a warning button',
 };

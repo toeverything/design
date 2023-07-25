@@ -1,4 +1,4 @@
-name: Build and Deploy Doc
+name: Build and Deploy Components Doc
 on:
   pull_request:
     paths: ['packages/components/**']
