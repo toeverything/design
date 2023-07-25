@@ -7,15 +7,11 @@ import { fileURLToPath } from 'url';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
-console.log('__dirname', __dirname);
-
 export default defineConfig({
   plugins: [react(), vanillaExtractPlugin()],
-
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: pkg.name,
       formats: ['es'],
     },
     sourcemap: true,

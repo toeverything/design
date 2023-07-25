@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Link changes the class when hovered 1`] = `
+<button
+  className="style_button__q047v90 primary"
+  data-disabled={false}
+  disabled={false}
+>
+  <span>
+    This is primary button
+  </span>
+</button>
+`;
+
+exports[`Link changes the class when hovered 2`] = `
+<button
+  className="style_button__q047v90 primary"
+  data-disabled={false}
+  disabled={false}
+>
+  <span>
+    This is primary button
+  </span>
+</button>
+`;
+
+exports[`Link changes the class when hovered 3`] = `
+<button
+  className="style_button__q047v90 primary"
+  data-disabled={false}
+  disabled={false}
+>
+  <span>
+    This is primary button
+  </span>
+</button>
+`;

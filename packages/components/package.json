@@ -1,7 +1,6 @@
 {
   "name": "@toeverything/components",
   "version": "0.0.0",
-  "type": "module",
   "main": "./dist/react-components.umd.js",
   "module": "./dist/react-components.es.js",
   "typings": "./dist/index.d.ts",
@@ -16,7 +15,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "dev:test": "node scripts/build.mjs"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@blocksuite/icons": "^2.1.26",
@@ -66,8 +67,11 @@
     "eslint-plugin-storybook": "^0.6.13",
     "eslint-plugin-unicorn": "^47.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "jsdom": "^22.1.0",
+    "react-test-renderer": "^18.2.0",
     "storybook": "^7.1.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.7",
+    "vitest": "^0.33.0"
   }
 }
