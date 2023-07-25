@@ -46,10 +46,10 @@ jobs:
         working-directory: packages/components
 
       - name: Add nojekyll
-        run: touch ./storybook-static/.nojekyll
+        run: touch ./packages/components/storybook-static/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          FOLDER: storybook-static
+          FOLDER: ./packages/components/storybook-static
           CLEAN: true
