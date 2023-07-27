@@ -3,6 +3,17 @@
   "version": "0.0.1",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      }
+    },
+    "types": "./dist/index.d.ts"
+  },
   "scripts": {
     "build": "cross-env NODE_ENV=build vite build && tsc --project tsconfig.build.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
