@@ -1,17 +1,10 @@
 {
   "name": "@toeverything/components",
-  "version": "0.0.0",
-  "main": "./dist/react-components.umd.js",
-  "module": "./dist/react-components.es.js",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/react-components.es.js",
-      "require": "./dist/react-components.umd.js"
-    }
-  },
   "scripts": {
-    "build": "vite build && tsc --project tsconfig.build.json",
+    "build": "cross-env NODE_ENV=build vite build && tsc --project tsconfig.build.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
     "storybook:build": "storybook build",
@@ -21,7 +14,9 @@
   },
   "dependencies": {
     "@blocksuite/icons": "^2.1.26",
+    "@vanilla-extract/rollup-plugin": "^1.2.2",
     "clsx": "^2.0.0",
+    "cross-env": "^7.0.3",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
