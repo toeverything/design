@@ -1,4 +1,4 @@
-name: Release
+name: Theme Release
 
 on:
   push:
@@ -49,4 +49,4 @@ jobs:
         run: ./scripts/publish.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
+          $PACKAGE_NAME: theme
