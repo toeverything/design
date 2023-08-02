@@ -24,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: fregante/setup-git-user@v2
         with:
           fetch-depth: 0
       - uses: pnpm/action-setup@v2
@@ -51,8 +52,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - uses: fregante/setup-git-user@v2
-        name: Try publishing to NPM
+
+      - name: Try publishing to NPM
         run: ./scripts/publish.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
