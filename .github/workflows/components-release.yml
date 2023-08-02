@@ -2,7 +2,16 @@ name: Components Release
 
 on:
   workflow_dispatch:
-
+    inputs:
+      versionType:
+        type: choice
+        description: Select version type
+        default: patch
+        options:
+          - major
+          - minor
+          - patch
+          - prepatch
 # Pending until other workflows done
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -42,8 +51,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Try publishing to NPM
+      - uses: fregante/setup-git-user@v2
+        name: Try publishing to NPM
         run: ./scripts/publish.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PACKAGE_NAME: components
+          VERSION_TYPE: ${{ github.event.inputs.versionType }}
