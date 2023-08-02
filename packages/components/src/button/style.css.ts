@@ -26,18 +26,24 @@ export const button = style({
     '&.text-bold': {
       fontWeight: 600,
     },
-    '&:hover': {
+    '&:not(.without-hover):hover': {
       background: 'var(--affine-hover-color)',
     },
-    '&.disabled, &.loading': {
+    '&.disabled': {
       opacity: '.4',
       cursor: 'default',
       color: 'var(--affine-disable-color)',
       pointerEvents: 'none',
     },
-    '&.disabled:hover, &.loading:hover': {
-      background: 'inherit',
+    '&.loading': {
+      cursor: 'default',
+      color: 'var(--affine-disable-color)',
+      pointerEvents: 'none',
     },
+    '&.disabled:not(.without-hover):hover, &.loading:not(.without-hover):hover':
+      {
+        background: 'inherit',
+      },
 
     '&.block': { display: 'flex', width: '100%' },
 
@@ -65,15 +71,16 @@ export const button = style({
     '&.plain': {
       color: 'var(--affine-text-primary-color)',
       borderColor: 'transparent',
+      background: 'transparent',
     },
 
     '&.primary': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
       background: 'var(--affine-primary-color)',
       borderColor: 'var(--affine-black-10)',
-      boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+      boxShadow: 'var(--affine-button-inner-shadow)',
     },
-    '&.primary:hover': {
+    '&.primary:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-primary-color)',
     },
@@ -81,17 +88,17 @@ export const button = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.primary.disabled:hover': {
+    '&.primary.disabled:not(.without-hover):hover': {
       background: 'var(--affine-primary-color)',
     },
 
     '&.error': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
       background: 'var(--affine-error-color)',
       borderColor: 'var(--affine-black-10)',
-      boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+      boxShadow: 'var(--affine-button-inner-shadow)',
     },
-    '&.error:hover': {
+    '&.error:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-error-color)',
     },
@@ -99,7 +106,7 @@ export const button = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.error.disabled:hover': {
+    '&.error.disabled:not(.without-hover):hover': {
       background: 'var(--affine-error-color)',
     },
 
@@ -107,9 +114,9 @@ export const button = style({
       color: 'var(--affine-white)',
       background: 'var(--affine-warning-color)',
       borderColor: 'var(--affine-black-10)',
-      boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+      boxShadow: 'var(--affine-button-inner-shadow)',
     },
-    '&.warning:hover': {
+    '&.warning:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-warning-color)',
     },
@@ -117,17 +124,17 @@ export const button = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.warning.disabled:hover': {
+    '&.warning.disabled:not(.without-hover):hover': {
       background: 'var(--affine-warning-color)',
     },
 
     '&.success': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
       background: 'var(--affine-success-color)',
       borderColor: 'var(--affine-black-10)',
-      boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+      boxShadow: 'var(--affine-button-inner-shadow)',
     },
-    '&.success:hover': {
+    '&.success:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-success-color)',
     },
@@ -135,17 +142,17 @@ export const button = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.success.disabled:hover': {
+    '&.success.disabled:not(.without-hover):hover': {
       background: 'var(--affine-success-color)',
     },
 
     '&.processing': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
       background: 'var(--affine-processing-color)',
       borderColor: 'var(--affine-black-10)',
-      boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+      boxShadow: 'var(--affine-button-inner-shadow)',
     },
-    '&.processing:hover': {
+    '&.processing:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-processing-color)',
     },
@@ -153,7 +160,7 @@ export const button = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.processing.disabled:hover': {
+    '&.processing.disabled:not(.without-hover):hover': {
       background: 'var(--affine-processing-color)',
     },
   },
@@ -208,6 +215,7 @@ export const iconButton = style({
   borderRadius: '4px',
   transition: 'all .3s',
   ['WebkitAppRegion' as string]: 'no-drag',
+  cursor: 'pointer',
 
   // changeable
   width: '24px',
@@ -223,18 +231,24 @@ export const iconButton = style({
       color: 'var(--affine-primary-color)',
     },
 
-    '&:hover': {
+    '&:not(.without-hover):hover': {
       background: 'var(--affine-hover-color)',
     },
-    '&.disabled, &.loading': {
+    '&.disabled': {
       opacity: '.4',
       cursor: 'default',
       color: 'var(--affine-disable-color)',
       pointerEvents: 'none',
     },
-    '&.disabled:hover, &.loading:hover': {
-      background: 'inherit',
+    '&.loading': {
+      cursor: 'default',
+      color: 'var(--affine-disable-color)',
+      pointerEvents: 'none',
     },
+    '&.disabled:not(.without-hover):hover, &.loading:not(.without-hover):hover':
+      {
+        background: 'inherit',
+      },
 
     // size
     '&.large': {
@@ -252,6 +266,7 @@ export const iconButton = style({
     '&.plain': {
       color: 'var(--affine-icon-color)',
       borderColor: 'transparent',
+      background: 'transparent',
     },
     '&.plain.active': {
       color: 'var(--affine-primary-color)',
@@ -263,7 +278,7 @@ export const iconButton = style({
       borderColor: 'var(--affine-black-10)',
       boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
     },
-    '&.primary:hover': {
+    '&.primary:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-primary-color)',
     },
@@ -271,7 +286,7 @@ export const iconButton = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.primary.disabled:hover': {
+    '&.primary.disabled:not(.without-hover):hover': {
       background: 'var(--affine-primary-color)',
     },
 
@@ -281,7 +296,7 @@ export const iconButton = style({
       borderColor: 'var(--affine-black-10)',
       boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
     },
-    '&.error:hover': {
+    '&.error:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-error-color)',
     },
@@ -289,7 +304,7 @@ export const iconButton = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.error.disabled:hover': {
+    '&.error.disabled:not(.without-hover):hover': {
       background: 'var(--affine-error-color)',
     },
 
@@ -299,7 +314,7 @@ export const iconButton = style({
       borderColor: 'var(--affine-black-10)',
       boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
     },
-    '&.warning:hover': {
+    '&.warning:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-warning-color)',
     },
@@ -307,7 +322,7 @@ export const iconButton = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.warning.disabled:hover': {
+    '&.warning.disabled:not(.without-hover):hover': {
       background: 'var(--affine-warning-color)',
     },
 
@@ -317,7 +332,7 @@ export const iconButton = style({
       borderColor: 'var(--affine-black-10)',
       boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
     },
-    '&.success:hover': {
+    '&.success:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-success-color)',
     },
@@ -325,7 +340,7 @@ export const iconButton = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.success.disabled:hover': {
+    '&.success.disabled:not(.without-hover):hover': {
       background: 'var(--affine-success-color)',
     },
 
@@ -335,7 +350,7 @@ export const iconButton = style({
       borderColor: 'var(--affine-black-10)',
       boxShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
     },
-    '&.processing:hover': {
+    '&.processing:not(.without-hover):hover': {
       background:
         'linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 100%), var(--affine-processing-color)',
     },
@@ -343,7 +358,7 @@ export const iconButton = style({
       opacity: '.4',
       cursor: 'default',
     },
-    '&.processing.disabled:hover': {
+    '&.processing.disabled:not(.without-hover):hover': {
       background: 'var(--affine-processing-color)',
     },
   },

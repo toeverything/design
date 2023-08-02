@@ -21,15 +21,16 @@ export type ButtonType =
 export type ButtonSize = 'default' | 'large' | 'extraLarge';
 export type ButtonProps = PropsWithChildren &
   Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
-    type?: ButtonType;
-    disabled?: boolean;
-    icon?: ReactElement;
-    iconPosition?: 'start' | 'end';
-    shape?: 'default' | 'round' | 'circle';
-    block?: boolean;
-    size?: ButtonSize;
-    loading?: boolean;
-  };
+  type?: ButtonType;
+  disabled?: boolean;
+  icon?: ReactElement;
+  iconPosition?: 'start' | 'end';
+  shape?: 'default' | 'round' | 'circle';
+  block?: boolean;
+  size?: ButtonSize;
+  loading?: boolean;
+  withoutHover?: boolean;
+};
 const defaultProps = {
   type: 'default',
   disabled: false,
@@ -37,6 +38,7 @@ const defaultProps = {
   size: 'default',
   iconPosition: 'start',
   loading: false,
+  withoutHover: false,
 };
 
 const ButtonIcon: FC<ButtonProps> = props => {
@@ -46,6 +48,7 @@ const ButtonIcon: FC<ButtonProps> = props => {
     iconPosition = 'start',
     children,
     type,
+    loading,
   } = {
     ...defaultProps,
     ...props,
@@ -59,6 +62,7 @@ const ButtonIcon: FC<ButtonProps> = props => {
         extraLarge: size === 'extraLarge',
         end: iconPosition === 'end' && !onlyIcon,
         start: iconPosition === 'start' && !onlyIcon,
+        loading,
       })}
     >
       {icon}
@@ -77,6 +81,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       iconPosition,
       block,
       loading,
+      withoutHover,
+      className,
       ...otherProps
     } = {
       ...defaultProps,
@@ -93,21 +99,26 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         ref={ref}
-        className={clsx(button, {
-          primary: type === 'primary',
-          plain: type === 'plain',
-          error: type === 'error',
-          warning: type === 'warning',
-          success: type === 'success',
-          processing: type === 'processing',
-          large: size === 'large',
-          extraLarge: size === 'extraLarge',
-          disabled,
-          circle: shape === 'circle',
-          round: shape === 'round',
-          block,
-          loading,
-        })}
+        className={clsx(
+          button,
+          {
+            primary: type === 'primary',
+            plain: type === 'plain',
+            error: type === 'error',
+            warning: type === 'warning',
+            success: type === 'success',
+            processing: type === 'processing',
+            large: size === 'large',
+            extraLarge: size === 'extraLarge',
+            disabled,
+            circle: shape === 'circle',
+            round: shape === 'round',
+            block,
+            loading,
+            'without-hover': withoutHover,
+          },
+          className
+        )}
         disabled={disabled}
         data-disabled={disabled}
         {...otherProps}
@@ -116,7 +127,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           <ButtonIcon {...props} icon={icon} />
         ) : null}
         <span>{children}</span>
-        {icon && iconPosition === 'end' ? <ButtonIcon {...props} /> : null}
+        {icon && iconPosition === 'end' ? (
+          <ButtonIcon {...props} icon={icon} />
+        ) : null}
       </button>
     );
   }
