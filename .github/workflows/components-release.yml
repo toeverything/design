@@ -52,10 +52,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: 'Automated Version Bump'
+        uses: 'phips28/gh-action-bump-version@master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          version-type: ${{ github.event.inputs.versionType }}
+          tag-prefix: 'v'
+          commit-message: 'CI: bumps version to {{version}} [skip ci]'
 
       - name: Try publishing to NPM
         run: ./scripts/publish.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PACKAGE_NAME: components
-          VERSION_TYPE: ${{ github.event.inputs.versionType }}
