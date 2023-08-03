@@ -17,6 +17,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
   id-token: write
+  contents: write
 
 jobs:
   release:
@@ -27,6 +28,8 @@ jobs:
       - uses: fregante/setup-git-user@v2
         with:
           fetch-depth: 0
+          working-directory: ./packages/components
+
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -51,6 +54,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: 'Echo version'
+        run: echo ${{ github.event.inputs.versionType }}
 
       - name: 'Automated Version Bump'
         uses: 'phips28/gh-action-bump-version@master'
