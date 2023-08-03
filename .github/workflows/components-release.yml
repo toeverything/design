@@ -28,7 +28,6 @@ jobs:
       - uses: fregante/setup-git-user@v2
         with:
           fetch-depth: 0
-          working-directory: ./packages/components
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -64,8 +63,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           version-type: ${{ github.event.inputs.versionType }}
-          tag-prefix: 'v'
-          commit-message: 'CI: bumps version to {{version}} [skip ci]'
+          PACKAGEJSON_DIR: 'packages/components'
 
       - name: Try publishing to NPM
         run: ./scripts/publish.sh
