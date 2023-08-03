@@ -18,6 +18,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
   id-token: write
+  contents: write
 
 jobs:
   release:
@@ -53,9 +54,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: 'Automated Version Bump'
+        uses: 'phips28/gh-action-bump-version@master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          version-type: ${{ github.event.inputs.versionType }}
+          PACKAGEJSON_DIR: 'packages/theme'
+
       - name: Try publishing to NPM
         run: ./scripts/publish.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PACKAGE_NAME: theme
-          VERSION_TYPE: ${{ github.event.inputs.versionType }}
