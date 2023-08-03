@@ -6,11 +6,11 @@ cd "packages/$PACKAGE_NAME"
 pnpm run build
 
 pnpm version $VERSION_TYPE
-git config --global user.email "474021214@qq.com"
-git config --global user.name "QiShaoXuan"
-git add .;
+
+git add .
 git commit -m "bump the $VERSION_TYPE version" --no-verify
 git push
+
 pnpm publish
 
 cd ../../
