@@ -8,7 +8,7 @@ import {
   useMemo,
 } from 'react';
 
-import { Loading } from '../loading';
+import { Loading } from '@/loading';
 import { button, buttonIcon } from './style.css';
 export type ButtonType =
   | 'default'
@@ -21,16 +21,16 @@ export type ButtonType =
 export type ButtonSize = 'default' | 'large' | 'extraLarge';
 export type ButtonProps = PropsWithChildren &
   Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
-  type?: ButtonType;
-  disabled?: boolean;
-  icon?: ReactElement;
-  iconPosition?: 'start' | 'end';
-  shape?: 'default' | 'round' | 'circle';
-  block?: boolean;
-  size?: ButtonSize;
-  loading?: boolean;
-  withoutHover?: boolean;
-};
+    type?: ButtonType;
+    disabled?: boolean;
+    icon?: ReactElement;
+    iconPosition?: 'start' | 'end';
+    shape?: 'default' | 'round' | 'circle';
+    block?: boolean;
+    size?: ButtonSize;
+    loading?: boolean;
+    withoutHover?: boolean;
+  };
 const defaultProps = {
   type: 'default',
   disabled: false,

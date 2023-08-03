@@ -70,10 +70,3 @@ download
 .eslintcache
 next-env.d.ts
 .rollup.cache
-
-# Rust
-target
-*.node
-tsconfig.node.tsbuildinfo
-lib
-affine.db

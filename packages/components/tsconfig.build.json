@@ -10,10 +10,12 @@
     // 从项目中的 TypeScript 和 JavaScript 文件生成 .d.ts 文件。
     "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": [
+    "lib/**/*"
+  ],
   "exclude": [
-    "src/stories/*",
-    "src/**/*.stories.mdx",
-    "src/**/*.stories.tsx"
+    "lib/stories/*",
+    "lib/**/*.stories.mdx",
+    "lib/**/*.stories.tsx"
   ]
 }

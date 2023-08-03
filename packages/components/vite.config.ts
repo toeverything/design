@@ -9,31 +9,33 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const isBuild = process.env.NODE_ENV === 'build';
 
 export default defineConfig({
-  plugins: [react(), isBuild ? null : vanillaExtractVitePlugin()],
+  plugins: [react(), isBuild ? null : vanillaExtractVitePlugin({})],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'lib'),
+    },
+  },
   build: {
     target: 'modules',
-    //打包文件目录
     outDir: 'dist',
-    //压缩
     minify: false,
     cssCodeSplit: true,
     rollupOptions: {
       external: ['react', 'react-dom'],
-      input: [resolve(__dirname, 'src/index.ts')],
+      input: [resolve(__dirname, 'lib/index.ts')],
       plugins: [vanillaExtractRollupPlugin()],
-
       output: [
         {
           format: 'es',
           entryFileNames: '[name].js',
           preserveModules: true,
           dir: 'dist',
-          preserveModulesRoot: 'src',
+          preserveModulesRoot: 'lib',
         },
       ],
     },
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: resolve(__dirname, 'lib/index.ts'),
     },
   },
 });
