@@ -29,7 +29,7 @@ export type ButtonProps = PropsWithChildren &
     block?: boolean;
     size?: ButtonSize;
     loading?: boolean;
-    withoutHover?: boolean;
+    withoutHoverStyle?: boolean;
   };
 const defaultProps = {
   type: 'default',
@@ -38,7 +38,7 @@ const defaultProps = {
   size: 'default',
   iconPosition: 'start',
   loading: false,
-  withoutHover: false,
+  withoutHoverStyle: false,
 };
 
 const ButtonIcon: FC<ButtonProps> = props => {
@@ -81,7 +81,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       iconPosition,
       block,
       loading,
-      withoutHover,
+      withoutHoverStyle,
       className,
       ...otherProps
     } = {
@@ -115,7 +115,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             round: shape === 'round',
             block,
             loading,
-            'without-hover': withoutHover,
+            'without-hover': withoutHoverStyle,
           },
           className
         )}
