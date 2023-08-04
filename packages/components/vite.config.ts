@@ -1,41 +1,55 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
-import { resolve } from 'node:path';
-import { vanillaExtractPlugin as vanillaExtractVitePlugin } from '@vanilla-extract/vite-plugin';
-import { fileURLToPath } from 'url';
-import { vanillaExtractPlugin as vanillaExtractRollupPlugin } from '@vanilla-extract/rollup-plugin';
-const __dirname = fileURLToPath(new URL('.', import.meta.url));
+import { resolve } from 'node:path'
 
-const isBuild = process.env.NODE_ENV === 'build';
+import {
+  vanillaExtractPlugin as vanillaExtractRollupPlugin
+} from '@vanilla-extract/rollup-plugin'
+import {
+  vanillaExtractPlugin as vanillaExtractVitePlugin
+} from '@vanilla-extract/vite-plugin'
+import react from '@vitejs/plugin-react-swc'
+import { fileURLToPath } from 'url'
+import { defineConfig } from 'vite'
+import dts from 'vite-plugin-dts'
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
+
+const external = [
+  /^@radix-ui/,
+  /^react$/,
+  /^react\//,
+  /^react-dom$/,
+  /^react-dom\//,
+  'clsx',
+  'next-themes',
+  /^@blocksuite/
+]
 
 export default defineConfig({
-  plugins: [react(), isBuild ? null : vanillaExtractVitePlugin({})],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'lib'),
-    },
-  },
+  plugins: [
+    react(),
+    vanillaExtractVitePlugin({}),
+    dts({
+      insertTypesEntry: true
+    })],
   build: {
-    target: 'modules',
+    target: 'es2022',
     outDir: 'dist',
     minify: false,
-    cssCodeSplit: true,
-    rollupOptions: {
-      external: ['react', 'react-dom'],
-      input: [resolve(__dirname, 'lib/index.ts')],
-      plugins: [vanillaExtractRollupPlugin()],
-      output: [
-        {
-          format: 'es',
-          entryFileNames: '[name].js',
-          preserveModules: true,
-          dir: 'dist',
-          preserveModulesRoot: 'lib',
-        },
-      ],
-    },
+    sourcemap: true,
     lib: {
-      entry: resolve(__dirname, 'lib/index.ts'),
+      entry: {
+        avatar: resolve(__dirname, 'src/avatar/index.ts'),
+        button: resolve(__dirname, 'src/button/index.ts'),
+        loading: resolve(__dirname, 'src/loading/index.ts')
+      },
+      formats: ['es']
     },
-  },
-});
+    rollupOptions: {
+      external,
+      plugins: [vanillaExtractRollupPlugin()],
+      output: {
+        preserveModules: true
+      }
+    }
+  }
+})

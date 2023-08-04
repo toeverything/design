@@ -8,7 +8,7 @@ import {
   useMemo,
 } from 'react';
 
-import { Loading } from '@/loading';
+import { Loading } from '../loading';
 import { button, buttonIcon } from './style.css';
 export type ButtonType =
   | 'default'
