@@ -1,6 +1,5 @@
 yarn.lock
 target
-lib
 test-results
 packages/i18n/src/i18n-generated.ts
 packages/graphql/src/graphql/index.ts
