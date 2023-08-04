@@ -1,7 +1,7 @@
 import { InformationIcon } from '@blocksuite/icons';
 import type { Meta, StoryFn } from '@storybook/react';
 
-import { Button, type ButtonProps } from './button.tsx';
+import { Button, type ButtonProps } from './button';
 export default {
   title: 'UI/Button',
   component: Button,

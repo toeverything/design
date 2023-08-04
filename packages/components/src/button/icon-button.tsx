@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import type { HTMLAttributes, PropsWithChildren } from 'react';
 import { forwardRef, type ReactElement } from 'react';
 
-import { Loading } from '@/loading';
+import { Loading } from '../loading';
 import type { ButtonType } from './button';
 import { iconButton } from './style.css';
 

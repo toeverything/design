@@ -1,5 +1,5 @@
+import type renderer from 'react-test-renderer';
 import { expect } from 'vitest';
-import renderer from 'react-test-renderer';
 
 export function toJson(component: renderer.ReactTestRenderer) {
   const result = component.toJSON();

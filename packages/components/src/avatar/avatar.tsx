@@ -11,7 +11,7 @@ import clsx from 'clsx';
 import type { CSSProperties, FC } from 'react';
 import { type ReactElement, useMemo } from 'react';
 
-import { ColorfulFallback } from './colorful-fallback.tsx';
+import { ColorfulFallback } from './colorful-fallback';
 import * as style from './style.css';
 import { sizeVar } from './style.css';
 

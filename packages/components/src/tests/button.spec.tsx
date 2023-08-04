@@ -1,7 +1,8 @@
 import renderer from 'react-test-renderer';
-import toJson from './utils/to-json';
 import { expect, test } from 'vitest';
-import { Button } from '@/button';
+
+import { Button } from '../button';
+import toJson from './utils/to-json';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
