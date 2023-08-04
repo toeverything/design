@@ -6,13 +6,8 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   plugins: [react(), vanillaExtractPlugin()],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, './src'),
-    },
-  },
   test: {
     globals: true,
-    environment: 'jsdom',
+    environment: 'happy-dom',
   },
 });
