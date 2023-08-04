@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@blocksuite/icons": "^2.1.26",
+    "@radix-ui/react-avatar": "^1.0.3",
     "@vanilla-extract/rollup-plugin": "^1.2.2",
     "clsx": "^2.0.0",
     "cross-env": "^7.0.3",
