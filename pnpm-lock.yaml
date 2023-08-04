@@ -92,7 +92,7 @@ importers:
         version: 7.2.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
       '@storybook/react-vite':
         specifier: ^7.2.1
-        version: 7.2.1(react-dom@18.2.0)(react@18.2.0)(rollup@3.26.3)(typescript@5.1.3)(vite@4.4.8)
+        version: 7.2.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)(vite@4.4.8)
       '@storybook/test-runner':
         specifier: ^0.13.0
         version: 0.13.0(@types/node@20.4.7)
@@ -126,9 +126,6 @@ importers:
       '@vanilla-extract/dynamic':
         specifier: ^2.0.3
         version: 2.0.3
-      '@vanilla-extract/rollup-plugin':
-        specifier: ^1.2.2
-        version: 1.2.2(@types/node@20.4.7)(rollup@3.26.3)
       '@vanilla-extract/vite-plugin':
         specifier: ^3.8.2
         version: 3.8.2(@types/node@20.4.7)(vite@4.4.8)
@@ -206,7 +203,7 @@ importers:
         version: 4.4.8(@types/node@20.4.7)
       vite-plugin-dts:
         specifier: ^3.5.0
-        version: 3.5.0(@types/node@20.4.7)(rollup@3.26.3)(typescript@5.1.3)(vite@4.4.8)
+        version: 3.5.0(@types/node@20.4.7)(typescript@5.1.3)(vite@4.4.8)
       vite-plugin-lib-inject-css:
         specifier: ^1.2.0
         version: 1.2.0(vite@4.4.8)
@@ -3443,7 +3440,7 @@ packages:
       '@babel/runtime': 7.21.5
     dev: true
 
-  /@rollup/pluginutils@5.0.2(rollup@3.26.3):
+  /@rollup/pluginutils@5.0.2:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3455,7 +3452,6 @@ packages:
       '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.26.3
     dev: true
 
   /@rushstack/node-core-library@3.58.0:
@@ -4548,7 +4544,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@storybook/react-vite@7.2.1(react-dom@18.2.0)(react@18.2.0)(rollup@3.26.3)(typescript@5.1.3)(vite@4.4.8):
+  /@storybook/react-vite@7.2.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)(vite@4.4.8):
     resolution: {integrity: sha512-sBMlrLf/zUDUk6bWQLu5/tERW82j9spGMD++O1mdum3eVfPwvsqjtGokTVx/eOLUYA9kqQFdUtjLSn0sS84bTQ==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -4557,7 +4553,7 @@ packages:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1(typescript@5.1.3)(vite@4.4.8)
-      '@rollup/pluginutils': 5.0.2(rollup@3.26.3)
+      '@rollup/pluginutils': 5.0.2
       '@storybook/builder-vite': 7.2.1(typescript@5.1.3)(vite@4.4.8)
       '@storybook/react': 7.2.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
       '@vitejs/plugin-react': 3.1.0(vite@4.4.8)
@@ -5552,24 +5548,6 @@ packages:
 
   /@vanilla-extract/private@1.0.3:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
-    dev: true
-
-  /@vanilla-extract/rollup-plugin@1.2.2(@types/node@20.4.7)(rollup@3.26.3):
-    resolution: {integrity: sha512-cTuErEVzw8hoPfnwJzFyzQ5pnpKyp3/R6BwUS93opqvcrDPJWCH7crLdw+lgY5GDT7hlpNNXQ/RCSMZaXjuIQA==}
-    peerDependencies:
-      rollup: ^2.0.0 || ^3.0.0
-    dependencies:
-      '@vanilla-extract/integration': 6.2.1(@types/node@20.4.7)
-      rollup: 3.26.3
-    transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
     dev: true
 
   /@vanilla-extract/vite-plugin@3.8.2(@types/node@20.4.7)(vite@4.4.8):
@@ -13730,7 +13708,7 @@ packages:
     dependencies:
       '@babel/parser': 7.21.8
       '@microsoft/api-extractor': 7.34.8
-      '@rollup/pluginutils': 5.0.2(rollup@3.26.3)
+      '@rollup/pluginutils': 5.0.2
       '@rushstack/node-core-library': 3.58.0
       debug: 4.3.4
       fast-glob: 3.2.12
@@ -13745,7 +13723,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts@3.5.0(@types/node@20.4.7)(rollup@3.26.3)(typescript@5.1.3)(vite@4.4.8):
+  /vite-plugin-dts@3.5.0(@types/node@20.4.7)(typescript@5.1.3)(vite@4.4.8):
     resolution: {integrity: sha512-oQKQmIJCWRwQQF1/BnjqBqZHLwThjWQ96vkfmwTi0LA8ArMdjUv1l4V5k64SpvlniVj2XlTbfvAPcTYZSrUEVg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -13756,7 +13734,7 @@ packages:
         optional: true
     dependencies:
       '@microsoft/api-extractor': 7.36.3(@types/node@20.4.7)
-      '@rollup/pluginutils': 5.0.2(rollup@3.26.3)
+      '@rollup/pluginutils': 5.0.2
       '@vue/language-core': 1.8.8(typescript@5.1.3)
       debug: 4.3.4
       kolorist: 1.8.0

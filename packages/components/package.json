@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ignore-pattern 'dist' --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "test": "vitest",
@@ -61,7 +61,6 @@
     "@typescript-eslint/parser": "^6.2.1",
     "@vanilla-extract/css": "^1.12.0",
     "@vanilla-extract/dynamic": "^2.0.3",
-    "@vanilla-extract/rollup-plugin": "^1.2.2",
     "@vanilla-extract/vite-plugin": "^3.8.2",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "babel-loader": "^9.1.3",

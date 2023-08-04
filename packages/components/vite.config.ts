@@ -1,9 +1,6 @@
 import { resolve } from 'node:path'
 
 import {
-  vanillaExtractPlugin as vanillaExtractRollupPlugin
-} from '@vanilla-extract/rollup-plugin'
-import {
   vanillaExtractPlugin as vanillaExtractVitePlugin
 } from '@vanilla-extract/vite-plugin'
 import react from '@vitejs/plugin-react-swc'
@@ -45,11 +42,7 @@ export default defineConfig({
       formats: ['es']
     },
     rollupOptions: {
-      external,
-      plugins: [vanillaExtractRollupPlugin()],
-      output: {
-        preserveModules: true
-      }
+      external
     }
   }
 })
