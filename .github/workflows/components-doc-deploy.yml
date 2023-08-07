@@ -1,9 +1,9 @@
 name: Build and Deploy Components Doc
 on:
   push:
-    paths: ['packages/components/lib/**']
+    paths: ['packages/components/src/**']
   pull_request:
-    paths: ['packages/components/lib/**']
+    paths: ['packages/components/src/**']
   workflow_dispatch:
 
 permissions:
