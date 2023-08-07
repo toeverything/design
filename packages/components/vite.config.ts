@@ -19,14 +19,13 @@ const external = [
   /^@blocksuite/,
 ];
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 export default defineConfig({
   plugins: [
     react(),
     vanillaExtractVitePlugin({}),
     dts({
       insertTypesEntry: true,
+      exclude: ['**/*.stories.tsx', '**/*.test.tsx'],
     }),
   ],
   build: {
