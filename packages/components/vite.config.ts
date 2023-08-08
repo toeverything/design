@@ -38,6 +38,7 @@ export default defineConfig({
         avatar: resolve(__dirname, 'src/avatar/index.ts'),
         button: resolve(__dirname, 'src/button/index.ts'),
         loading: resolve(__dirname, 'src/loading/index.ts'),
+        divider: resolve(__dirname, 'src/divider/index.ts'),
       },
       formats: ['es'],
     },
