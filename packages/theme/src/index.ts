@@ -193,6 +193,14 @@ export const lightTheme = {
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
   cardBackgroundGrey: 'linear-gradient(180deg, #F1F1F1 0%, #FCFCFD 100%)',
   windowsCloseButton: '#C42B1C',
+  textHighlightPink: 'rgba(255, 206, 206, 1)',
+  textHighlightOrange: 'rgba(255, 203, 166, 1)',
+  textHighlightYellow: 'rgba(255, 245, 171, 1)',
+  textHighlightGreen: 'rgba(197, 251, 224, 1)',
+  textHighlightTeal: 'rgba(198, 241, 243, 1)',
+  textHighlightBlue: 'rgba(195, 219, 255, 1)',
+  textHighlightPurple: 'rgba(227, 222, 255, 1)',
+  textHighlightGrey: 'rgba(236, 241, 251, 1)',
 };
 
 export const darkTheme = {
@@ -291,6 +299,14 @@ export const darkTheme = {
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
   cardBackgroundGrey: 'linear-gradient(180deg, #313131 0%, #202020 100%)',
   windowsCloseButton: '#C42B1C',
+  textHighlightPink: 'rgba(127, 93, 93, 1)',
+  textHighlightOrange: 'rgba(127, 102, 84, 1)',
+  textHighlightYellow: 'rgba(137, 133, 90, 1)',
+  textHighlightGreen: 'rgba(90, 127, 109, 1)',
+  textHighlightTeal: 'rgba(76, 125, 127, 1)',
+  textHighlightBlue: 'rgba(72, 95, 127, 1)',
+  textHighlightPurple: 'rgba(97, 90, 127, 1)',
+  textHighlightGrey: 'rgba(111, 112, 117, 1)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
