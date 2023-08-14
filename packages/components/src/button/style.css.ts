@@ -10,10 +10,10 @@ export const button = style({
   border: '1px solid',
   padding: '0 18px',
   borderRadius: '8px',
-  fontSize: 'var(--affine-font-base)',
+  fontSize: 'var(--affine-font-xs)',
+  fontWeight: 500,
   transition: 'all .3s',
   ['WebkitAppRegion' as string]: 'no-drag',
-  fontWeight: 600,
   cursor: 'pointer',
 
   // changeable
@@ -56,12 +56,16 @@ export const button = style({
     // size
     '&.large': {
       height: '32px',
+      fontSize: 'var(--affine-font-base)',
+      fontWeight: 600,
     },
     '&.round.large': {
       borderRadius: '16px',
     },
     '&.extraLarge': {
       height: '40px',
+      fontSize: 'var(--affine-font-base)',
+      fontWeight: 700,
     },
     '&.round.extraLarge': {
       borderRadius: '20px',
