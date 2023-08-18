@@ -6,6 +6,7 @@ globalStyle('body', {
   fontFamily: 'var(--affine-font-family)',
   fontSize: 'var(--affine-font-base)',
   lineHeight: 'var(--affine-font-height)',
+  backgroundColor: 'var(--affine-background-primary-color)',
 });
 
 globalStyle('html', {
@@ -14,4 +15,8 @@ globalStyle('html', {
 
 globalStyle('html[data-theme="dark"]', {
   vars: darkCssVariables,
+});
+
+globalStyle('.docs-story', {
+  backgroundColor: 'var(--affine-background-primary-color)',
 });
