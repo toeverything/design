@@ -7,10 +7,13 @@ export type DividerOrientation = 'horizontal' | 'vertical';
 export type DividerProps = PropsWithChildren &
   Omit<HTMLAttributes<HTMLDivElement>, 'type'> & {
     orientation?: DividerOrientation;
+    size?: 'thinner' | 'default';
+    dividerColor?: string;
   };
 
 const defaultProps = {
-  orientation: 'horizontal'
+  orientation: 'horizontal',
+  size: 'default',
 };
 
 export const Divider = forwardRef<HTMLDivElement, DividerProps>(
@@ -18,6 +21,8 @@ export const Divider = forwardRef<HTMLDivElement, DividerProps>(
     const {
       orientation,
       className,
+      size,
+      dividerColor,
       ...otherProps
     } = {
       ...defaultProps,
@@ -31,9 +36,12 @@ export const Divider = forwardRef<HTMLDivElement, DividerProps>(
           styles.divider,
           {
             [styles.verticalDivider]: orientation === 'vertical',
+            [styles.thinner]: size === 'thinner' && orientation === 'horizontal',
+            [styles.verticalThinner]: size === 'thinner' && orientation === 'vertical',
           },
           className
         )}
+        style={{backgroundColor: dividerColor? dividerColor: 'var(--affine-divider-color)'}}
         {...otherProps}
       />
     );
