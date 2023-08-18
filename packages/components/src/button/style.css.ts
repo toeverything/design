@@ -115,7 +115,7 @@ export const button = style({
     },
 
     '&.warning': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
       background: 'var(--affine-warning-color)',
       borderColor: 'var(--affine-black-10)',
       boxShadow: 'var(--affine-button-inner-shadow)',
@@ -203,7 +203,7 @@ export const buttonIcon = style({
       height: '20px',
     },
     '&.color-white': {
-      color: 'var(--affine-white)',
+      color: 'var(--affine-pure-white)',
     },
   },
 });
