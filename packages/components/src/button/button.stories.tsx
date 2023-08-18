@@ -16,6 +16,7 @@ export const Default = Template.bind(undefined);
 Default.args = {
   type: 'default',
   children: 'This is a default button',
+  icon: <InformationIcon />,
 };
 
 export const Primary = Template.bind(undefined);
@@ -27,7 +28,7 @@ Primary.args = {
 
 export const Disabled = Template.bind(undefined);
 Disabled.args = {
-  disabled:true,
+  disabled: true,
   children: 'This is a disabled button',
 };
 
