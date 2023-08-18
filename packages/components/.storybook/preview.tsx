@@ -26,6 +26,17 @@ export const parameters: Preview = {
   },
 };
 
+const ThemeChange = () => {
+  const isDark = useDarkMode();
+  const theme = useTheme();
+  if (theme.resolvedTheme === 'dark' && !isDark) {
+    theme.setTheme('light');
+  } else if (theme.resolvedTheme === 'light' && isDark) {
+    theme.setTheme('dark');
+  }
+  return null;
+};
+
 const Component = () => {
   const isDark = useDarkMode();
   const theme = useTheme();
@@ -36,11 +47,12 @@ const Component = () => {
 };
 
 export const decorators = [
-  (Story: ComponentType) => {
+  (Story: ComponentType, context) => {
     return (
-      <ThemeProvider>
+      <ThemeProvider themes={['dark', 'light']} enableSystem={true}>
+        <ThemeChange />
         <Component />
-        <Story />
+        <Story {...context} />
       </ThemeProvider>
     );
   },
