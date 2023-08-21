@@ -86,6 +86,7 @@ export const baseTheme = {
   blue: 'rgba(30, 150, 235, 1)',
   pureBlack: 'rgba(0, 0, 0, 1)',
   pureBlack10: 'rgba(0, 0, 0, 0.1)',
+  pureBlack80: 'rgba(0, 0, 0, 0.8)',
   pureWhite: 'rgba(255, 255, 255, 1)',
   pureWhite10: 'rgba(255, 255, 255, 0.1)',
   toggleCircleBackgroundColor: 'rgba(255, 255, 255, 1)',
