@@ -20,7 +20,7 @@ export type ButtonType =
   | 'processing';
 export type ButtonSize = 'default' | 'large' | 'extraLarge';
 export type ButtonProps = PropsWithChildren &
-  Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
+  Omit<HTMLAttributes<HTMLButtonElement | HTMLDivElement>, 'type'> & {
     type?: ButtonType;
     disabled?: boolean;
     icon?: ReactElement;
@@ -49,6 +49,7 @@ const ButtonIcon: FC<ButtonProps> = props => {
     children,
     type,
     loading,
+    ...otherProps
   } = {
     ...defaultProps,
     ...props,
@@ -56,6 +57,7 @@ const ButtonIcon: FC<ButtonProps> = props => {
   const onlyIcon = icon && !children;
   return (
     <div
+      {...otherProps}
       className={clsx(buttonIcon, {
         'color-white': type !== 'default' && type !== 'plain',
         large: size === 'large',
@@ -98,6 +100,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 
     return (
       <button
+        {...otherProps}
         ref={ref}
         className={clsx(
           button,
