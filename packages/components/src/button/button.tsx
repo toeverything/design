@@ -124,7 +124,6 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         )}
         disabled={disabled}
         data-disabled={disabled}
-        {...otherProps}
       >
         {icon && iconPosition === 'start' ? (
           <ButtonIcon {...props} icon={icon} />
