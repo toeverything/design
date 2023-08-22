@@ -17,7 +17,7 @@ import { sizeVar } from './style.css';
 
 export type AvatarProps = {
   size?: number;
-  url?: string;
+  url?: string | null;
   name?: string;
   className?: string;
   style?: CSSProperties;
@@ -60,7 +60,7 @@ export const Avatar: FC<AvatarProps> = ({
     >
       <AvatarImage
         className={style.avatarImage}
-        src={url}
+        src={url || ''}
         alt={name}
         {...imageProps}
       />
