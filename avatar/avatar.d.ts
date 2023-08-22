@@ -3,7 +3,7 @@ import type { CSSProperties, FC } from 'react';
 import { type ReactElement } from 'react';
 export type AvatarProps = {
     size?: number;
-    url?: string;
+    url?: string | null;
     name?: string;
     className?: string;
     style?: CSSProperties;
