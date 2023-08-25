@@ -152,6 +152,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           <ButtonIcon
             {...baseIconButtonProps}
             {...props.componentProps?.startIcon}
+            icon={icon}
+            iconPosition="start"
           />
         ) : null}
         <span>{children}</span>
@@ -159,6 +161,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           <ButtonIcon
             {...baseIconButtonProps}
             {...props.componentProps?.endIcon}
+            icon={icon}
+            iconPosition="end"
           />
         ) : null}
       </button>
