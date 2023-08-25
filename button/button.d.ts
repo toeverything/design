@@ -1,7 +1,7 @@
 import { type HTMLAttributes, type PropsWithChildren, type ReactElement } from 'react';
 export type ButtonType = 'default' | 'primary' | 'plain' | 'error' | 'warning' | 'success' | 'processing';
 export type ButtonSize = 'default' | 'large' | 'extraLarge';
-export type ButtonProps = PropsWithChildren & Omit<HTMLAttributes<HTMLButtonElement | HTMLDivElement>, 'type'> & {
+type BaseButtonProps = {
     type?: ButtonType;
     disabled?: boolean;
     icon?: ReactElement;
@@ -12,17 +12,19 @@ export type ButtonProps = PropsWithChildren & Omit<HTMLAttributes<HTMLButtonElem
     loading?: boolean;
     withoutHoverStyle?: boolean;
 };
-export declare const Button: import("react").ForwardRefExoticComponent<{
+export type ButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
+    componentProps?: {
+        startIcon?: Omit<IconButtonProps, 'icon'>;
+        endIcon?: Omit<IconButtonProps, 'icon'>;
+    };
+};
+export type IconButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLDivElement>, 'type'>;
+export declare const Button: import("react").ForwardRefExoticComponent<BaseButtonProps & {
     children?: import("react").ReactNode;
-} & Omit<HTMLAttributes<HTMLDivElement | HTMLButtonElement>, "type"> & {
-    type?: ButtonType | undefined;
-    disabled?: boolean | undefined;
-    icon?: ReactElement<any, string | import("react").JSXElementConstructor<any>> | undefined;
-    iconPosition?: "end" | "start" | undefined;
-    shape?: "round" | "default" | "circle" | undefined;
-    block?: boolean | undefined;
-    size?: ButtonSize | undefined;
-    loading?: boolean | undefined;
-    withoutHoverStyle?: boolean | undefined;
+} & Omit<HTMLAttributes<HTMLButtonElement>, "type"> & {
+    componentProps?: {
+        startIcon?: Omit<IconButtonProps, "icon"> | undefined;
+        endIcon?: Omit<IconButtonProps, "icon"> | undefined;
+    } | undefined;
 } & import("react").RefAttributes<HTMLButtonElement>>;
 export default Button;
