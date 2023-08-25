@@ -14,8 +14,8 @@ type BaseButtonProps = {
 };
 export type ButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
     componentProps?: {
-        startIcon?: Omit<IconButtonProps, 'icon'>;
-        endIcon?: Omit<IconButtonProps, 'icon'>;
+        startIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
+        endIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
     };
 };
 export type IconButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLDivElement>, 'type'>;
@@ -23,8 +23,8 @@ export declare const Button: import("react").ForwardRefExoticComponent<BaseButto
     children?: import("react").ReactNode;
 } & Omit<HTMLAttributes<HTMLButtonElement>, "type"> & {
     componentProps?: {
-        startIcon?: Omit<IconButtonProps, "icon"> | undefined;
-        endIcon?: Omit<IconButtonProps, "icon"> | undefined;
+        startIcon?: Omit<IconButtonProps, "icon" | "iconPosition"> | undefined;
+        endIcon?: Omit<IconButtonProps, "icon" | "iconPosition"> | undefined;
     } | undefined;
 } & import("react").RefAttributes<HTMLButtonElement>>;
 export default Button;
