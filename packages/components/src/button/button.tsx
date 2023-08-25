@@ -40,7 +40,7 @@ export type ButtonProps = PropsWithChildren<BaseButtonProps> &
   }
 }
 
-export type IconButtonProps = PropsWithChildren<BaseButtonProps> &
+type IconButtonProps = PropsWithChildren<BaseButtonProps> &
   Omit<HTMLAttributes<HTMLDivElement>, 'type'>
 
 const defaultProps = {
