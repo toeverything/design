@@ -1,15 +1,16 @@
-import clsx from 'clsx';
+import clsx from 'clsx'
 import {
   type FC,
   forwardRef,
   type HTMLAttributes,
   type PropsWithChildren,
   type ReactElement,
-  useMemo,
-} from 'react';
+  useMemo
+} from 'react'
 
-import { Loading } from '../loading';
-import { button, buttonIcon } from './style.css';
+import { Loading } from '../loading'
+import { button, buttonIcon } from './style.css'
+
 export type ButtonType =
   | 'default'
   | 'primary'
@@ -19,18 +20,29 @@ export type ButtonType =
   | 'success'
   | 'processing';
 export type ButtonSize = 'default' | 'large' | 'extraLarge';
-export type ButtonProps = PropsWithChildren &
-  Omit<HTMLAttributes<HTMLButtonElement | HTMLDivElement>, 'type'> & {
-    type?: ButtonType;
-    disabled?: boolean;
-    icon?: ReactElement;
-    iconPosition?: 'start' | 'end';
-    shape?: 'default' | 'round' | 'circle';
-    block?: boolean;
-    size?: ButtonSize;
-    loading?: boolean;
-    withoutHoverStyle?: boolean;
-  };
+type BaseButtonProps = {
+  type?: ButtonType;
+  disabled?: boolean;
+  icon?: ReactElement;
+  iconPosition?: 'start' | 'end';
+  shape?: 'default' | 'round' | 'circle';
+  block?: boolean;
+  size?: ButtonSize;
+  loading?: boolean;
+  withoutHoverStyle?: boolean;
+}
+
+export type ButtonProps = PropsWithChildren<BaseButtonProps> &
+  Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
+  componentProps?: {
+    startIcon?: Omit<IconButtonProps, 'icon'>;
+    endIcon?: Omit<IconButtonProps, 'icon'>;
+  }
+}
+
+export type IconButtonProps = PropsWithChildren<BaseButtonProps> &
+  Omit<HTMLAttributes<HTMLDivElement>, 'type'>
+
 const defaultProps = {
   type: 'default',
   disabled: false,
@@ -38,10 +50,10 @@ const defaultProps = {
   size: 'default',
   iconPosition: 'start',
   loading: false,
-  withoutHoverStyle: false,
-};
+  withoutHoverStyle: false
+}
 
-const ButtonIcon: FC<ButtonProps> = props => {
+const ButtonIcon: FC<IconButtonProps> = props => {
   const {
     size,
     icon,
@@ -52,9 +64,9 @@ const ButtonIcon: FC<ButtonProps> = props => {
     ...otherProps
   } = {
     ...defaultProps,
-    ...props,
-  };
-  const onlyIcon = icon && !children;
+    ...props
+  }
+  const onlyIcon = icon && !children
   return (
     <div
       {...otherProps}
@@ -64,13 +76,13 @@ const ButtonIcon: FC<ButtonProps> = props => {
         extraLarge: size === 'extraLarge',
         end: iconPosition === 'end' && !onlyIcon,
         start: iconPosition === 'start' && !onlyIcon,
-        loading,
+        loading
       })}
     >
       {icon}
     </div>
-  );
-};
+  )
+}
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
     const {
@@ -88,15 +100,15 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       ...otherProps
     } = {
       ...defaultProps,
-      ...props,
-    };
+      ...props
+    }
 
     const icon = useMemo(() => {
       if (loading) {
-        return <Loading />;
+        return <Loading/>
       }
-      return propsIcon;
-    }, [propsIcon, loading]);
+      return propsIcon
+    }, [propsIcon, loading])
 
     return (
       <button
@@ -118,7 +130,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             round: shape === 'round',
             block,
             loading,
-            'without-hover': withoutHoverStyle,
+            'without-hover': withoutHoverStyle
           },
           className
         )}
@@ -126,15 +138,15 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         data-disabled={disabled}
       >
         {icon && iconPosition === 'start' ? (
-          <ButtonIcon {...props} icon={icon} />
+          <ButtonIcon {...props.componentProps?.startIcon} icon={icon}/>
         ) : null}
         <span>{children}</span>
         {icon && iconPosition === 'end' ? (
-          <ButtonIcon {...props} icon={icon} />
+          <ButtonIcon {...props.componentProps?.endIcon} icon={icon}/>
         ) : null}
       </button>
-    );
+    )
   }
-);
-Button.displayName = 'Button';
-export default Button;
+)
+Button.displayName = 'Button'
+export default Button
