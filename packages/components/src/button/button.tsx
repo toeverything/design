@@ -35,8 +35,8 @@ type BaseButtonProps = {
 export type ButtonProps = PropsWithChildren<BaseButtonProps> &
   Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
   componentProps?: {
-    startIcon?: Omit<IconButtonProps, 'icon'>;
-    endIcon?: Omit<IconButtonProps, 'icon'>;
+    startIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
+    endIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
   }
 }
 
@@ -51,7 +51,7 @@ const defaultProps = {
   iconPosition: 'start',
   loading: false,
   withoutHoverStyle: false
-}
+} as const
 
 const ButtonIcon: FC<IconButtonProps> = props => {
   const {
@@ -101,7 +101,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     } = {
       ...defaultProps,
       ...props
-    }
+    } satisfies ButtonProps
 
     const icon = useMemo(() => {
       if (loading) {
@@ -109,6 +109,17 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       }
       return propsIcon
     }, [propsIcon, loading])
+
+    const baseIconButtonProps = useMemo(() => {
+      return {
+        size,
+        iconPosition,
+        icon,
+        type,
+        disabled,
+        loading
+      } as const
+    }, [disabled, icon, iconPosition, loading, size, type])
 
     return (
       <button
@@ -138,11 +149,21 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         data-disabled={disabled}
       >
         {icon && iconPosition === 'start' ? (
-          <ButtonIcon {...props.componentProps?.startIcon} icon={icon}/>
+          <ButtonIcon
+            {...baseIconButtonProps}
+            {...props.componentProps?.startIcon}
+            icon={icon}
+            iconPosition="start"
+          />
         ) : null}
         <span>{children}</span>
         {icon && iconPosition === 'end' ? (
-          <ButtonIcon {...props.componentProps?.endIcon} icon={icon}/>
+          <ButtonIcon
+            {...baseIconButtonProps}
+            {...props.componentProps?.endIcon}
+            icon={icon}
+            iconPosition="end"
+          />
         ) : null}
       </button>
     )
