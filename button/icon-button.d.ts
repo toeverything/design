@@ -2,7 +2,7 @@ import type { HTMLAttributes, PropsWithChildren } from 'react';
 import { type ReactElement } from 'react';
 import type { ButtonType } from './button';
 export type IconButtonSize = 'default' | 'large' | 'small' | 'extraSmall';
-export type IconButtonProps = PropsWithChildren & Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
+export type IconButtonProps = Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & PropsWithChildren<{
     type?: ButtonType;
     disabled?: boolean;
     size?: IconButtonSize;
@@ -11,10 +11,8 @@ export type IconButtonProps = PropsWithChildren & Omit<HTMLAttributes<HTMLButton
     active?: boolean;
     withoutHoverStyle?: boolean;
     icon?: ReactElement;
-};
-export declare const IconButton: import("react").ForwardRefExoticComponent<{
-    children?: import("react").ReactNode;
-} & Omit<HTMLAttributes<HTMLButtonElement>, "type"> & {
+}>;
+export declare const IconButton: import("react").ForwardRefExoticComponent<Omit<HTMLAttributes<HTMLButtonElement>, "type"> & {
     type?: ButtonType | undefined;
     disabled?: boolean | undefined;
     size?: IconButtonSize | undefined;
@@ -23,5 +21,7 @@ export declare const IconButton: import("react").ForwardRefExoticComponent<{
     active?: boolean | undefined;
     withoutHoverStyle?: boolean | undefined;
     icon?: ReactElement<any, string | import("react").JSXElementConstructor<any>> | undefined;
+} & {
+    children?: import("react").ReactNode;
 } & import("react").RefAttributes<HTMLButtonElement>>;
 export default IconButton;

@@ -18,7 +18,7 @@ export type ButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttribut
         endIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
     };
 };
-export type IconButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLDivElement>, 'type'>;
+type IconButtonProps = PropsWithChildren<BaseButtonProps> & Omit<HTMLAttributes<HTMLDivElement>, 'type'>;
 export declare const Button: import("react").ForwardRefExoticComponent<BaseButtonProps & {
     children?: import("react").ReactNode;
 } & Omit<HTMLAttributes<HTMLButtonElement>, "type"> & {
