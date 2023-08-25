@@ -155,7 +155,7 @@ export const avatarRoot = style({
 export const avatarImage = style({
   width: '100%',
   height: '100%',
-  objectFit: 'contain',
+  objectFit: 'cover',
   borderRadius: 'inherit',
 });
 export const avatarFallback = style({
