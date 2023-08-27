@@ -39,6 +39,7 @@ export default defineConfig({
         button: resolve(__dirname, 'src/button/index.ts'),
         loading: resolve(__dirname, 'src/loading/index.ts'),
         divider: resolve(__dirname, 'src/divider/index.ts'),
+        tooltip: resolve(__dirname, 'src/tooltip/index.ts'),
       },
       formats: ['es'],
     },
