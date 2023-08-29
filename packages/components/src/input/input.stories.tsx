@@ -1,5 +1,5 @@
-import type { Meta, StoryFn } from '@storybook/react';
 import { InformationIcon } from '@blocksuite/icons';
+import type { Meta, StoryFn } from '@storybook/react';
 
 import { Input, type InputProps } from '.';
 
@@ -10,7 +10,7 @@ export default {
 
 const Template: StoryFn<InputProps> = args => (
   <div style={{ width: '50%' }}>
-    <Input {...args} />
+    <Input {...args} width={100} />
   </div>
 );
 

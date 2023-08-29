@@ -1,6 +1,6 @@
 import { InformationIcon } from '@blocksuite/icons';
 import type { Meta, StoryFn } from '@storybook/react';
-import { useState, type ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 
 import { Button } from '../button';
 import { Tooltip } from '../tooltip';
@@ -12,6 +12,7 @@ import {
   type MenuProps,
   MenuSeparator,
   MenuSub,
+  MenuTrigger,
 } from '.';
 
 export default {
@@ -21,7 +22,7 @@ export default {
 
 const Template: StoryFn<MenuProps> = args => (
   <Menu {...args}>
-    <Button>menu trigger</Button>
+    <MenuTrigger>menu trigger</MenuTrigger>
   </Menu>
 );
 
@@ -168,10 +169,10 @@ const SelectItems = ({
 
 const AsSelectTemplate: StoryFn<MenuProps> = () => {
   const [value, setValue] = useState('1');
-
+  const name = selectList.find(item => item.value === value)?.name;
   return (
     <Menu items={<SelectItems selectedValue={value} onSelect={setValue} />}>
-      <Button>menu as select</Button>
+      <Button>selected: {name}</Button>
     </Menu>
   );
 };

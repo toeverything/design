@@ -51,6 +51,7 @@ export const MenuSub = ({
       </DropdownMenu.SubTrigger>
       <DropdownMenu.Portal {...portalOptions}>
         <DropdownMenu.SubContent
+          sideOffset={10}
           className={useMemo(
             () => clsx(styles.menuContent, subContentClassName),
             [subContentClassName]
