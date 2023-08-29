@@ -39,12 +39,26 @@ const items: Items[] = [
     label: 'default menu item 1',
   },
   {
-    label: 'default menu item 2',
+    label: 'menu item with icon',
     preFix: (
       <Tooltip content="Use `MenuIcon` to wrap your icon and choose `preFix` or `endFix`">
         <MenuIcon>
           <InformationIcon />
         </MenuIcon>
+      </Tooltip>
+    ),
+  },
+  {
+    label: (
+      <Tooltip
+        align="start"
+        content="Write, Draw, and Plan All at Once Notion Open Source Alternative One
+          hyper-fused platform for wildly creative minds"
+      >
+        <span>
+          Write, Draw, and Plan All at Once Notion Open Source Alternative One
+          hyper-fused platform for wildly creative minds
+        </span>
       </Tooltip>
     ),
   },
@@ -57,21 +71,8 @@ const items: Items[] = [
     type: 'danger',
   },
   {
-    label: 'disable danger menu item',
-    type: 'danger',
-    disabled: true,
-  },
-  {
     label: 'warning menu item',
     type: 'warning',
-  },
-  {
-    label: 'warning danger menu item',
-    type: 'warning',
-    disabled: true,
-  },
-  {
-    label: 'menu item with icon',
     divider: true,
   },
 
