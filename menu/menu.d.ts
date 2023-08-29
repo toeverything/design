@@ -2,7 +2,7 @@ import type { DropdownMenuProps, MenuContentProps, MenuPortalProps } from '@radi
 import type { ReactNode } from 'react';
 export interface MenuProps {
     children: ReactNode;
-    items: ReactNode[];
+    items: ReactNode;
     portalOptions?: Omit<MenuPortalProps, 'children'>;
     rootOptions?: Omit<DropdownMenuProps, 'children'>;
     contentOptions?: Omit<MenuContentProps, 'children'>;

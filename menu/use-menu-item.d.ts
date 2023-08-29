@@ -5,8 +5,10 @@ interface useMenuItemProps {
     className: MenuItemProps['className'];
     preFix: MenuItemProps['preFix'];
     endFix: MenuItemProps['endFix'];
+    checked?: MenuItemProps['checked'];
+    selected?: MenuItemProps['selected'];
 }
-export declare const useMenuItem: ({ children: propsChildren, type, className: propsClassName, preFix, endFix, }: useMenuItemProps) => {
+export declare const useMenuItem: ({ children: propsChildren, type, className: propsClassName, preFix, endFix, checked, selected, }: useMenuItemProps) => {
     children: import("react/jsx-runtime").JSX.Element;
     className: string;
 };
