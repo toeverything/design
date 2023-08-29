@@ -1,4 +1,5 @@
-import { style } from '@vanilla-extract/css';
+import { createVar, style } from '@vanilla-extract/css';
+export const triggerWidthVar = createVar('triggerWidthVar');
 
 export const menuContent = style({
   minWidth: '180px',
@@ -6,6 +7,7 @@ export const menuContent = style({
   borderRadius: '8px',
   padding: '8px',
   fontSize: 'var(--affine-font-sm)',
+  fontWeight: '400',
   backgroundColor: 'var(--affine-white)',
   boxShadow: 'var(--affine-menu-shadow)',
   userSelect: 'none',
@@ -79,4 +81,66 @@ export const menuSeparator = style({
   backgroundColor: 'var(--affine-divider-color)',
   marginTop: '12px',
   marginBottom: '8px',
+});
+
+export const menuTrigger = style({
+  vars: {
+    [triggerWidthVar]: 'auto',
+  },
+  width: triggerWidthVar,
+  height: 28,
+  lineHeight: '22px',
+  padding: '0 10px',
+  color: 'var(--affine-text-primary-color)',
+  border: '1px solid',
+  backgroundColor: 'var(--affine-white)',
+  borderRadius: 8,
+  display: 'inline-flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  fontSize: 'var(--affine-font-xs)',
+  cursor: 'pointer',
+  ['WebkitAppRegion' as string]: 'no-drag',
+  borderColor: 'var(--affine-border-color)',
+  outline: 'none',
+
+  selectors: {
+    '&:hover': {
+      background: 'var(--affine-hover-color)',
+    },
+    '&.no-border': {
+      border: 'unset',
+    },
+    '&.block': {
+      display: 'flex',
+      width: '100%',
+    },
+    // size
+    '&.large': {
+      height: 32,
+    },
+    '&.extra-large': {
+      height: 40,
+      fontWeight: 600,
+    },
+    // color
+    '&.disabled': {
+      cursor: 'default',
+      color: 'var(--affine-disable-color)',
+      pointerEvents: 'none',
+    },
+    // TODO: wait for design
+    '&.error': {
+      // borderColor: 'var(--affine-error-color)',
+    },
+    '&.success': {
+      // borderColor: 'var(--affine-success-color)',
+    },
+    '&.warning': {
+      // borderColor: 'var(--affine-warning-color)',
+    },
+    '&.default': {
+      // borderColor: 'var(--affine-border-color)',
+    },
+  },
 });
