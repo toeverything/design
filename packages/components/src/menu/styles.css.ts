@@ -13,6 +13,7 @@ export const menuContent = style({
 
 export const menuItem = style({
   height: '30px',
+  maxWidth: '296px',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
@@ -50,6 +51,9 @@ export const menuItem = style({
 
 export const menuSpan = style({
   flex: 1,
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'nowrap',
 });
 export const menuItemIcon = style({
   display: 'flex',
