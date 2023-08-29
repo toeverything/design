@@ -40,6 +40,7 @@ export default defineConfig({
         loading: resolve(__dirname, 'src/loading/index.ts'),
         divider: resolve(__dirname, 'src/divider/index.ts'),
         tooltip: resolve(__dirname, 'src/tooltip/index.ts'),
+        menu: resolve(__dirname, 'src/menu/index.ts'),
       },
       formats: ['es'],
     },
