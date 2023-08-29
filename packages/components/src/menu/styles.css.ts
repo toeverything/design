@@ -61,6 +61,7 @@ export const menuSpan = style({
   overflow: 'hidden',
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
+  textAlign: 'left',
 });
 export const menuItemIcon = style({
   display: 'flex',
@@ -72,6 +73,13 @@ export const menuItemIcon = style({
     '&.end': { marginLeft: '8px' },
     '&.selected, &.checked': {
       color: 'var(--affine-primary-color)',
+    },
+
+    [`${menuItem}.danger:hover &`]: {
+      color: 'var(--affine-error-color)',
+    },
+    [`${menuItem}.warning:hover &`]: {
+      color: 'var(--affine-warning-color)',
     },
   },
 });

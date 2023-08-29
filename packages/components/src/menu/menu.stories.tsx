@@ -70,6 +70,13 @@ const items: Items[] = [
   {
     label: 'danger menu item',
     type: 'danger',
+    preFix: (
+      <Tooltip content="Use `MenuIcon` to wrap your icon and choose `preFix` or `endFix`">
+        <MenuIcon>
+          <InformationIcon />
+        </MenuIcon>
+      </Tooltip>
+    ),
   },
   {
     label: 'warning menu item',

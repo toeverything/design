@@ -15,7 +15,7 @@ import { useMenuItem } from './use-menu-item.tsx';
 import { MenuIcon } from './menu-icon.tsx';
 export interface MenuSubProps {
   children: ReactNode;
-  items: ReactNode[];
+  items: ReactNode;
   triggerOptions?: Omit<MenuItemProps, 'onSelect' | 'children'>;
   portalOptions?: Omit<MenuPortalProps, 'children'>;
   subOptions?: Omit<DropdownMenuSubProps, 'children'>;
@@ -27,7 +27,13 @@ export const MenuSub = ({
   items,
   portalOptions,
   subOptions,
-  triggerOptions: { className: propsClassName, preFix, endFix, type } = {},
+  triggerOptions: {
+    className: propsClassName,
+    preFix,
+    endFix,
+    type,
+    ...otherTriggerOptions
+  } = {},
   subContentOptions: {
     className: subContentClassName = '',
     ...otherSubContentOptions
@@ -43,7 +49,7 @@ export const MenuSub = ({
 
   return (
     <DropdownMenu.Sub {...subOptions}>
-      <DropdownMenu.SubTrigger className={className}>
+      <DropdownMenu.SubTrigger className={className} {...otherTriggerOptions}>
         {children}
         <MenuIcon position="end">
           <ArrowRightSmallIcon />
