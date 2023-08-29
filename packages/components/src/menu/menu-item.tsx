@@ -8,6 +8,8 @@ export interface MenuItemProps
   type?: 'default' | 'warning' | 'danger';
   preFix?: React.ReactNode;
   endFix?: React.ReactNode;
+  checked?: boolean;
+  selected?: boolean;
 }
 
 export const MenuItem = ({
@@ -16,6 +18,8 @@ export const MenuItem = ({
   className: propsClassName,
   preFix,
   endFix,
+  checked,
+  selected,
   ...otherProps
 }: MenuItemProps) => {
   const { className, children } = useMenuItem({
@@ -24,6 +28,8 @@ export const MenuItem = ({
     type,
     preFix,
     endFix,
+    checked,
+    selected,
   });
 
   return (

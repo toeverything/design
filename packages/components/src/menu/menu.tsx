@@ -12,7 +12,7 @@ import * as styles from './styles.css';
 
 export interface MenuProps {
   children: ReactNode;
-  items: ReactNode[];
+  items: ReactNode;
   portalOptions?: Omit<MenuPortalProps, 'children'>;
   rootOptions?: Omit<DropdownMenuProps, 'children'>;
   contentOptions?: Omit<MenuContentProps, 'children'>;
