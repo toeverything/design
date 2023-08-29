@@ -46,6 +46,11 @@ export const menuItem = style({
       color: 'var(--affine-warning-color)',
       backgroundColor: 'var(--affine-background-warning-color)',
     },
+
+    '&.selected, &.checked': {
+      backgroundColor: 'var(--affine-hover-color)',
+      color: 'var(--affine-primary-color)',
+    },
   },
 });
 
@@ -63,6 +68,9 @@ export const menuItemIcon = style({
   selectors: {
     '&.start': { marginRight: '8px' },
     '&.end': { marginLeft: '8px' },
+    '&.selected, &.checked': {
+      color: 'var(--affine-primary-color)',
+    },
   },
 });
 
