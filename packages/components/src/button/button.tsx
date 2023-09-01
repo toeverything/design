@@ -1,15 +1,15 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import {
   type FC,
   forwardRef,
   type HTMLAttributes,
   type PropsWithChildren,
   type ReactElement,
-  useMemo
-} from 'react'
+  useMemo,
+} from 'react';
 
-import { Loading } from '../loading'
-import { button, buttonIcon } from './style.css'
+import { Loading } from '../loading';
+import { button, buttonIcon } from './style.css';
 
 export type ButtonType =
   | 'default'
@@ -30,18 +30,18 @@ type BaseButtonProps = {
   size?: ButtonSize;
   loading?: boolean;
   withoutHoverStyle?: boolean;
-}
+};
 
 export type ButtonProps = PropsWithChildren<BaseButtonProps> &
   Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
-  componentProps?: {
-    startIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
-    endIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
-  }
-}
+    componentProps?: {
+      startIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
+      endIcon?: Omit<IconButtonProps, 'icon' | 'iconPosition'>;
+    };
+  };
 
 type IconButtonProps = PropsWithChildren<BaseButtonProps> &
-  Omit<HTMLAttributes<HTMLDivElement>, 'type'>
+  Omit<HTMLAttributes<HTMLDivElement>, 'type'>;
 
 const defaultProps = {
   type: 'default',
@@ -50,8 +50,8 @@ const defaultProps = {
   size: 'default',
   iconPosition: 'start',
   loading: false,
-  withoutHoverStyle: false
-} as const
+  withoutHoverStyle: false,
+} as const;
 
 const ButtonIcon: FC<IconButtonProps> = props => {
   const {
@@ -61,12 +61,13 @@ const ButtonIcon: FC<IconButtonProps> = props => {
     children,
     type,
     loading,
+    withoutHoverStyle,
     ...otherProps
   } = {
     ...defaultProps,
-    ...props
-  }
-  const onlyIcon = icon && !children
+    ...props,
+  };
+  const onlyIcon = icon && !children;
   return (
     <div
       {...otherProps}
@@ -76,13 +77,14 @@ const ButtonIcon: FC<IconButtonProps> = props => {
         extraLarge: size === 'extraLarge',
         end: iconPosition === 'end' && !onlyIcon,
         start: iconPosition === 'start' && !onlyIcon,
-        loading
+        loading,
       })}
+      data-without-hover={withoutHoverStyle}
     >
       {icon}
     </div>
-  )
-}
+  );
+};
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
     const {
@@ -100,15 +102,15 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       ...otherProps
     } = {
       ...defaultProps,
-      ...props
-    } satisfies ButtonProps
+      ...props,
+    } satisfies ButtonProps;
 
     const icon = useMemo(() => {
       if (loading) {
-        return <Loading/>
+        return <Loading />;
       }
-      return propsIcon
-    }, [propsIcon, loading])
+      return propsIcon;
+    }, [propsIcon, loading]);
 
     const baseIconButtonProps = useMemo(() => {
       return {
@@ -117,9 +119,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         icon,
         type,
         disabled,
-        loading
-      } as const
-    }, [disabled, icon, iconPosition, loading, size, type])
+        loading,
+      } as const;
+    }, [disabled, icon, iconPosition, loading, size, type]);
 
     return (
       <button
@@ -141,7 +143,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             round: shape === 'round',
             block,
             loading,
-            'without-hover': withoutHoverStyle
+            'without-hover': withoutHoverStyle,
           },
           className
         )}
@@ -166,8 +168,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           />
         ) : null}
       </button>
-    )
+    );
   }
-)
-Button.displayName = 'Button'
-export default Button
+);
+Button.displayName = 'Button';
+export default Button;
