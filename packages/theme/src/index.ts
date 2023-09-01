@@ -83,6 +83,14 @@ export const baseTheme = {
   paletteShapeWhite: 'rgb(255, 255, 255)',
   paletteShapeBlack: 'rgb(35, 35, 35)',
   paletteShapeGrey: 'rgb(216, 217, 216)',
+  multiPlayersPurple: 'rgba(123,97,255,1)',
+  multiPlayersMagenta: 'rgba(245, 49, 179, 1)',
+  multiPlayersRed: 'rgba(243,87,52,1)',
+  multiPlayersOrange: 'rgba(255, 138, 0, 1)',
+  multiPlayersGreen: 'rgba(27, 196, 125, 1)',
+  multiPlayersBlue: 'rgba(24, 160, 251, 1)',
+  multiPlayersBrown: 'rgba(154, 101, 51, 1)',
+  multiPlayersGrey: 'rgba(170, 170, 170, 1)',
   blue: 'rgba(30, 150, 235, 1)',
   pureBlack: 'rgba(0, 0, 0, 1)',
   pureBlack10: 'rgba(0, 0, 0, 0.1)',
@@ -95,6 +103,8 @@ export const baseTheme = {
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
   buttonInnerShadow:
     ' 0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+  multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
+  multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -191,6 +201,7 @@ export const lightTheme = {
     '0px 4px 4px -2px rgba(66, 65, 73, 0.10), 0px 6px 8px 1px rgba(66, 65, 73, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.05)',
   cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.15)',
+  largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
@@ -300,6 +311,7 @@ export const darkTheme = {
     '0px 4px 4px -2px rgba(15, 15, 15, 0.1), 0px 6px 8px 1px rgba(15, 15, 15, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.60)',
   cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.8)',
+  largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
 
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
