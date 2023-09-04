@@ -35,6 +35,9 @@ export const menuItem = style({
       pointerEvents: 'none',
       cursor: 'not-allowed',
     },
+    '&[data-highlighted]': {
+      backgroundColor: 'var(--affine-hover-color)',
+    },
 
     '&:hover': {
       backgroundColor: 'var(--affine-hover-color)',

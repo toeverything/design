@@ -1,6 +1,6 @@
 import { InformationIcon } from '@blocksuite/icons';
 import type { Meta, StoryFn } from '@storybook/react';
-import { type ReactNode, useState } from 'react';
+import { type ReactNode, useCallback, useState } from 'react';
 
 import { Button } from '../button';
 import { Tooltip } from '../tooltip';
@@ -120,6 +120,10 @@ const items: Items[] = [
 export const Default = Template.bind(undefined);
 
 const ItemRender = ({ label, divider, subItems, ...otherProps }: Items) => {
+  const onSelect = useCallback(() => {
+    console.log('value', label);
+  }, [label]);
+
   if (subItems) {
     return (
       <>
@@ -138,7 +142,9 @@ const ItemRender = ({ label, divider, subItems, ...otherProps }: Items) => {
 
   return (
     <>
-      <MenuItem {...otherProps}>{label}</MenuItem>
+      <MenuItem onSelect={onSelect} {...otherProps}>
+        {label}
+      </MenuItem>
       {divider ? <MenuSeparator /> : null}
     </>
   );
