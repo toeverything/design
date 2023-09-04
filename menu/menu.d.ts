@@ -7,4 +7,4 @@ export interface MenuProps {
     rootOptions?: Omit<DropdownMenuProps, 'children'>;
     contentOptions?: Omit<MenuContentProps, 'children'>;
 }
-export declare const Menu: ({ children, items, portalOptions, rootOptions, contentOptions: { className, ...otherContentOptions }, }: MenuProps) => import("react/jsx-runtime").JSX.Element;
+export declare const Menu: ({ children, items, portalOptions, rootOptions, contentOptions: { className, style: contentStyle, ...otherContentOptions }, }: MenuProps) => import("react/jsx-runtime").JSX.Element;
