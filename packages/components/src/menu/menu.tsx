@@ -23,7 +23,11 @@ export const Menu = ({
   items,
   portalOptions,
   rootOptions,
-  contentOptions: { className = '', ...otherContentOptions } = {},
+  contentOptions: {
+    className = '',
+    style: contentStyle = {},
+    ...otherContentOptions
+  } = {},
 }: MenuProps) => {
   return (
     <DropdownMenu.Root {...rootOptions}>
@@ -37,6 +41,7 @@ export const Menu = ({
           )}
           sideOffset={5}
           align="start"
+          style={{ zIndex: 'var(--affine-z-index-popover)', ...contentStyle }}
           {...otherContentOptions}
         >
           {items}
