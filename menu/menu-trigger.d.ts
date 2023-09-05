@@ -1,5 +1,5 @@
 import type { PropsWithChildren } from 'react';
-import { CSSProperties, type HTMLAttributes, type ReactNode } from 'react';
+import { type CSSProperties, type HTMLAttributes, type ReactNode } from 'react';
 export interface MenuTriggerProps extends PropsWithChildren, HTMLAttributes<HTMLButtonElement> {
     width?: CSSProperties['width'];
     disabled?: boolean;
