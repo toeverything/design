@@ -9,10 +9,10 @@ import clsx from 'clsx';
 import type { ReactNode } from 'react';
 import { useMemo } from 'react';
 
+import { MenuIcon } from './menu-icon.tsx';
 import type { MenuItemProps } from './menu-item.tsx';
 import * as styles from './styles.css.ts';
 import { useMenuItem } from './use-menu-item.tsx';
-import { MenuIcon } from './menu-icon.tsx';
 export interface MenuSubProps {
   children: ReactNode;
   items: ReactNode;

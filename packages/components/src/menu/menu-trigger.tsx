@@ -3,7 +3,7 @@ import { assignInlineVars } from '@vanilla-extract/dynamic';
 import clsx from 'clsx';
 import type { PropsWithChildren } from 'react';
 import {
-  CSSProperties,
+  type CSSProperties,
   forwardRef,
   type HTMLAttributes,
   type ReactNode,
