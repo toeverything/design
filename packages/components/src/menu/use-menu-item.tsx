@@ -1,10 +1,10 @@
+import { DoneIcon } from '@blocksuite/icons';
 import clsx from 'clsx';
 import { useMemo } from 'react';
-import { DoneIcon } from '@blocksuite/icons';
 
+import { MenuIcon } from './menu-icon.tsx';
 import { type MenuItemProps } from './menu-item.tsx';
 import * as styles from './styles.css.ts';
-import { MenuIcon } from './menu-icon.tsx';
 
 interface useMenuItemProps {
   children: MenuItemProps['children'];
