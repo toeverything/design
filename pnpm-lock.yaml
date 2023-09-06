@@ -48,8 +48,8 @@ importers:
   packages/components:
     dependencies:
       '@blocksuite/icons':
-        specifier: ^2.1.32
-        version: 2.1.32(@types/react@18.2.18)(react@18.2.0)
+        specifier: ^2.1.33
+        version: 2.1.33(@types/react@18.2.18)(react@18.2.0)
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.0.5
         version: 2.0.5(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
@@ -1620,8 +1620,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@blocksuite/icons@2.1.32(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-jvt91v2GrreXlfoJzKXd9TN0/YCz5nLD4GgxrNmAcoLj7J5yAuZcGCVBMJiiATPkDWYKZuuI0ng1K8iCZc51qQ==}
+  /@blocksuite/icons@2.1.33(@types/react@18.2.18)(react@18.2.0):
+    resolution: {integrity: sha512-sAwnDtDWjuutQ3SVIJKxWFyh+TMeKzM9SKPLA7ZVbjdIE3UBNFCh7+bpe/x76xpbe4xYoxHSVWw4gP4/ituWnQ==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@types/react': ^18.0.25
@@ -2899,7 +2899,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2909,7 +2908,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -2919,7 +2917,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2929,7 +2926,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
