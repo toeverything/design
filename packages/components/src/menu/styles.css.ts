@@ -8,13 +8,12 @@ export const menuContent = style({
   padding: '8px',
   fontSize: 'var(--affine-font-sm)',
   fontWeight: '400',
-  backgroundColor: 'var(--affine-white)',
+  backgroundColor: 'var(--affine-background-overlay-panel-color)',
   boxShadow: 'var(--affine-menu-shadow)',
   userSelect: 'none',
 });
 
 export const menuItem = style({
-  height: '30px',
   maxWidth: '296px',
   display: 'flex',
   alignItems: 'center',
@@ -89,7 +88,7 @@ export const menuItemIcon = style({
 
 export const menuSeparator = style({
   height: '1px',
-  backgroundColor: 'var(--affine-divider-color)',
+  backgroundColor: 'var(--affine-border-color)',
   marginTop: '12px',
   marginBottom: '8px',
 });
