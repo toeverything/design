@@ -141,26 +141,21 @@ export const avatarRoot = style({
   alignItems: 'center',
   justifyContent: 'center',
   verticalAlign: 'middle',
-  overflow: 'hidden',
   userSelect: 'none',
-  borderRadius: '100%',
   position: 'relative',
-  selectors: {
-    '&.with-hover': {
-      cursor: 'pointer',
-    },
-  },
 });
 
 export const avatarImage = style({
   width: '100%',
   height: '100%',
   objectFit: 'cover',
-  borderRadius: 'inherit',
+  borderRadius: '50%',
 });
+
 export const avatarFallback = style({
   width: '100%',
   height: '100%',
+  borderRadius: '50%',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -170,17 +165,34 @@ export const avatarFallback = style({
   fontWeight: '500',
 });
 
-globalStyle(`${avatarRoot}.with-hover:hover .hover-wrapper`, {
-  display: 'flex',
-});
-globalStyle(`${avatarRoot}.with-hover .hover-wrapper`, {
+export const hoverWrapper = style({
   width: '100%',
   height: '100%',
+  borderRadius: '50%',
   position: 'absolute',
-  display: 'none',
+  display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: 'rgba(60, 61, 63, 0.5)',
   zIndex: '1',
   color: 'var(--affine-white)',
+  opacity: 0,
+  transition: 'opacity .15s',
+  cursor: 'pointer',
+  selectors: {
+    '&:hover': {
+      opacity: 1,
+    },
+  },
+});
+
+export const removeButton = style({
+  position: 'absolute',
+  right: '-8px',
+  top: '-2px',
+  visibility: 'hidden',
+  zIndex: '1',
+});
+globalStyle(`${avatarRoot}:hover ${removeButton}`, {
+  visibility: 'visible',
 });

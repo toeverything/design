@@ -220,6 +220,7 @@ export const iconButton = style({
   transition: 'all .3s',
   ['WebkitAppRegion' as string]: 'no-drag',
   cursor: 'pointer',
+  background: 'var(--affine-white)',
 
   // changeable
   width: '24px',
