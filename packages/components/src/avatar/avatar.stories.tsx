@@ -2,6 +2,8 @@ import { CameraIcon } from '@blocksuite/icons';
 import type { Meta, StoryFn } from '@storybook/react';
 
 import { Avatar, type AvatarProps } from './avatar';
+import { Tooltip } from '../tooltip';
+import { useRef } from 'react';
 
 export default {
   title: 'UI/Avatar',
@@ -36,4 +38,31 @@ WithHover.args = {
   colorfulFallback: true,
   name: 'With Hover',
   hoverIcon: <CameraIcon />,
+};
+
+const WithTooltipTemplate: StoryFn<AvatarProps> = args => {
+  return (
+    <Tooltip content="pop some thing">
+      <Avatar {...args} />
+    </Tooltip>
+  );
+};
+
+export const WithTooltip = WithTooltipTemplate.bind(undefined);
+WithTooltip.args = {
+  size: 50,
+  colorfulFallback: true,
+  name: 'With Hover',
+  hoverIcon: <CameraIcon />,
+};
+
+export const WithRemove = Template.bind(undefined);
+WithRemove.args = {
+  size: 50,
+  colorfulFallback: true,
+  name: 'With Hover',
+  hoverIcon: <CameraIcon />,
+  onRemove: e => {
+    console.log('on remove', e);
+  },
 };
