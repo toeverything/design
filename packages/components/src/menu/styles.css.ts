@@ -24,11 +24,12 @@ export const menuItem = style({
   border: 'none',
   outline: 'none',
   cursor: 'pointer',
+  boxSizing: 'border-box',
   selectors: {
     '&:not(:last-of-type)': {
       marginBottom: '4px',
     },
-
+    '&.block': { maxWidth: '100%' },
     '&[data-disabled]': {
       color: 'var(--affine-text-disable-color)',
       pointerEvents: 'none',
