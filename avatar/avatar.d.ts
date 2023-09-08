@@ -1,5 +1,5 @@
 import { type AvatarFallbackProps, type AvatarImageProps, type AvatarProps as RadixAvatarProps } from '@radix-ui/react-avatar';
-import type { CSSProperties, FC } from 'react';
+import type { CSSProperties, HTMLAttributes, MouseEvent } from 'react';
 import { type ReactElement } from 'react';
 export type AvatarProps = {
     size?: number;
@@ -9,8 +9,23 @@ export type AvatarProps = {
     style?: CSSProperties;
     colorfulFallback?: boolean;
     hoverIcon?: ReactElement;
+    onRemove?: (e: MouseEvent<HTMLButtonElement>) => void;
     fallbackProps?: Omit<AvatarFallbackProps, 'style' | 'className'>;
     imageProps?: Omit<AvatarImageProps, 'src'>;
     avatarProps?: RadixAvatarProps;
-};
-export declare const Avatar: FC<AvatarProps>;
+    hoverWrapperProps?: HTMLAttributes<HTMLDivElement>;
+} & HTMLAttributes<HTMLSpanElement>;
+export declare const Avatar: import("react").ForwardRefExoticComponent<{
+    size?: number | undefined;
+    url?: string | null | undefined;
+    name?: string | undefined;
+    className?: string | undefined;
+    style?: CSSProperties | undefined;
+    colorfulFallback?: boolean | undefined;
+    hoverIcon?: ReactElement<any, string | import("react").JSXElementConstructor<any>> | undefined;
+    onRemove?: ((e: MouseEvent<HTMLButtonElement>) => void) | undefined;
+    fallbackProps?: Omit<AvatarFallbackProps, "style" | "className"> | undefined;
+    imageProps?: Omit<AvatarImageProps, "src"> | undefined;
+    avatarProps?: RadixAvatarProps | undefined;
+    hoverWrapperProps?: HTMLAttributes<HTMLDivElement> | undefined;
+} & HTMLAttributes<HTMLSpanElement> & import("react").RefAttributes<HTMLSpanElement>>;

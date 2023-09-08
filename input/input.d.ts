@@ -22,7 +22,7 @@ export declare const Input: import("react").ForwardRefExoticComponent<{
     onKeyDown?: KeyboardEventHandler<HTMLInputElement> | undefined;
     noBorder?: boolean | undefined;
     status?: "default" | "error" | "warning" | "success" | undefined;
-    size?: "default" | "large" | "extraLarge" | undefined;
+    size?: "large" | "default" | "extraLarge" | undefined;
     preFix?: ReactNode;
     endFix?: ReactNode;
     type?: string | undefined;

@@ -6,6 +6,5 @@ export interface MenuItemProps extends Omit<MenuItemPropsPrimitive, 'asChild' | 
     endFix?: React.ReactNode;
     checked?: boolean;
     selected?: boolean;
-    block?: boolean;
 }
-export declare const MenuItem: ({ children: propsChildren, type, className: propsClassName, preFix, endFix, checked, selected, block, ...otherProps }: MenuItemProps) => import("react/jsx-runtime").JSX.Element;
+export declare const MenuItem: ({ children: propsChildren, type, className: propsClassName, preFix, endFix, checked, selected, ...otherProps }: MenuItemProps) => import("react/jsx-runtime").JSX.Element;

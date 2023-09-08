@@ -8,3 +8,5 @@ export declare const DefaultAvatarTopItemStyle: string;
 export declare const avatarRoot: string;
 export declare const avatarImage: string;
 export declare const avatarFallback: string;
+export declare const hoverWrapper: string;
+export declare const removeButton: string;
