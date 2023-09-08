@@ -23,6 +23,7 @@ export const Divider = forwardRef<HTMLDivElement, DividerProps>(
       className,
       size,
       dividerColor,
+      style,
       ...otherProps
     } = {
       ...defaultProps,
@@ -41,7 +42,7 @@ export const Divider = forwardRef<HTMLDivElement, DividerProps>(
           },
           className
         )}
-        style={{backgroundColor: dividerColor? dividerColor: 'var(--affine-divider-color)'}}
+        style={{backgroundColor: dividerColor? dividerColor: undefined,...style}}
         {...otherProps}
       />
     );
