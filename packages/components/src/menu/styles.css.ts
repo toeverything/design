@@ -29,7 +29,7 @@ export const menuItem = style({
     '&:not(:last-of-type)': {
       marginBottom: '4px',
     },
-    '&.block': { width: '100%',maxWidth: '100%' },
+    '&.block': { maxWidth: '100%' },
     '&[data-disabled]': {
       color: 'var(--affine-text-disable-color)',
       pointerEvents: 'none',
