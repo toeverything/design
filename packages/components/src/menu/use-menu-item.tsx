@@ -14,6 +14,7 @@ interface useMenuItemProps {
   endFix: MenuItemProps['endFix'];
   checked?: MenuItemProps['checked'];
   selected?: MenuItemProps['selected'];
+  block?: MenuItemProps['block'];
 }
 
 export const useMenuItem = ({
@@ -24,6 +25,7 @@ export const useMenuItem = ({
   endFix,
   checked,
   selected,
+  block,
 }: useMenuItemProps) => {
   const className = useMemo(
     () =>
@@ -34,10 +36,11 @@ export const useMenuItem = ({
           warning: type === 'warning',
           checked,
           selected,
+          block,
         },
         propsClassName
       ),
-    [checked, propsClassName, type]
+    [block, checked, propsClassName, selected, type]
   );
 
   const children = useMemo(
@@ -60,7 +63,7 @@ export const useMenuItem = ({
         ) : null}
       </>
     ),
-    [endFix, preFix, propsChildren]
+    [checked, endFix, preFix, propsChildren, selected]
   );
 
   return {

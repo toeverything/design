@@ -21,7 +21,11 @@ export default {
 } satisfies Meta<typeof Menu>;
 
 const Template: StoryFn<MenuProps> = args => (
-  <Menu {...args}>
+  <Menu {...args}   contentOptions={{
+    style: {
+      width: '500px',
+    },
+  }}>
     <MenuTrigger>menu trigger</MenuTrigger>
   </Menu>
 );
@@ -33,6 +37,7 @@ interface Items {
   disabled?: boolean;
   divider?: boolean;
   subItems?: Items[];
+  block?:boolean;
 }
 
 const items: Items[] = [
@@ -62,6 +67,7 @@ const items: Items[] = [
         </span>
       </Tooltip>
     ),
+    block:true,
   },
   {
     label: 'default disabled menu item',
