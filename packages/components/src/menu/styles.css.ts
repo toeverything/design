@@ -8,13 +8,12 @@ export const menuContent = style({
   padding: '8px',
   fontSize: 'var(--affine-font-sm)',
   fontWeight: '400',
-  backgroundColor: 'var(--affine-white)',
+  backgroundColor: 'var(--affine-background-overlay-panel-color)',
   boxShadow: 'var(--affine-menu-shadow)',
   userSelect: 'none',
 });
 
 export const menuItem = style({
-  height: '30px',
   maxWidth: '296px',
   display: 'flex',
   alignItems: 'center',
@@ -25,11 +24,12 @@ export const menuItem = style({
   border: 'none',
   outline: 'none',
   cursor: 'pointer',
+  boxSizing: 'border-box',
   selectors: {
     '&:not(:last-of-type)': {
       marginBottom: '4px',
     },
-
+    '&.block': { maxWidth: '100%' },
     '&[data-disabled]': {
       color: 'var(--affine-text-disable-color)',
       pointerEvents: 'none',
@@ -89,7 +89,7 @@ export const menuItemIcon = style({
 
 export const menuSeparator = style({
   height: '1px',
-  backgroundColor: 'var(--affine-divider-color)',
+  backgroundColor: 'var(--affine-border-color)',
   marginTop: '12px',
   marginBottom: '8px',
 });

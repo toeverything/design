@@ -10,6 +10,7 @@ export interface MenuItemProps
   endFix?: React.ReactNode;
   checked?: boolean;
   selected?: boolean;
+  block?: boolean;
 }
 
 export const MenuItem = ({
@@ -20,6 +21,7 @@ export const MenuItem = ({
   endFix,
   checked,
   selected,
+   block,
   ...otherProps
 }: MenuItemProps) => {
   const { className, children } = useMenuItem({
@@ -30,6 +32,7 @@ export const MenuItem = ({
     endFix,
     checked,
     selected,
+    block,
   });
 
   return (

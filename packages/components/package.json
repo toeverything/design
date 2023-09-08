@@ -1,6 +1,6 @@
 {
   "name": "@toeverything/components",
-  "version": "0.0.29",
+  "version": "0.0.34",
   "type": "module",
   "access": "public",
   "exports": {
@@ -27,7 +27,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@blocksuite/icons": "^2.1.32",
+    "@blocksuite/icons": "^2.1.33",
     "@radix-ui/react-dropdown-menu": "^2.0.5",
     "@radix-ui/react-tooltip": "^1.0.6"
   },
