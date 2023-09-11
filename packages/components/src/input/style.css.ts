@@ -18,6 +18,7 @@ export const inputWrapper = style({
   justifyContent: 'center',
   alignItems: 'center',
   fontSize: 'var(--affine-font-base)',
+  boxSizing: 'border-box',
 
   selectors: {
     '&.no-border': {

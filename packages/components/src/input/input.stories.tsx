@@ -10,7 +10,7 @@ export default {
 
 const Template: StoryFn<InputProps> = args => (
   <div style={{ width: '50%' }}>
-    <Input {...args} width={100} />
+    <Input {...args} />
   </div>
 );
 
