@@ -7,3 +7,4 @@ export declare const closeButton: string;
 export declare const modalHeader: string;
 export declare const modalDescription: string;
 export declare const modalFooter: string;
+export declare const confirmModalContent: string;
