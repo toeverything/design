@@ -21,7 +21,7 @@ export const ConfirmModal = ({
 }: ConfirmModalProps) => {
   return (
     <Modal {...props}>
-      {children}
+      <div className={styles.confirmModalContent}>{children}</div>
       <div className={styles.modalFooter}>
         <DialogTrigger asChild>
           <Button>{cancelText}</Button>

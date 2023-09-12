@@ -25,7 +25,7 @@ export const modalContent = style({
   lineHeight: '1.6',
   padding: '20px 24px',
   backgroundColor: 'var(--affine-background-overlay-panel-color)',
-  boxShadow: 'var(--affine-shadow-3)',
+  boxShadow: 'var(--affine-popover-shadow)',
   borderRadius: '12px',
   maxHeight: 'calc(100vh - 32px)',
 
@@ -49,7 +49,7 @@ export const modalHeader = style({
   marginBottom: '12px',
 });
 export const modalDescription = style({
-  paddingBottom: '20px',
+  margin: '20px auto',
 });
 
 export const modalFooter = style({
@@ -57,5 +57,10 @@ export const modalFooter = style({
   justifyContent: 'flex-end',
   alignItems: 'center',
   paddingTop: '20px',
+  marginTop: '20px',
   gap: '20px',
+});
+
+export const confirmModalContent = style({
+  margin: '20px auto',
 });
