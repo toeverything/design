@@ -48,12 +48,13 @@ const ConfirmModalTemplate: StoryFn<ConfirmModalProps> = () => {
 
   return (
     <>
-      <Button onClick={() => setOpen(true)}>Open Modal</Button>
+      <Button onClick={() => setOpen(true)}>Open Confirm Modal</Button>
       <ConfirmModal
         open={open}
         onOpenChange={setOpen}
         onConfirm={handleConfirm}
         title="Modal Title"
+        description="Modal description"
         confirmButtonOptions={{
           loading: loading,
           type: 'primary',
