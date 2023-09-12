@@ -28,7 +28,8 @@ export const modalContent = style({
   boxShadow: 'var(--affine-popover-shadow)',
   borderRadius: '12px',
   maxHeight: 'calc(100vh - 32px)',
-
+  // :focus-visible will set outline
+  outline: 'none',
   position: 'fixed',
   zIndex: 'var(--affine-z-index-modal)',
   top: ' 50%',
@@ -49,7 +50,7 @@ export const modalHeader = style({
   marginBottom: '12px',
 });
 export const modalDescription = style({
-  margin: '20px auto',
+  margin: '0 auto 20px',
 });
 
 export const modalFooter = style({
