@@ -41,6 +41,7 @@ export default defineConfig({
         divider: resolve(__dirname, 'src/divider/index.ts'),
         tooltip: resolve(__dirname, 'src/tooltip/index.ts'),
         menu: resolve(__dirname, 'src/menu/index.ts'),
+        modal: resolve(__dirname, 'src/modal/index.ts'),
       },
       formats: ['es'],
     },
