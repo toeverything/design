@@ -1,6 +1,6 @@
 {
   "name": "@toeverything/components",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "type": "module",
   "access": "public",
   "exports": {
