@@ -1,6 +1,7 @@
 import { type AvatarFallbackProps, type AvatarImageProps, type AvatarProps as RadixAvatarProps } from '@radix-ui/react-avatar';
 import type { CSSProperties, HTMLAttributes, MouseEvent } from 'react';
 import { type ReactElement } from 'react';
+import { type TooltipProps } from '../tooltip';
 export type AvatarProps = {
     size?: number;
     url?: string | null;
@@ -10,10 +11,13 @@ export type AvatarProps = {
     colorfulFallback?: boolean;
     hoverIcon?: ReactElement;
     onRemove?: (e: MouseEvent<HTMLButtonElement>) => void;
-    fallbackProps?: Omit<AvatarFallbackProps, 'style' | 'className'>;
+    avatarTooltipOptions?: Omit<TooltipProps, 'children'>;
+    removeTooltipOptions?: Omit<TooltipProps, 'children'>;
+    fallbackProps?: AvatarFallbackProps;
     imageProps?: Omit<AvatarImageProps, 'src'>;
     avatarProps?: RadixAvatarProps;
     hoverWrapperProps?: HTMLAttributes<HTMLDivElement>;
+    removeButtonProps?: HTMLAttributes<HTMLButtonElement>;
 } & HTMLAttributes<HTMLSpanElement>;
 export declare const Avatar: import("react").ForwardRefExoticComponent<{
     size?: number | undefined;
@@ -24,8 +28,11 @@ export declare const Avatar: import("react").ForwardRefExoticComponent<{
     colorfulFallback?: boolean | undefined;
     hoverIcon?: ReactElement<any, string | import("react").JSXElementConstructor<any>> | undefined;
     onRemove?: ((e: MouseEvent<HTMLButtonElement>) => void) | undefined;
-    fallbackProps?: Omit<AvatarFallbackProps, "style" | "className"> | undefined;
+    avatarTooltipOptions?: Omit<TooltipProps, "children"> | undefined;
+    removeTooltipOptions?: Omit<TooltipProps, "children"> | undefined;
+    fallbackProps?: AvatarFallbackProps | undefined;
     imageProps?: Omit<AvatarImageProps, "src"> | undefined;
     avatarProps?: RadixAvatarProps | undefined;
     hoverWrapperProps?: HTMLAttributes<HTMLDivElement> | undefined;
+    removeButtonProps?: HTMLAttributes<HTMLButtonElement> | undefined;
 } & HTMLAttributes<HTMLSpanElement> & import("react").RefAttributes<HTMLSpanElement>>;

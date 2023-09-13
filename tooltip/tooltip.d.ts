@@ -2,7 +2,7 @@ import type { TooltipContentProps, TooltipPortalProps, TooltipProps as RootProps
 import type { ReactElement, ReactNode } from 'react';
 export interface TooltipProps {
     children: ReactElement;
-    content: ReactNode;
+    content?: ReactNode;
     side?: TooltipContentProps['side'];
     align?: TooltipContentProps['align'];
     rootOptions?: Omit<RootProps, 'children'>;
