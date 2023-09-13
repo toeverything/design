@@ -192,7 +192,15 @@ export const removeButton = style({
   top: '-2px',
   visibility: 'hidden',
   zIndex: '1',
+  selectors: {
+    '&:hover': {
+      background: '#f6f6f6',
+    },
+  },
 });
 globalStyle(`${avatarRoot}:hover ${removeButton}`, {
   visibility: 'visible',
+});
+globalStyle(`${avatarRoot} ${removeButton}:hover`, {
+  background: '#f6f6f6',
 });

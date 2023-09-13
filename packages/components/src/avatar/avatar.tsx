@@ -96,7 +96,6 @@ export const Avatar = forwardRef<HTMLSpanElement, AvatarProps>(
         {onRemove ? (
           <IconButton
             size="extraSmall"
-            withoutHoverStyle
             type="default"
             className={style.removeButton}
             onClick={onRemove}
