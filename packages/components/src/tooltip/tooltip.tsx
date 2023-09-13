@@ -11,7 +11,7 @@ import * as styles from './styles.css.ts';
 export interface TooltipProps {
   // `children` can not be string, number or even undefined
   children: ReactElement;
-  content: ReactNode;
+  content?: ReactNode;
   side?: TooltipContentProps['side'];
   align?: TooltipContentProps['align'];
 
@@ -29,6 +29,9 @@ export const Tooltip = ({
   rootOptions,
   portalOptions,
 }: TooltipProps) => {
+  if (!content) {
+    return children;
+  }
   return (
     <TooltipPrimitive.Provider>
       <TooltipPrimitive.Root delayDuration={500} {...rootOptions}>

@@ -10,9 +10,10 @@ import {
 import { assignInlineVars } from '@vanilla-extract/dynamic';
 import clsx from 'clsx';
 import type { CSSProperties, HTMLAttributes, MouseEvent } from 'react';
-import { forwardRef, type ReactElement, useMemo } from 'react';
+import { forwardRef, type ReactElement, useMemo, useState } from 'react';
 
 import { IconButton } from '../button';
+import { Tooltip, type TooltipProps } from '../tooltip';
 import { ColorfulFallback } from './colorful-fallback';
 import * as style from './style.css';
 import { sizeVar } from './style.css';
@@ -26,11 +27,14 @@ export type AvatarProps = {
   colorfulFallback?: boolean;
   hoverIcon?: ReactElement;
   onRemove?: (e: MouseEvent<HTMLButtonElement>) => void;
+  avatarTooltipOptions?: Omit<TooltipProps, 'children'>;
+  removeTooltipOptions?:  Omit<TooltipProps, 'children'>;
 
-  fallbackProps?: Omit<AvatarFallbackProps, 'style' | 'className'>;
+  fallbackProps?: AvatarFallbackProps;
   imageProps?: Omit<AvatarImageProps, 'src'>;
   avatarProps?: RadixAvatarProps;
   hoverWrapperProps?: HTMLAttributes<HTMLDivElement>;
+  removeButtonProps?: HTMLAttributes<HTMLButtonElement>;
 } & HTMLAttributes<HTMLSpanElement>;
 
 export const Avatar = forwardRef<HTMLSpanElement, AvatarProps>(
@@ -43,11 +47,20 @@ export const Avatar = forwardRef<HTMLSpanElement, AvatarProps>(
       className,
       colorfulFallback = false,
       hoverIcon,
-      fallbackProps,
+      fallbackProps: { className: fallbackClassName, ...fallbackProps } = {},
       imageProps,
       avatarProps,
       onRemove,
-      hoverWrapperProps = {},
+      hoverWrapperProps: {
+        className: hoverWrapperClassName,
+        ...hoverWrapperProps
+      } = {},
+      avatarTooltipOptions,
+      removeTooltipOptions,
+      removeButtonProps: {
+        className: removeButtonClassName,
+        ...removeButtonProps
+      } = {},
       ...props
     },
     ref
@@ -55,53 +68,72 @@ export const Avatar = forwardRef<HTMLSpanElement, AvatarProps>(
     const firstCharOfName = useMemo(() => {
       return name?.slice(0, 1) || 'A';
     }, [name]);
+    const [imageDom, setImageDom] = useState<HTMLDivElement | null>(null);
+    const [removeButtonDom, setRemoveButtonDom] =
+      useState<HTMLButtonElement | null>(null);
 
     return (
-      <AvatarRoot
-        style={{
-          ...assignInlineVars({
-            [sizeVar]: size ? `${size}px` : '20px',
-          }),
-          ...propsStyles,
-        }}
-        className={clsx(style.avatarRoot, className)}
-        {...avatarProps}
-        {...props}
-        ref={ref}
-      >
-        <AvatarImage
-          className={style.avatarImage}
-          src={url || ''}
-          alt={name}
-          {...imageProps}
-        />
-
-        <AvatarFallback
-          className={style.avatarFallback}
-          delayMs={600}
-          {...fallbackProps}
+      <AvatarRoot className={style.avatarRoot} {...avatarProps} ref={ref}>
+        <Tooltip
+          portalOptions={{ container: imageDom }}
+          {...avatarTooltipOptions}
         >
-          {colorfulFallback ? (
-            <ColorfulFallback char={firstCharOfName} />
-          ) : (
-            firstCharOfName
-          )}
-        </AvatarFallback>
-
-        {hoverIcon ? (
-          <div className={style.hoverWrapper} {...hoverWrapperProps}>
-            {hoverIcon}
-          </div>
-        ) : null}
-        {onRemove ? (
-          <IconButton
-            size="extraSmall"
-            type="default"
-            className={style.removeButton}
-            onClick={onRemove}
+          <div
+            ref={setImageDom}
+            className={clsx(style.avatarWrapper, className)}
+            style={{
+              ...assignInlineVars({
+                [sizeVar]: size ? `${size}px` : '20px',
+              }),
+              ...propsStyles,
+            }}
+            {...props}
           >
-            <CloseIcon />
-          </IconButton>
+            <AvatarImage
+              className={style.avatarImage}
+              src={url || ''}
+              alt={name}
+              {...imageProps}
+            />
+
+            <AvatarFallback
+              className={clsx(style.avatarFallback, fallbackClassName)}
+              delayMs={600}
+              {...fallbackProps}
+            >
+              {colorfulFallback ? (
+                <ColorfulFallback char={firstCharOfName} />
+              ) : (
+                firstCharOfName
+              )}
+            </AvatarFallback>
+            {hoverIcon ? (
+              <div
+                className={clsx(style.hoverWrapper, hoverWrapperClassName)}
+                {...hoverWrapperProps}
+              >
+                {hoverIcon}
+              </div>
+            ) : null}
+          </div>
+        </Tooltip>
+
+        {onRemove ? (
+          <Tooltip
+            portalOptions={{ container: removeButtonDom }}
+            {...removeTooltipOptions}
+          >
+            <IconButton
+              size="extraSmall"
+              type="default"
+              className={clsx(style.removeButton, removeButtonClassName)}
+              onClick={onRemove}
+              ref={setRemoveButtonDom}
+              {...removeButtonProps}
+            >
+              <CloseIcon />
+            </IconButton>
+          </Tooltip>
         ) : null}
       </AvatarRoot>
     );
