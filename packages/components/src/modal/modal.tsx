@@ -8,10 +8,9 @@ import type {
 import * as Dialog from '@radix-ui/react-dialog';
 import { assignInlineVars } from '@vanilla-extract/dynamic';
 import clsx from 'clsx';
-import type { CSSProperties } from 'react';
-import { forwardRef } from 'react';
+import { type CSSProperties, forwardRef } from 'react';
 
-import { IconButton } from '../button';
+import { IconButton, type IconButtonProps } from '../button';
 import * as styles from './styles.css.ts';
 
 export interface ModalProps extends DialogProps {
@@ -25,6 +24,7 @@ export interface ModalProps extends DialogProps {
   portalOptions?: DialogPortalProps;
   contentOptions?: DialogContentProps;
   overlayOptions?: DialogOverlayProps;
+  closeButtonOptions?: IconButtonProps;
 }
 
 const getVar = (style: number | string = '', defaultValue = '') => {
@@ -55,6 +55,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>(
         className: overlayClassName,
         ...otherOverlayOptions
       } = {},
+      closeButtonOptions = {},
       children,
       ...props
     },
@@ -85,6 +86,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>(
                 className={styles.closeButton}
                 aria-label="Close"
                 type="plain"
+                {...closeButtonOptions}
               >
                 <CloseIcon />
               </IconButton>
