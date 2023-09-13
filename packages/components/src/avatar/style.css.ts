@@ -130,14 +130,18 @@ export const DefaultAvatarTopItemStyle = style({
 });
 
 export const avatarRoot = style({
+  position: 'relative',
+  display: 'inline-flex',
+  flexShrink: 0,
+});
+export const avatarWrapper = style({
   vars: {
     [sizeVar]: 'unset',
   },
   width: sizeVar,
   height: sizeVar,
   fontSize: `calc(${sizeVar} / 2)`,
-  display: 'inline-flex',
-  flexShrink: 0,
+  display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   verticalAlign: 'middle',
