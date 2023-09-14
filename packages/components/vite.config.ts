@@ -42,6 +42,7 @@ export default defineConfig({
         tooltip: resolve(__dirname, 'src/tooltip/index.ts'),
         menu: resolve(__dirname, 'src/menu/index.ts'),
         modal: resolve(__dirname, 'src/modal/index.ts'),
+        popover: resolve(__dirname, 'src/popover/index.ts'),
       },
       formats: ['es'],
     },
