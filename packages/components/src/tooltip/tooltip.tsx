@@ -43,6 +43,7 @@ export const Tooltip = ({
             side={side}
             align={align}
             sideOffset={5}
+            style={{ zIndex: 'var(--affine-z-index-popover)' }}
             {...options}
           >
             {content}
