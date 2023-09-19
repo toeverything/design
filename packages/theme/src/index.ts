@@ -55,8 +55,8 @@ export const baseTheme = {
   paragraphSpace: '8px',
   popoverRadius: '12px',
 
-  editorWidth: '800px',
-  editorSidePadding:'24px',
+  editorWidth: '944px',
+  editorSidePadding:'96px',
   zoom: '1',
   scale: 'calc(1 / var(--affine-zoom))',
   paletteLineYellow: 'rgb(255, 211, 56)',
