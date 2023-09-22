@@ -98,7 +98,7 @@ export const Avatar = forwardRef<HTMLSpanElement, AvatarProps>(
 
             <AvatarFallback
               className={clsx(style.avatarFallback, fallbackClassName)}
-              delayMs={600}
+              delayMs={url ? 600 : undefined}
               {...fallbackProps}
             >
               {colorfulFallback ? (
