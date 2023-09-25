@@ -55,8 +55,8 @@ export const baseTheme = {
   paragraphSpace: '8px',
   popoverRadius: '12px',
 
-  editorWidth: '800px',
-  editorSidePadding:'24px',
+  editorWidth: '944px',
+  editorSidePadding:'96px',
   zoom: '1',
   scale: 'calc(1 / var(--affine-zoom))',
   paletteLineYellow: 'rgb(255, 211, 56)',
@@ -83,9 +83,19 @@ export const baseTheme = {
   paletteShapeWhite: 'rgb(255, 255, 255)',
   paletteShapeBlack: 'rgb(35, 35, 35)',
   paletteShapeGrey: 'rgb(216, 217, 216)',
+  multiPlayersPurple: 'rgba(123,97,255,1)',
+  multiPlayersMagenta: 'rgba(245, 49, 179, 1)',
+  multiPlayersRed: 'rgba(243,87,52,1)',
+  multiPlayersOrange: 'rgba(255, 138, 0, 1)',
+  multiPlayersGreen: 'rgba(27, 196, 125, 1)',
+  multiPlayersBlue: 'rgba(24, 160, 251, 1)',
+  multiPlayersBrown: 'rgba(154, 101, 51, 1)',
+  multiPlayersGrey: 'rgba(170, 170, 170, 1)',
   blue: 'rgba(30, 150, 235, 1)',
   pureBlack: 'rgba(0, 0, 0, 1)',
   pureBlack10: 'rgba(0, 0, 0, 0.1)',
+  pureBlack20: 'rgba(0, 0, 0, 0.2)',
+  pureBlack80: 'rgba(0, 0, 0, 0.8)',
   pureWhite: 'rgba(255, 255, 255, 1)',
   pureWhite10: 'rgba(255, 255, 255, 0.1)',
   toggleCircleBackgroundColor: 'rgba(255, 255, 255, 1)',
@@ -94,6 +104,8 @@ export const baseTheme = {
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
   buttonInnerShadow:
     ' 0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+  multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
+  multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -146,7 +158,7 @@ export const lightTheme = {
   placeholderColor: 'rgb(192, 191, 193)',
   edgelessGridColor: 'rgb(230, 230, 230)',
   successColor: 'rgb(16, 203, 134)',
-  warningColor: 'rgb(255, 124, 9)',
+  warningColor: 'rgb(235, 67, 53)',
   errorColor: 'rgb(235, 67, 53)',
   processingColor: 'rgb(39, 118, 255)',
   black10: 'rgba(0, 0, 0, 0.1)',
@@ -173,7 +185,7 @@ export const lightTheme = {
   tagBlue: 'rgba(225, 238, 255, 1)',
   tagPurple: 'rgba(243, 240, 255, 1)',
   tagPink: 'rgba(251, 231, 255, 1)',
-  tooltip: 'rgba(66, 65, 73, 1)',
+  tooltip: 'rgba(0, 0, 0, 1)',
   menuShadow:
     '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
   activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
@@ -190,6 +202,7 @@ export const lightTheme = {
     '0px 4px 4px -2px rgba(66, 65, 73, 0.10), 0px 6px 8px 1px rgba(66, 65, 73, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.05)',
   cmdShadow: '0px 10px 80px 0px rgba(0, 0, 0, 0.20)',
+  largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
@@ -211,7 +224,7 @@ export const darkTheme = {
   themeMode: 'dark',
 
   brandColor: '#1E96EB',
-  primaryColor: '#1E96EB',
+  primaryColor: '#1C9EE4',
   primaryColor04: 'rgba(52, 116, 173, 0.1)',
   secondaryColor: 'rgb(144, 150, 245)',
   tertiaryColor: 'rgb(30, 30, 30)',
@@ -238,9 +251,9 @@ export const darkTheme = {
   quoteColor: 'rgba(142, 141, 145, 1)',
   listColor: 'rgba(156, 155, 160, 1)',
   linkColor: '#78BEFF',
-  edgelessGridColor: 'rgb(49, 49, 49)',
+  edgelessGridColor: 'rgba(49, 49, 49, 0.35)',
   successColor: 'rgb(13, 162, 107)',
-  warningColor: 'rgb(204, 99, 7)',
+  warningColor: 'rgb(188, 54, 42)',
   errorColor: 'rgb(188, 54, 42)',
   processingColor: 'rgb(31, 94, 204)',
   textEmphasisColor: '#1E96EB',
@@ -282,22 +295,25 @@ export const darkTheme = {
   tagOrange: 'rgba(185, 129, 46, 1)',
   tagGray: 'rgba(41, 41, 41, 1)',
   tooltip: 'rgba(234, 234, 234, 1)',
-  menuShadow:
-    '0px 0px 12px rgba(0, 0, 0, 1), inset 0px 0px 0px 0.5px rgba(46, 46, 46, 1)',
-  activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
-  shadow1: '0px 0px 4px 2px rgba(15, 15, 15, 1)',
-  shadow2: '0px 0px 12px 4px rgba(15, 15, 15, 0.8)',
-  shadow3: '0px 0px 22px 8px rgba(15, 15, 15, 0.9)',
+
+  menuShadow: 
+    '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
+  activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)', 
+  shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
+  shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
+  shadow3: '0px 0px 20px 0px rgba(0, 0, 0, 0.32)', 
   popoverShadow:
-    '0px 0px 30px rgba(12, 12, 12, 0.8), 0px 0px 8px rgba(12, 12, 12, 1), inset 0px 0px 0px rgba(46, 46, 46, 1)',
+    '0px 0px 30px 0px rgba(0, 0, 0, 0.1), 0px 0px 8px 0px rgba(0, 0, 0, 0.18), 0px 0px 0px 0.5px rgba(48, 48, 48, 1) inset',
   floatButtonShadow:
     '0px 0px 10px rgba(0, 0, 0, 0.05), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1)',
   floatButtonShadow1:
-    '0px 4px 6px -3px rgba(0, 0, 0, 0.10), 0px 10px 12px -2px rgba(15, 15, 15, 0.10)',
+    '0px 4px 6px -3px rgba(0, 0, 0, 0.1), 0px 10px 12px -2px rgba(0, 0, 0, 0.1)',
   floatButtonShadow2:
-    '0px 4px 4px -2px rgba(15, 15, 15, 0.10), 0px 6px 8px 1px rgba(15, 15, 15, 0.05)',
+    '0px 4px 4px -2px rgba(15, 15, 15, 0.1), 0px 6px 8px 1px rgba(15, 15, 15, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.60)',
   cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.80)',
+  largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
+
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',

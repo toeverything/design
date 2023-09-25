@@ -1,23 +1,24 @@
-import clsx from 'clsx';
-import type { HTMLAttributes, PropsWithChildren } from 'react';
-import { forwardRef, type ReactElement } from 'react';
+import clsx from 'clsx'
+import type { HTMLAttributes, PropsWithChildren } from 'react'
+import { forwardRef, type ReactElement } from 'react'
 
-import { Loading } from '../loading';
-import type { ButtonType } from './button';
-import { iconButton } from './style.css';
+import { Loading } from '../loading'
+import type { ButtonType } from './button'
+import { iconButton } from './style.css'
 
 export type IconButtonSize = 'default' | 'large' | 'small' | 'extraSmall';
-export type IconButtonProps = PropsWithChildren &
-  Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & {
-    type?: ButtonType;
-    disabled?: boolean;
-    size?: IconButtonSize;
-    loading?: boolean;
-    withoutPadding?: boolean;
-    active?: boolean;
-    withoutHoverStyle?: boolean;
-    icon?: ReactElement;
-  };
+export type IconButtonProps =
+  Omit<HTMLAttributes<HTMLButtonElement>, 'type'> & PropsWithChildren<{
+  type?: ButtonType;
+  disabled?: boolean;
+  size?: IconButtonSize;
+  loading?: boolean;
+  withoutPadding?: boolean;
+  active?: boolean;
+  withoutHoverStyle?: boolean;
+  icon?: ReactElement;
+}>
+
 const defaultProps = {
   type: 'plain',
   disabled: false,
@@ -25,8 +26,8 @@ const defaultProps = {
   loading: false,
   withoutPadding: false,
   active: false,
-  withoutHoverStyle: false,
-};
+  withoutHoverStyle: false
+} as const
 
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
   (props, ref) => {
@@ -44,8 +45,8 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
       ...otherProps
     } = {
       ...defaultProps,
-      ...props,
-    };
+      ...props
+    }
 
     return (
       <button
@@ -69,7 +70,7 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
             disabled,
             loading,
             active,
-            'without-hover': withoutHoverStyle,
+            'without-hover': withoutHoverStyle
           },
           className
         )}
@@ -77,11 +78,11 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
         data-disabled={disabled}
         {...otherProps}
       >
-        {loading ? <Loading /> : children || propsIcon}
+        {loading ? <Loading/> : children || propsIcon}
       </button>
-    );
+    )
   }
-);
+)
 
-IconButton.displayName = 'IconButton';
-export default IconButton;
+IconButton.displayName = 'IconButton'
+export default IconButton

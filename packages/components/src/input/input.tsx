@@ -5,7 +5,6 @@ import type {
   CSSProperties,
   FocusEvent,
   FocusEventHandler,
-  ForwardedRef,
   HTMLAttributes,
   KeyboardEvent,
   KeyboardEventHandler,
@@ -52,8 +51,8 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
     onEnter,
     onKeyDown,
     ...otherProps
-  }: InputProps,
-  ref: ForwardedRef<HTMLInputElement>
+  },
+  ref
 ) {
   const [isFocus, setIsFocus] = useState(false);
 
@@ -75,7 +74,11 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
       })}
       style={{
         ...assignInlineVars({
-          [widthVar]: width ? `${width}px` : '100%',
+          [widthVar]: width
+            ? typeof width === 'number'
+              ? `${width}px`
+              : width
+            : '100%',
         }),
         ...style,
       }}

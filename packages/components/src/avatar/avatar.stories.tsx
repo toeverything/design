@@ -37,3 +37,16 @@ WithHover.args = {
   name: 'With Hover',
   hoverIcon: <CameraIcon />,
 };
+
+export const WithRemove = Template.bind(undefined);
+WithRemove.args = {
+  size: 50,
+  colorfulFallback: true,
+  name: 'With Hover',
+  hoverIcon: <CameraIcon />,
+  removeTooltipOptions: { content: 'This is remove tooltip' },
+  avatarTooltipOptions: { content: 'This is avatar tooltip' },
+  onRemove: e => {
+    console.log('on remove', e);
+  },
+};

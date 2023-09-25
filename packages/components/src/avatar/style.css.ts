@@ -130,37 +130,36 @@ export const DefaultAvatarTopItemStyle = style({
 });
 
 export const avatarRoot = style({
+  position: 'relative',
+  display: 'inline-flex',
+  flexShrink: 0,
+});
+export const avatarWrapper = style({
   vars: {
     [sizeVar]: 'unset',
   },
   width: sizeVar,
   height: sizeVar,
   fontSize: `calc(${sizeVar} / 2)`,
-  display: 'inline-flex',
-  flexShrink: 0,
+  display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   verticalAlign: 'middle',
-  overflow: 'hidden',
   userSelect: 'none',
-  borderRadius: '100%',
   position: 'relative',
-  selectors: {
-    '&.with-hover': {
-      cursor: 'pointer',
-    },
-  },
 });
 
 export const avatarImage = style({
   width: '100%',
   height: '100%',
-  objectFit: 'contain',
-  borderRadius: 'inherit',
+  objectFit: 'cover',
+  borderRadius: '50%',
 });
+
 export const avatarFallback = style({
   width: '100%',
   height: '100%',
+  borderRadius: '50%',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -170,17 +169,42 @@ export const avatarFallback = style({
   fontWeight: '500',
 });
 
-globalStyle(`${avatarRoot}.with-hover:hover .hover-wrapper`, {
-  display: 'flex',
-});
-globalStyle(`${avatarRoot}.with-hover .hover-wrapper`, {
+export const hoverWrapper = style({
   width: '100%',
   height: '100%',
+  borderRadius: '50%',
   position: 'absolute',
-  display: 'none',
+  display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: 'rgba(60, 61, 63, 0.5)',
   zIndex: '1',
   color: 'var(--affine-white)',
+  opacity: 0,
+  transition: 'opacity .15s',
+  cursor: 'pointer',
+  selectors: {
+    '&:hover': {
+      opacity: 1,
+    },
+  },
+});
+
+export const removeButton = style({
+  position: 'absolute',
+  right: '-8px',
+  top: '-2px',
+  visibility: 'hidden',
+  zIndex: '1',
+  selectors: {
+    '&:hover': {
+      background: '#f6f6f6',
+    },
+  },
+});
+globalStyle(`${avatarRoot}:hover ${removeButton}`, {
+  visibility: 'visible',
+});
+globalStyle(`${avatarRoot} ${removeButton}:hover`, {
+  background: '#f6f6f6',
 });
