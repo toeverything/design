@@ -201,7 +201,7 @@ export const lightTheme = {
   floatButtonShadow2:
     '0px 4px 4px -2px rgba(66, 65, 73, 0.10), 0px 6px 8px 1px rgba(66, 65, 73, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.05)',
-  cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.15)',
+  cmdShadow: '0px 10px 80px 0px rgba(0, 0, 0, 0.20)',
   largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
@@ -311,7 +311,7 @@ export const darkTheme = {
   floatButtonShadow2:
     '0px 4px 4px -2px rgba(15, 15, 15, 0.1), 0px 6px 8px 1px rgba(15, 15, 15, 0.05)',
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.60)',
-  cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.8)',
+  cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.80)',
   largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
 
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
