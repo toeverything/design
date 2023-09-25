@@ -66,6 +66,7 @@ export const button = style({
       height: '40px',
       fontSize: 'var(--affine-font-base)',
       fontWeight: 700,
+      boxShadow: 'var(--affine-large-button-effect) !important',
     },
     '&.round.extraLarge': {
       borderRadius: '20px',
