@@ -1,3 +1,5 @@
+import { grabbingCursor,grabCursor } from "./cursors";
+
 export const camelToKebab = (s: string) => {
   if (typeof s !== 'string') return '';
   return s
@@ -8,6 +10,10 @@ export const camelToKebab = (s: string) => {
     .replace(/(\D+)(\d+)$/g, '$1-$2')
     .replace(/\s|_/g, '-');
 };
+
+const toCSSCursor = (cursor: string, fallbacks: string[]) => {
+  return `url(${cursor}), ${fallbacks.join(', ')}`;
+}
 
 type Kebab<
   T extends string,
@@ -216,6 +222,10 @@ export const lightTheme = {
   textHighlightBlue: 'rgba(195, 219, 255, 1)',
   textHighlightPurple: 'rgba(227, 222, 255, 1)',
   textHighlightGrey: 'rgba(236, 241, 251, 1)',
+
+  // cursors
+  grabbingCursor: toCSSCursor(grabbingCursor, ['grabbing']),
+  grabCursor: toCSSCursor(grabCursor, ['grab'])
 };
 
 export const darkTheme = {
