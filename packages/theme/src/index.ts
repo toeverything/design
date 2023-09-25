@@ -112,6 +112,10 @@ export const baseTheme = {
     ' 0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
   multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
   multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
+
+  // cursors
+  grabbingCursor: toCSSCursor(grabbingCursor, ['grabbing']),
+  grabCursor: toCSSCursor(grabCursor, ['grab'])
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -222,10 +226,6 @@ export const lightTheme = {
   textHighlightBlue: 'rgba(195, 219, 255, 1)',
   textHighlightPurple: 'rgba(227, 222, 255, 1)',
   textHighlightGrey: 'rgba(236, 241, 251, 1)',
-
-  // cursors
-  grabbingCursor: toCSSCursor(grabbingCursor, ['grabbing']),
-  grabCursor: toCSSCursor(grabCursor, ['grab'])
 };
 
 export const darkTheme = {
