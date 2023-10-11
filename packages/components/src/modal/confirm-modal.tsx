@@ -1,4 +1,5 @@
 import { DialogTrigger } from '@radix-ui/react-dialog';
+import clsx from 'clsx';
 
 import type { ButtonProps } from '../button';
 import { Button } from '../button';
@@ -17,12 +18,19 @@ export const ConfirmModal = ({
   // FIXME: we need i18n
   cancelText = 'Cancel',
   onConfirm,
+  width = 480,
   ...props
 }: ConfirmModalProps) => {
   return (
-    <Modal {...props}>
-      <div className={styles.confirmModalContent}>{children}</div>
-      <div className={styles.modalFooter}>
+    <Modal contentOptions={
+      {className: styles.confirmModalContainer}
+    } width={width} {...props}>
+      {children ? (
+        <div className={styles.confirmModalContent}>{children}</div>
+      ) : null}
+      <div className={clsx(styles.modalFooter,{
+        'modalFooterWithChildren': !!children
+      })}>
         <DialogTrigger asChild>
           <Button>{cancelText}</Button>
         </DialogTrigger>

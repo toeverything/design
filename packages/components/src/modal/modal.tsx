@@ -40,7 +40,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>(
     {
       width,
       height,
-      minHeight,
+      minHeight=194,
       title,
       description,
       withoutCloseButton = false,

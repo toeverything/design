@@ -1,6 +1,11 @@
 import { darkCssVariables, lightCssVariables } from '@toeverything/theme';
 import { globalStyle } from '@vanilla-extract/css';
 
+globalStyle('*', {
+margin: 0,
+padding: 0,
+});
+
 globalStyle('body', {
   color: 'var(--affine-text-primary-color)',
   fontFamily: 'var(--affine-font-family)',

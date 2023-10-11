@@ -20,6 +20,7 @@ export const modalContent = style({
   width: widthVar,
   height: heightVar,
   minHeight: minHeightVar,
+  boxSizing: 'border-box',
   fontSize: 'var(--affine-font-base)',
   fontWeight: '400',
   lineHeight: '1.6',
@@ -50,18 +51,29 @@ export const modalHeader = style({
   marginBottom: '12px',
 });
 export const modalDescription = style({
-  margin: '0 auto 20px',
+  // marginBottom: '20px',
 });
 
 export const modalFooter = style({
   display: 'flex',
   justifyContent: 'flex-end',
   alignItems: 'center',
-  paddingTop: '20px',
-  marginTop: '20px',
+  paddingTop: '40px',
+  marginTop: 'auto',
   gap: '20px',
+  selectors: {
+    '&.modalFooterWithChildren': {
+      paddingTop: '20px',
+    },
+  },
 });
 
 export const confirmModalContent = style({
-  margin: '20px auto',
+  marginTop: '12px',
+  marginBottom: '20px',
+});
+
+export const confirmModalContainer = style({
+  display: 'flex',
+  flexDirection: 'column',
 });
