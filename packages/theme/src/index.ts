@@ -252,7 +252,7 @@ export const darkTheme = {
   blue900: 'rgba(47, 75, 96, 1)',
 
   hoverColor: 'rgba(255, 255, 255, 0.1)',
-  hoverColorFilled: 'rgb(35, 35, 35)',
+  hoverColorFilled: 'rgb(42, 42, 42)',
   iconColor: 'rgb(168, 168, 160)',
   iconSecondary: 'rgba(168,168,160,0.6)',
   borderColor: 'rgba(46, 46, 46, 1)',
