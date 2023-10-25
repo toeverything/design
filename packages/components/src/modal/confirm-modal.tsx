@@ -10,6 +10,7 @@ export interface ConfirmModalProps extends ModalProps {
   confirmButtonOptions?: ButtonProps;
   onConfirm?: () => void;
   cancelText?: string;
+  cancelButtonOptions?: ButtonProps;
 }
 
 export const ConfirmModal = ({
@@ -17,6 +18,7 @@ export const ConfirmModal = ({
   confirmButtonOptions,
   // FIXME: we need i18n
   cancelText = 'Cancel',
+  cancelButtonOptions,
   onConfirm,
   width = 480,
   ...props
@@ -32,7 +34,7 @@ export const ConfirmModal = ({
         'modalFooterWithChildren': !!children
       })}>
         <DialogTrigger asChild>
-          <Button>{cancelText}</Button>
+          <Button {...cancelButtonOptions}>{cancelText}</Button>
         </DialogTrigger>
         <Button onClick={onConfirm} {...confirmButtonOptions}></Button>
       </div>
