@@ -218,7 +218,7 @@ export const lightTheme = {
   largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
   noteShadowBox: '0px 2px 12px 0px rgba(66, 65, 73, 0.20), 0px 0px 4px 0px rgba(66, 65, 73, 0.20)',
   noteShadowSticker: '0px 24px 26px -10px rgba(66, 65, 73, 0.07), 0px 26px 18px -20px rgba(66, 65, 73, 0.22)',
-  noteShadowPaper: '0px 3px 6px 12px rgba(66, 65, 73, 0.16), 0px 0px 0px 10px #FFF',
+  noteShadowPaper: '0px 0px 0px 10px #FFF, 0px 3px 6px 12px rgba(66, 65, 73, 0.16)',
   noteShadowFloat: '0px 12px 60px 0px rgba(66, 65, 73, 0.16), 0px 0px 0px 2px rgba(0, 0, 0, 0.06)',
   noteShadowFilm: '10px 10px 0px 6px #000, 0px 0px 0px 6px #000',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
@@ -334,7 +334,7 @@ export const darkTheme = {
   largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
   noteShadowBox: '0px 2px 12px 0px rgba(0, 0, 0, 0.26), 0px 0px 4px 0px rgba(0, 0, 0, 0.44)',
   noteShadowSticker: '0px 24px 26px -10px rgba(0, 0, 0, 0.11), 0px 26px 18px -20px rgba(0, 0, 0, 0.32)',
-  noteShadowPaper: '0px 3px 6px 12px rgba(0, 0, 0, 0.22), 0px 0px 0px 10px rgba(255, 255, 255, 0.20)',
+  noteShadowPaper: '0px 0px 0px 10px rgba(255, 255, 255, 0.20), 0px 3px 6px 12px rgba(0, 0, 0, 0.22)',
   noteShadowFloat: '0px 12px 70px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 2px rgba(0, 0, 0, 0.10)',
   noteShadowFilm: '10px 10px 0px 6px #B2B2B2, 0px 0px 0px 6px #B2B2B2',
 
