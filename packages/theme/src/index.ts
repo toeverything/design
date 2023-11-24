@@ -111,7 +111,7 @@ export const baseTheme = {
   toggleCircleShadow:
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
   buttonInnerShadow:
-    ' 0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+    '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
   multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
   multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
 
@@ -226,14 +226,28 @@ export const lightTheme = {
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
   cardBackgroundGrey: 'linear-gradient(180deg, #F1F1F1 0%, #FCFCFD 100%)',
   windowsCloseButton: '#C42B1C',
+
+  // -------------------- text highlight (background) -------------------- 
+  /** @deprecated */
   textHighlightPink: 'rgba(255, 206, 206, 1)',
-  textHighlightOrange: 'rgba(255, 203, 166, 1)',
-  textHighlightYellow: 'rgba(255, 245, 171, 1)',
-  textHighlightGreen: 'rgba(197, 251, 224, 1)',
-  textHighlightTeal: 'rgba(198, 241, 243, 1)',
-  textHighlightBlue: 'rgba(195, 219, 255, 1)',
-  textHighlightPurple: 'rgba(227, 222, 255, 1)',
-  textHighlightGrey: 'rgba(236, 241, 251, 1)',
+  textHighlightRed: 'rgba(254, 213, 213, 1)',
+  textHighlightOrange: 'rgba(254, 223, 187, 1)',
+  textHighlightYellow: 'rgba(254, 243, 161, 1)',
+  textHighlightGreen: 'rgba(225, 250, 177, 1)',
+  textHighlightTeal: 'rgba(173, 248, 233, 1)',
+  textHighlightBlue: 'rgba(204, 226, 254, 1)',
+  textHighlightPurple: 'rgba(237, 221, 255, 1)',
+  textHighlightGrey: 'rgba(234, 236, 239, 1)',
+
+  // -------------------- text highlight (foreground) -------------------- 
+  textHighlightForegroundRed: 'rgba(198, 34, 34, 1)',
+  textHighlightForegroundOrange: 'rgba(211, 79, 11, 1)',
+  textHighlightForegroundYellow: 'rgba(182, 124, 4, 1)',
+  textHighlightForegroundGreen: 'rgba(20, 147, 67, 1)',
+  textHighlightForegroundTeal: 'rgba(7, 130, 160, 1)',
+  textHighlightForegroundBlue: 'rgba(33, 89, 211, 1)',
+  textHighlightForegroundPurple: 'rgba(132, 46, 211, 1)',
+  textHighlightForegroundGrey: 'rgba(68, 77, 89, 1)',
 };
 
 export const darkTheme = {
@@ -343,14 +357,29 @@ export const darkTheme = {
   cardBackgroundGreen: 'linear-gradient(180deg, #192023 0%, #202020 100%)',
   cardBackgroundGrey: 'linear-gradient(180deg, #313131 0%, #202020 100%)',
   windowsCloseButton: '#C42B1C',
+
+  // -------------------- text highlight (background) -------------------- 
+  /** @deprecated */
   textHighlightPink: 'rgba(127, 93, 93, 1)',
-  textHighlightOrange: 'rgba(127, 102, 84, 1)',
-  textHighlightYellow: 'rgba(137, 133, 90, 1)',
-  textHighlightGreen: 'rgba(90, 127, 109, 1)',
-  textHighlightTeal: 'rgba(76, 125, 127, 1)',
-  textHighlightBlue: 'rgba(72, 95, 127, 1)',
-  textHighlightPurple: 'rgba(97, 90, 127, 1)',
-  textHighlightGrey: 'rgba(111, 112, 117, 1)',
+  textHighlightRed: 'rgba(108, 39, 39, 1)',
+  textHighlightOrange: 'rgba(112, 58, 21, 1)',
+  textHighlightYellow: 'rgba(106, 84, 15, 1)',
+  textHighlightGreen: 'rgba(26, 91, 50, 1)',
+  textHighlightTeal: 'rgba(14, 85, 97, 1)',
+  textHighlightBlue: 'rgba(56, 75, 122, 1)',
+  textHighlightPurple: 'rgba(80, 46, 111, 1)',
+  textHighlightGrey: 'rgba(64, 67, 74, 1)',
+
+  // -------------------- text highlight (foreground) -------------------- 
+  textHighlightForegroundRed: 'rgba(249, 141, 141, 1)',
+  textHighlightForegroundOrange: 'rgba(252, 168, 99, 1)',
+  textHighlightForegroundYellow: 'rgba(251, 214, 68, 1)',
+  textHighlightForegroundGreen: 'rgba(110, 229, 153, 1)',
+  textHighlightForegroundTeal: 'rgba(87, 221, 204, 1)',
+  textHighlightForegroundBlue: 'rgba(128, 183, 251, 1)',
+  textHighlightForegroundPurple: 'rgba(205, 157, 253, 1)',
+  textHighlightForegroundGrey: 'rgba(176, 181, 191, 1)',
+
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 export const lightCssVariables = Object.entries(lightTheme).reduce(
