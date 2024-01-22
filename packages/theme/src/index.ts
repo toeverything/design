@@ -1,4 +1,4 @@
-import { grabbingCursor,grabCursor } from "./cursors";
+import { grabbingCursor, grabCursor } from './cursors';
 
 export const camelToKebab = (s: string) => {
   if (typeof s !== 'string') return '';
@@ -13,11 +13,16 @@ export const camelToKebab = (s: string) => {
 
 const toCSSCursor = (cursor: string, fallbacks: string[]) => {
   return `url(${cursor}), ${fallbacks.join(', ')}`;
-}
+};
+const themeToVar = (themeName: keyof AffineTheme) =>
+  `--affine-${camelToKebab(themeName)}` as keyof AffineCssVariables;
+const objectEntries = <T extends Record<string, any>>(
+  obj: T
+): [keyof T, T[keyof T]][] => Object.entries(obj) as any;
 
 type Kebab<
   T extends string,
-  A extends string = ''
+  A extends string = '',
 > = T extends `${infer F}${infer R}`
   ? Kebab<R, `${A}${F extends Lowercase<F> ? '' : '-'}${Lowercase<F>}`>
   : A;
@@ -30,8 +35,7 @@ export type AffineCssVariables = {
   [Key in `--affine-${Kebab<keyof AffineTheme>}`]: string;
 };
 
-const basicFontFamily =
-  `apple-system, BlinkMacSystemFont,'Helvetica Neue', Tahoma, 'PingFang SC', 'Microsoft Yahei', Arial,'Hiragino Sans GB', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
+const basicFontFamily = `apple-system, BlinkMacSystemFont,'Helvetica Neue', Tahoma, 'PingFang SC', 'Microsoft Yahei', Arial,'Hiragino Sans GB', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 
 export const baseTheme = {
   // font
@@ -62,7 +66,7 @@ export const baseTheme = {
   popoverRadius: '12px',
 
   editorWidth: '944px',
-  editorSidePadding:'96px',
+  editorSidePadding: '96px',
   zoom: '1',
   scale: 'calc(1 / var(--affine-zoom))',
   paletteLineYellow: 'rgb(255, 211, 56)',
@@ -117,7 +121,7 @@ export const baseTheme = {
 
   // cursors
   grabbingCursor: toCSSCursor(grabbingCursor, ['grabbing']),
-  grabCursor: toCSSCursor(grabCursor, ['grab'])
+  grabCursor: toCSSCursor(grabCursor, ['grab']),
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
@@ -329,12 +333,12 @@ export const darkTheme = {
   tagGray: 'rgba(41, 41, 41, 1)',
   tooltip: 'rgba(234, 234, 234, 1)',
 
-  menuShadow: 
+  menuShadow:
     '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
-  activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)', 
+  activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
   shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
-  shadow3: '0px 0px 20px 0px rgba(0, 0, 0, 0.32)', 
+  shadow3: '0px 0px 20px 0px rgba(0, 0, 0, 0.32)',
   popoverShadow:
     '0px 0px 30px 0px rgba(0, 0, 0, 0.1), 0px 0px 8px 0px rgba(0, 0, 0, 0.18), 0px 0px 0px 0.5px rgba(48, 48, 48, 1) inset',
   floatButtonShadow:
@@ -382,20 +386,27 @@ export const darkTheme = {
 
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
-export const lightCssVariables = Object.entries(lightTheme).reduce(
-  (variables, [key, value]) => {
-    variables[`--affine-${camelToKebab(key)}` as keyof AffineCssVariables] =
-      value;
-    return variables;
-  },
-  {} as AffineCssVariables
-);
+const createVariables = (theme: typeof lightTheme) => {
+  return objectEntries(theme).reduce((variables, [key, value]) => {
+    return { ...variables, [themeToVar(key)]: value };
+  }, {} as AffineCssVariables);
+};
 
-export const darkCssVariables = Object.entries(darkTheme).reduce(
-  (variables, [key, value]) => {
-    variables[`--affine-${camelToKebab(key)}` as keyof AffineCssVariables] =
-      value;
-    return variables;
-  },
-  {} as AffineCssVariables
-);
+export const lightCssVariables = createVariables(lightTheme);
+export const darkCssVariables = createVariables(darkTheme);
+
+/**
+ * Get AFFiNE css variable name type safely
+ * @param key in camel or kebab format
+ * @param fallback
+ * @returns
+ */
+export function cssVar(
+  key: keyof AffineCssVariables | keyof AffineTheme,
+  fallback?: string
+) {
+  const varName = key.startsWith('--')
+    ? key
+    : themeToVar(key as keyof AffineTheme);
+  return `var(${varName}${fallback ? `, ${fallback}` : ''})`;
+}
