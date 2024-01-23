@@ -156,7 +156,7 @@ export const lightTheme = {
   backgroundOverlayPanelColor: 'rgb(251, 251, 252)',
   backgroundSecondaryColor: 'rgba(244, 244, 245, 1)',
   backgroundTertiaryColor: 'rgb(238, 238, 238)',
-  backgroundCodeBlock: 'rgba(247, 246, 250, 1)',
+  backgroundCodeBlock: 'rgba(247, 248, 250, 1)',
   backgroundModalColor: 'rgba(0, 0, 0, 0.75)',
   textPrimaryColor: 'rgb(66, 65, 73)',
   textSecondaryColor: 'rgb(142, 141, 145)',
@@ -252,6 +252,8 @@ export const lightTheme = {
   textHighlightForegroundBlue: 'rgba(33, 89, 211, 1)',
   textHighlightForegroundPurple: 'rgba(132, 46, 211, 1)',
   textHighlightForegroundGrey: 'rgba(68, 77, 89, 1)',
+
+  embedShadow: '0px 0px 0px 2px rgba(0, 0, 0, 0.08)',
 };
 
 export const darkTheme = {
@@ -310,7 +312,7 @@ export const darkTheme = {
   white80: 'rgba(0, 0, 0, 0.8)',
   white90: 'rgba(0, 0, 0, 0.9)',
   white: 'rgb(0, 0, 0)',
-  backgroundCodeBlock: 'rgba(46, 44, 52, 1)',
+  backgroundCodeBlock: 'rgba(31, 32, 34, 1)',
   backgroundTertiaryColor: 'rgb(48, 48, 48)',
   backgroundProcessingColor: 'rgba(22, 32, 48, 1)',
   backgroundErrorColor: 'rgba(46, 26, 24, 1)',
@@ -383,6 +385,8 @@ export const darkTheme = {
   textHighlightForegroundBlue: 'rgba(128, 183, 251, 1)',
   textHighlightForegroundPurple: 'rgba(205, 157, 253, 1)',
   textHighlightForegroundGrey: 'rgba(176, 181, 191, 1)',
+
+  embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.08)',
 
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
