@@ -35,7 +35,7 @@ export type AffineCssVariables = {
   [Key in `--affine-${Kebab<keyof AffineTheme>}`]: string;
 };
 
-const basicFontFamily = `apple-system, BlinkMacSystemFont,'Helvetica Neue', Tahoma, 'PingFang SC', 'Microsoft Yahei', Arial,'Hiragino Sans GB', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
+const basicFontFamily = `apple-system, BlinkMacSystemFont, 'Helvetica Neue', Tahoma, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 
 export const baseTheme = {
   // font
@@ -114,8 +114,7 @@ export const baseTheme = {
   toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
   toggleCircleShadow:
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
-  buttonInnerShadow:
-    '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+  buttonInnerShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
   multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
   multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
 
@@ -220,10 +219,14 @@ export const lightTheme = {
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.05)',
   cmdShadow: '0px 10px 80px 0px rgba(0, 0, 0, 0.20)',
   largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
-  noteShadowBox: '0px 2px 12px 0px rgba(66, 65, 73, 0.20), 0px 0px 4px 0px rgba(66, 65, 73, 0.20)',
-  noteShadowSticker: '0px 24px 26px -10px rgba(66, 65, 73, 0.07), 0px 26px 18px -20px rgba(66, 65, 73, 0.22)',
-  noteShadowPaper: '0px 0px 0px 10px #FFF, 0px 3px 6px 12px rgba(66, 65, 73, 0.16)',
-  noteShadowFloat: '0px 12px 60px 0px rgba(66, 65, 73, 0.16), 0px 0px 0px 2px rgba(0, 0, 0, 0.06)',
+  noteShadowBox:
+    '0px 2px 12px 0px rgba(66, 65, 73, 0.20), 0px 0px 4px 0px rgba(66, 65, 73, 0.20)',
+  noteShadowSticker:
+    '0px 24px 26px -10px rgba(66, 65, 73, 0.07), 0px 26px 18px -20px rgba(66, 65, 73, 0.22)',
+  noteShadowPaper:
+    '0px 0px 0px 10px #FFF, 0px 3px 6px 12px rgba(66, 65, 73, 0.16)',
+  noteShadowFloat:
+    '0px 12px 60px 0px rgba(66, 65, 73, 0.16), 0px 0px 0px 2px rgba(0, 0, 0, 0.06)',
   noteShadowFilm: '10px 10px 0px 6px #000, 0px 0px 0px 6px #000',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
@@ -231,7 +234,7 @@ export const lightTheme = {
   cardBackgroundGrey: 'linear-gradient(180deg, #F1F1F1 0%, #FCFCFD 100%)',
   windowsCloseButton: '#C42B1C',
 
-  // -------------------- text highlight (background) -------------------- 
+  // -------------------- text highlight (background) --------------------
   /** @deprecated */
   textHighlightPink: 'rgba(255, 206, 206, 1)',
   textHighlightRed: 'rgba(254, 213, 213, 1)',
@@ -243,7 +246,7 @@ export const lightTheme = {
   textHighlightPurple: 'rgba(237, 221, 255, 1)',
   textHighlightGrey: 'rgba(234, 236, 239, 1)',
 
-  // -------------------- text highlight (foreground) -------------------- 
+  // -------------------- text highlight (foreground) --------------------
   textHighlightForegroundRed: 'rgba(198, 34, 34, 1)',
   textHighlightForegroundOrange: 'rgba(211, 79, 11, 1)',
   textHighlightForegroundYellow: 'rgba(182, 124, 4, 1)',
@@ -352,10 +355,14 @@ export const darkTheme = {
   kanbanShadow: '0px 2px 3px 0px rgba(0, 0, 0, 0.60)',
   cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.80)',
   largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
-  noteShadowBox: '0px 2px 12px 0px rgba(0, 0, 0, 0.26), 0px 0px 4px 0px rgba(0, 0, 0, 0.44)',
-  noteShadowSticker: '0px 24px 26px -10px rgba(0, 0, 0, 0.11), 0px 26px 18px -20px rgba(0, 0, 0, 0.32)',
-  noteShadowPaper: '0px 0px 0px 10px rgba(255, 255, 255, 0.20), 0px 3px 6px 12px rgba(0, 0, 0, 0.22)',
-  noteShadowFloat: '0px 12px 70px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 2px rgba(0, 0, 0, 0.10)',
+  noteShadowBox:
+    '0px 2px 12px 0px rgba(0, 0, 0, 0.26), 0px 0px 4px 0px rgba(0, 0, 0, 0.44)',
+  noteShadowSticker:
+    '0px 24px 26px -10px rgba(0, 0, 0, 0.11), 0px 26px 18px -20px rgba(0, 0, 0, 0.32)',
+  noteShadowPaper:
+    '0px 0px 0px 10px rgba(255, 255, 255, 0.20), 0px 3px 6px 12px rgba(0, 0, 0, 0.22)',
+  noteShadowFloat:
+    '0px 12px 70px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 2px rgba(0, 0, 0, 0.10)',
   noteShadowFilm: '10px 10px 0px 6px #B2B2B2, 0px 0px 0px 6px #B2B2B2',
 
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
@@ -364,7 +371,7 @@ export const darkTheme = {
   cardBackgroundGrey: 'linear-gradient(180deg, #313131 0%, #202020 100%)',
   windowsCloseButton: '#C42B1C',
 
-  // -------------------- text highlight (background) -------------------- 
+  // -------------------- text highlight (background) --------------------
   /** @deprecated */
   textHighlightPink: 'rgba(127, 93, 93, 1)',
   textHighlightRed: 'rgba(108, 39, 39, 1)',
@@ -376,7 +383,7 @@ export const darkTheme = {
   textHighlightPurple: 'rgba(80, 46, 111, 1)',
   textHighlightGrey: 'rgba(64, 67, 74, 1)',
 
-  // -------------------- text highlight (foreground) -------------------- 
+  // -------------------- text highlight (foreground) --------------------
   textHighlightForegroundRed: 'rgba(249, 141, 141, 1)',
   textHighlightForegroundOrange: 'rgba(252, 168, 99, 1)',
   textHighlightForegroundYellow: 'rgba(251, 214, 68, 1)',
@@ -387,7 +394,6 @@ export const darkTheme = {
   textHighlightForegroundGrey: 'rgba(176, 181, 191, 1)',
 
   embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.08)',
-
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 const createVariables = (theme: typeof lightTheme) => {
