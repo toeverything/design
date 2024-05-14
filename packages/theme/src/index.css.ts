@@ -6,6 +6,10 @@ globalStyle(':root', {
   vars: lightCssVariables,
 });
 
-globalStyle(':root[data-theme="dark"]', {
+globalStyle('[data-theme="light"]', {
+  vars: lightCssVariables,
+});
+
+globalStyle('[data-theme="dark"]', {
   vars: darkCssVariables,
 });
