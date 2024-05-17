@@ -114,7 +114,7 @@ export const baseTheme = {
   toggleDisableBackgroundColor: 'rgba(119, 117, 125, 1)',
   toggleCircleShadow:
     '0px 1px 2px 0px rgba(0, 0, 0, 0.25), inset -2px -3px 2px 0px rgba(0, 0, 0, 0.05)',
-  buttonInnerShadow: '0px 1px 2px 0px rgba(255, 255, 255, 0.25) inset',
+  buttonInnerShadow: 'unset',
   multiCursorsShadow: '0px 2px 4px 0px rgba(0, 0, 0, 0.28)',
   multiPlayersShadow: '0px 1px 6px 0px rgba(0, 0, 0, 0.16)',
 
