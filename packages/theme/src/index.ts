@@ -204,6 +204,7 @@ export const lightTheme = {
   tooltip: 'rgba(0, 0, 0, 1)',
   menuShadow:
     '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
+  toolbarShadow: '0px 6px 16px #00000024',
   activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(66, 65, 73, 0.14)',
   shadow2: '0px 0px 12px 0px rgba(66, 65, 73, 0.18)',
@@ -257,6 +258,19 @@ export const lightTheme = {
   textHighlightForegroundGrey: 'rgba(68, 77, 89, 1)',
 
   embedShadow: '0px 0px 0px 2px rgba(0, 0, 0, 0.08)',
+
+  // --------------------- note background color ------------------------
+  noteBackgroundYellow: 'rgba(253, 230, 138, 1)',
+  noteBackgroundOrange: 'rgba(255, 196, 143, 1)',
+  noteBackgroundRed: 'rgba(250, 182, 182, 1)',
+  noteBackgroundMagenta: 'rgba(255, 218, 237, 1)',
+  noteBackgroundPurple: 'rgba(221, 214, 254, 1)',
+  noteBackgroundBlue: 'rgba(205, 235, 255, 1)',
+  noteBackgroundTeal: 'rgba(199, 248, 242, 1)',
+  noteBackgroundGreen: 'rgba(201, 248, 193, 1)',
+  noteBackgroundBlack: 'rgba(0, 0, 0, 1)',
+  noteBackgroundGrey: 'rgba(230, 230, 230, 1)',
+  noteBackgroundWhite: 'rgba(255, 255, 255, 1)',
 };
 
 export const darkTheme = {
@@ -340,6 +354,7 @@ export const darkTheme = {
 
   menuShadow:
     '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
+  toolbarShadow: '0px 6px 18px #00000052',
   activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
   shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
@@ -394,6 +409,19 @@ export const darkTheme = {
   textHighlightForegroundGrey: 'rgba(176, 181, 191, 1)',
 
   embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.08)',
+
+  // --------------------- note background color ------------------------
+  noteBackgroundYellow: 'rgba(111, 65, 0, 1)',
+  noteBackgroundOrange: 'rgba(132, 59, 6, 1)',
+  noteBackgroundRed: 'rgba(118, 23, 23, 1)',
+  noteBackgroundMagenta: 'rgba(148, 21, 85, 1)',
+  noteBackgroundPurple: 'rgba(49, 46, 129, 1)',
+  noteBackgroundBlue: 'rgba(28, 107, 99, 1)',
+  noteBackgroundTeal: 'rgba(28, 107, 99, 1)',
+  noteBackgroundGreen: 'rgba(59, 83, 21, 1)',
+  noteBackgroundBlack: 'rgba(255, 255, 255, 1)',
+  noteBackgroundGrey: 'rgba(86, 86, 86, 1)',
+  noteBackgroundWhite: 'rgba(0, 0, 0, 1)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
 const createVariables = (theme: typeof lightTheme) => {
