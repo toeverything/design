@@ -45,7 +45,7 @@ export const baseTheme = {
   fontSansFamily: `'Inter', 'Source Sans 3', Poppins, ${basicFontFamily}`,
 
   fontNumberFamily: `'Roboto Mono', 'Noto Sans Mono', ${basicFontFamily}`,
-  fontCodeFamily: `'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicFontFamily}`,
+  fontCodeFamily: `'IBM Plex Mono', 'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicFontFamily}`,
   fontTitle: '36px',
   fontH1: '28px',
   fontH2: '26px',
