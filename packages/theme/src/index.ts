@@ -416,7 +416,7 @@ export const darkTheme = {
   noteBackgroundRed: 'rgba(118, 23, 23, 1)',
   noteBackgroundMagenta: 'rgba(148, 21, 85, 1)',
   noteBackgroundPurple: 'rgba(49, 46, 129, 1)',
-  noteBackgroundBlue: 'rgba(28, 107, 99, 1)',
+  noteBackgroundBlue: 'rgba(3, 95, 159, 1)',
   noteBackgroundTeal: 'rgba(28, 107, 99, 1)',
   noteBackgroundGreen: 'rgba(59, 83, 21, 1)',
   noteBackgroundBlack: 'rgba(255, 255, 255, 1)',
