@@ -205,6 +205,7 @@ export const lightTheme = {
   menuShadow:
     '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
   toolbarShadow: '0px 6px 16px #00000024',
+  elementToolbarShadow: '0px 6px 16px #00000014',
   activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(66, 65, 73, 0.14)',
   shadow2: '0px 0px 12px 0px rgba(66, 65, 73, 0.18)',
@@ -355,6 +356,7 @@ export const darkTheme = {
   menuShadow:
     '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
   toolbarShadow: '0px 6px 18px #00000052',
+  elementToolbarShadow: '0px 6px 18px #00000032',
   activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)',
   shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
   shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
