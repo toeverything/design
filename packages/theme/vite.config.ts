@@ -17,6 +17,7 @@ export default defineConfig({
       entry: {
         index: resolve(__dirname, 'src/index.ts'),
         css: resolve(__dirname, 'src/index.css.ts'),
+        'v2/index': resolve(__dirname, 'src/v2/index.ts'),
       },
       name: 'ToEverythingTheme',
     },

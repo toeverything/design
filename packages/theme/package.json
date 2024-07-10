@@ -9,7 +9,8 @@
   "main": "./src/index.ts",
   "module": "./src/index.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./v2": "./src/v2/index.ts"
   },
   "files": [
     "dist"
@@ -24,7 +25,12 @@
         "import": "./dist/index.js",
         "require": "./dist/index.cjs"
       },
-      "./style.css": "./dist/style.css"
+      "./style.css": "./dist/style.css",
+      "./v2": {
+        "types": "./dist/v2/index.d.ts",
+        "import": "./dist/v2/index.js",
+        "require": "./dist/v2/index.cjs"
+      }
     },
     "types": "./dist/index.d.ts"
   },
