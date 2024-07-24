@@ -51,6 +51,7 @@ tsconfig.tsbuildinfo
 Thumbs.db
 
 # env
+*.env
 *.env.local
 *.local.env
 .history
