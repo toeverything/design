@@ -7,5 +7,5 @@
 3. Select Collections
 4. Switch to `Config` and select `json` Type
 5. Generate and Copy
-6. Paste `json` to [packages/theme/src/v2/source/variables.json](../../packages/theme/src/v2/source/variables.json)
+6. Paste `json` to [packages/theme/src/v2/source/variables.json](../packages/theme/src/v2/source/variables.json)
 7. Run `pnpm run start` and select `Generate Theme Variables`
