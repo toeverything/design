@@ -256,7 +256,7 @@ export const lightTheme = {
   textHighlightForegroundTeal: 'rgba(7, 130, 160, 1)',
   textHighlightForegroundBlue: 'rgba(33, 89, 211, 1)',
   textHighlightForegroundPurple: 'rgba(132, 46, 211, 1)',
-  textHighlightForegroundGrey: 'rgba(68, 77, 89, 1)',
+  textHighlightForegroundGrey: 'rgba(122, 122, 122, 1)',
 
   embedShadow: '0px 0px 0px 2px rgba(0, 0, 0, 0.08)',
 
@@ -408,7 +408,7 @@ export const darkTheme = {
   textHighlightForegroundTeal: 'rgba(87, 221, 204, 1)',
   textHighlightForegroundBlue: 'rgba(128, 183, 251, 1)',
   textHighlightForegroundPurple: 'rgba(205, 157, 253, 1)',
-  textHighlightForegroundGrey: 'rgba(176, 181, 191, 1)',
+  textHighlightForegroundGrey: 'rgba(86, 86, 86, 1)',
 
   embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.08)',
 
