@@ -209,7 +209,8 @@ export const lightTheme = {
   shadow1: '0px 0px 4px 0px rgba(66, 65, 73, 0.14)',
   shadow2: '0px 0px 12px 0px rgba(66, 65, 73, 0.18)',
   shadow3: '0px 0px 20px 0px rgba(66, 65, 73, 0.22)',
-  shadow4: '0px 6px 16px 0px rgba(0, 0, 0, 0.14)',
+  overlayShadow:
+    '0px 1px 6px 0px rgba(0, 0, 0, 0.16), 0px 8px 14px 0px rgba(0, 0, 0, 0.08)',
   popoverShadow:
     '0px 0px 30px rgba(75, 75, 75, 0.2), 0px 0px 4px rgba(75, 75, 75, 0.3), inset 0px 0px 0px rgba(227, 226, 228, 1)',
   floatButtonShadow:
@@ -360,7 +361,8 @@ export const darkTheme = {
   shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
   shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
   shadow3: '0px 0px 20px 0px rgba(0, 0, 0, 0.32)',
-  shadow4: '0px 6px 18px 0px rgba(0, 0, 0, 0.32)',
+  overlayShadow:
+    '0px 1px 6px 0px rgba(0, 0, 0, 0.72), 0px 8px 14px 0px rgba(0, 0, 0, 0.32)',
   popoverShadow:
     '0px 0px 30px 0px rgba(0, 0, 0, 0.1), 0px 0px 8px 0px rgba(0, 0, 0, 0.18), 0px 0px 0px 0.5px rgba(48, 48, 48, 1) inset',
   floatButtonShadow:
