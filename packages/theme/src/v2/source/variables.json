@@ -821,19 +821,19 @@
           {
             "name": "Switch/fontColor/primary",
             "value": "#141414",
-            "var": "Text/primary",
+            "var": "Grey/950",
             "rootAlias": "Grey/950"
           },
           {
             "name": "Switch/fontColor/secondary",
             "value": "#7a7a7a",
-            "var": "Text/secondary",
+            "var": "Grey/600",
             "rootAlias": "Grey/600"
           },
           {
             "name": "Switch/fontColor/tertiary",
             "value": "#929292",
-            "var": "Text/tertiary",
+            "var": "Grey/500",
             "rootAlias": "Grey/500"
           },
           {
@@ -863,7 +863,7 @@
           {
             "name": "Tab/divider/indicator",
             "value": "#1e96eb",
-            "var": "Button/primary",
+            "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
           },
           {
@@ -1994,21 +1994,21 @@
           },
           {
             "name": "Switch/fontColor/primary",
-            "value": "#141414",
-            "var": "Text/primary",
-            "rootAlias": "Grey/950"
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Switch/fontColor/secondary",
-            "value": "#7a7a7a",
-            "var": "Text/secondary",
-            "rootAlias": "Grey/600"
+            "value": "#929292",
+            "var": "Grey/500",
+            "rootAlias": "Grey/500"
           },
           {
             "name": "Switch/fontColor/tertiary",
-            "value": "#929292",
-            "var": "Text/tertiary",
-            "rootAlias": "Grey/500"
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Switch/iconColor/active",
@@ -2037,7 +2037,7 @@
           {
             "name": "Tab/divider/indicator",
             "value": "#1e96eb",
-            "var": "Button/primary",
+            "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
           },
           {
