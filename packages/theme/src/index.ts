@@ -202,6 +202,8 @@ export const lightTheme = {
   tagPink: 'rgba(251, 231, 255, 1)',
   tagMagenta: 'rgba(249, 232, 255, 1)',
   tooltip: 'rgba(0, 0, 0, 1)',
+
+  buttonShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)',
   menuShadow:
     '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
   toolbarShadow: '0px 6px 16px #00000024',
@@ -354,6 +356,7 @@ export const darkTheme = {
   tagGray: 'rgba(41, 41, 41, 1)',
   tooltip: 'rgba(234, 234, 234, 1)',
 
+  buttonShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 5px 0px rgba(0, 0, 0, 0.20)',
   menuShadow:
     '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
   toolbarShadow: '0px 6px 18px #00000052',
