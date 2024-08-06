@@ -9,6 +9,24 @@
         },
         "color": [
           {
+            "name": "Badge/Believer",
+            "value": "#374151",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Badge/Free",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
+            "name": "Badge/Pro",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
             "name": "Block/callout/background/blue",
             "value": "#f0f9ff",
             "var": "Blue/25",
@@ -172,9 +190,9 @@
           },
           {
             "name": "Button/secondary",
-            "value": "#ffffff17",
-            "var": "transparent/white/100",
-            "rootAlias": "transparent/white/100"
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Button/success",
@@ -213,12 +231,6 @@
             "rootAlias": "transparent/black/200"
           },
           {
-            "name": "Database/textPrimary",
-            "value": "#141414",
-            "var": "Text/primary",
-            "rootAlias": "Grey/950"
-          },
-          {
             "name": "Database/textSecondary",
             "value": "#00000085",
             "var": "transparent/black/500",
@@ -238,15 +250,15 @@
           },
           {
             "name": "Edgeless/frame/background/blue",
-            "value": "#bae4ff",
-            "var": "Blue/300",
-            "rootAlias": "Blue/300"
+            "value": "#e6f5ff",
+            "var": "Blue/50",
+            "rootAlias": "Blue/50"
           },
           {
             "name": "Edgeless/frame/background/green",
-            "value": "#9ce6b4",
-            "var": "Emerald/300",
-            "rootAlias": "Emerald/300"
+            "value": "#f1fdf4",
+            "var": "Emerald/50",
+            "rootAlias": "Emerald/50"
           },
           {
             "name": "Edgeless/frame/background/grey",
@@ -255,34 +267,28 @@
             "rootAlias": "Grey/100"
           },
           {
-            "name": "Edgeless/frame/background/magenta",
-            "value": "#f58ec3",
-            "var": "Magenta/300",
-            "rootAlias": "Magenta/300"
-          },
-          {
             "name": "Edgeless/frame/background/orange",
-            "value": "#ffc58f",
-            "var": "Orange/300",
-            "rootAlias": "Orange/300"
+            "value": "#ffebd5",
+            "var": "Orange/50",
+            "rootAlias": "Orange/50"
           },
           {
             "name": "Edgeless/frame/background/purple",
-            "value": "#a693f3",
-            "var": "Purple/300",
-            "rootAlias": "Purple/300"
+            "value": "#ede9ff",
+            "var": "Purple/50",
+            "rootAlias": "Purple/50"
           },
           {
             "name": "Edgeless/frame/background/red",
-            "value": "#ff9a9a",
-            "var": "Red/300",
-            "rootAlias": "Red/300"
+            "value": "#fce5e6",
+            "var": "Red/50",
+            "rootAlias": "Red/50"
           },
           {
             "name": "Edgeless/frame/background/teal",
-            "value": "#b5f5ee",
-            "var": "Teal/300",
-            "rootAlias": "Teal/300"
+            "value": "#e2fdf9",
+            "var": "Teal/50",
+            "rootAlias": "Teal/50"
           },
           {
             "name": "Edgeless/frame/background/white",
@@ -292,9 +298,9 @@
           },
           {
             "name": "Edgeless/frame/background/yellow",
-            "value": "#fff79b",
-            "var": "Yellow/300",
-            "rootAlias": "Yellow/300"
+            "value": "#fffbd5",
+            "var": "Yellow/50",
+            "rootAlias": "Yellow/50"
           },
           {
             "name": "Edgeless/frame/border/active",
@@ -309,10 +315,64 @@
             "rootAlias": "transparent/black/300"
           },
           {
+            "name": "Edgeless/frame/border/locked",
+            "value": "#00000085",
+            "var": "transparent/black/500",
+            "rootAlias": "transparent/black/500"
+          },
+          {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
             "var": "transparent/black/950",
             "rootAlias": "transparent/black/950"
+          },
+          {
+            "name": "Edgeless/group/background/background",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/group/border/active",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/border/borderHint",
+            "value": "#8fd1ff",
+            "var": "AFFiNE/100",
+            "rootAlias": "AFFiNE/100"
+          },
+          {
+            "name": "Edgeless/group/border/hover",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/active",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/default",
+            "value": "#00000085",
+            "var": "transparent/black/500",
+            "rootAlias": "transparent/black/500"
+          },
+          {
+            "name": "Edgeless/group/fontColor/hover",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/rename",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
           },
           {
             "name": "Edgeless/line/black",
@@ -379,6 +439,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Edgeless/mindMap/line",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
           },
           {
             "name": "Edgeless/note/black",
@@ -658,9 +724,9 @@
           },
           {
             "name": "Layer/background/overlayPanel",
-            "value": "#f9f9f9",
-            "var": "Grey/25",
-            "rootAlias": "Grey/25"
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Layer/background/primary",
@@ -741,28 +807,16 @@
             "rootAlias": "Green/500"
           },
           {
-            "name": "Switch/background/background",
-            "value": "#f3f3f3",
-            "var": "Grey/100",
-            "rootAlias": "Grey/100"
-          },
-          {
-            "name": "Switch/buttonBackground/buttonBackground",
+            "name": "Switch/buttonBackground/active",
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
           },
           {
-            "name": "Switch/buttonStatus/active",
-            "value": "#1e96eb",
-            "var": "Button/primary",
-            "rootAlias": "AFFiNE/600"
-          },
-          {
-            "name": "Switch/buttonStatus/default",
-            "value": "#929292",
-            "var": "Grey/500",
-            "rootAlias": "Grey/500"
+            "name": "Switch/buttonBackground/hover",
+            "value": "#0000000d",
+            "var": "transparent/black/50",
+            "rootAlias": "transparent/black/50"
           },
           {
             "name": "Switch/fontColor/primary",
@@ -783,22 +837,46 @@
             "rootAlias": "Grey/500"
           },
           {
-            "name": "Tab/divider/divider",
-            "value": "#cdcdcd",
-            "var": "Grey/300",
-            "rootAlias": "Grey/300"
+            "name": "Switch/iconColor/active",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
-            "name": "Tab/fontColor/active",
+            "name": "Switch/iconColor/default",
+            "value": "#929292",
+            "var": "Grey/500",
+            "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Switch/switchBackground/background",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Tab/divider/divider",
+            "value": "#00000012",
+            "var": "transparent/black/100",
+            "rootAlias": "transparent/black/100"
+          },
+          {
+            "name": "Tab/divider/indicator",
             "value": "#1e96eb",
             "var": "Button/primary",
             "rootAlias": "AFFiNE/600"
           },
           {
+            "name": "Tab/fontColor/active",
+            "value": "#141414",
+            "var": "Text/primary",
+            "rootAlias": "Grey/950"
+          },
+          {
             "name": "Tab/fontColor/default",
-            "value": "#929292",
-            "var": "Text/tertiary",
-            "rootAlias": "Grey/500"
+            "value": "#7a7a7a",
+            "var": "Text/secondary",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Tab/fontColor/hover",
@@ -808,39 +886,33 @@
           },
           {
             "name": "Tab/iconColor/active",
-            "value": "#1e96eb",
-            "var": "Button/primary",
-            "rootAlias": "AFFiNE/600"
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Tab/iconColor/default",
-            "value": "#b3b3b3",
-            "var": "Grey/400",
-            "rootAlias": "Grey/400"
+            "value": "#929292",
+            "var": "Grey/500",
+            "rootAlias": "Grey/500"
           },
           {
             "name": "Tab/iconColor/hover",
-            "value": "#7a7a7a",
-            "var": "Grey/600",
-            "rootAlias": "Grey/600"
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Tab/tabBackground/active",
-            "value": "#ffffff",
-            "var": "Base/White",
-            "rootAlias": "Base/White"
+            "value": "#00000012",
+            "var": "transparent/black/100",
+            "rootAlias": "transparent/black/100"
           },
           {
             "name": "Tab/tabBackground/default",
-            "value": "#f3f3f3",
-            "var": "Grey/100",
-            "rootAlias": "Grey/100"
-          },
-          {
-            "name": "Tab/tabBackground/hover",
-            "value": "#e6e6e6",
-            "var": "Grey/200",
-            "rootAlias": "Grey/200"
+            "value": "#00000008",
+            "var": "transparent/black/25",
+            "rootAlias": "transparent/black/25"
           },
           {
             "name": "Text/disable",
@@ -895,6 +967,12 @@
             "value": "#929292",
             "var": "Grey/500",
             "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Text/highlight/border",
+            "value": "#00000038",
+            "var": "transparent/black/400",
+            "rootAlias": "transparent/black/400"
           },
           {
             "name": "Text/highlight/bg/blue",
@@ -964,9 +1042,9 @@
           },
           {
             "name": "Text/highlight/fg/grey",
-            "value": "#414141",
-            "var": "Grey/800",
-            "rootAlias": "Grey/800"
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Text/highlight/fg/magenta",
@@ -1104,6 +1182,24 @@
           "id": "296:0"
         },
         "color": [
+          {
+            "name": "Badge/Believer",
+            "value": "#374151",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Badge/Free",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
+            "name": "Badge/Pro",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
           {
             "name": "Block/callout/background/blue",
             "value": "#002742",
@@ -1268,9 +1364,9 @@
           },
           {
             "name": "Button/secondary",
-            "value": "#00000012",
-            "var": "transparent/black/100",
-            "rootAlias": "transparent/black/100"
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
           },
           {
             "name": "Button/success",
@@ -1304,15 +1400,9 @@
           },
           {
             "name": "Database/border",
-            "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
-          },
-          {
-            "name": "Database/textPrimary",
-            "value": "#141414",
-            "var": "Text/primary",
-            "rootAlias": "Grey/950"
+            "value": "#ffffff21",
+            "var": "transparent/white/200",
+            "rootAlias": "transparent/white/200"
           },
           {
             "name": "Database/textSecondary",
@@ -1334,15 +1424,15 @@
           },
           {
             "name": "Edgeless/frame/background/blue",
-            "value": "#bae4ff",
-            "var": "Blue/300",
-            "rootAlias": "Blue/300"
+            "value": "#e6f5ff",
+            "var": "Blue/50",
+            "rootAlias": "Blue/50"
           },
           {
             "name": "Edgeless/frame/background/green",
-            "value": "#9ce6b4",
-            "var": "Emerald/300",
-            "rootAlias": "Emerald/300"
+            "value": "#f1fdf4",
+            "var": "Emerald/50",
+            "rootAlias": "Emerald/50"
           },
           {
             "name": "Edgeless/frame/background/grey",
@@ -1351,34 +1441,28 @@
             "rootAlias": "Grey/100"
           },
           {
-            "name": "Edgeless/frame/background/magenta",
-            "value": "#f58ec3",
-            "var": "Magenta/300",
-            "rootAlias": "Magenta/300"
-          },
-          {
             "name": "Edgeless/frame/background/orange",
-            "value": "#ffc58f",
-            "var": "Orange/300",
-            "rootAlias": "Orange/300"
+            "value": "#ffebd5",
+            "var": "Orange/50",
+            "rootAlias": "Orange/50"
           },
           {
             "name": "Edgeless/frame/background/purple",
-            "value": "#a693f3",
-            "var": "Purple/300",
-            "rootAlias": "Purple/300"
+            "value": "#ede9ff",
+            "var": "Purple/50",
+            "rootAlias": "Purple/50"
           },
           {
             "name": "Edgeless/frame/background/red",
-            "value": "#ff9a9a",
-            "var": "Red/300",
-            "rootAlias": "Red/300"
+            "value": "#fce5e6",
+            "var": "Red/50",
+            "rootAlias": "Red/50"
           },
           {
             "name": "Edgeless/frame/background/teal",
-            "value": "#b5f5ee",
-            "var": "Teal/300",
-            "rootAlias": "Teal/300"
+            "value": "#e2fdf9",
+            "var": "Teal/50",
+            "rootAlias": "Teal/50"
           },
           {
             "name": "Edgeless/frame/background/white",
@@ -1388,9 +1472,9 @@
           },
           {
             "name": "Edgeless/frame/background/yellow",
-            "value": "#fff79b",
-            "var": "Yellow/300",
-            "rootAlias": "Yellow/300"
+            "value": "#fffbd5",
+            "var": "Yellow/50",
+            "rootAlias": "Yellow/50"
           },
           {
             "name": "Edgeless/frame/border/active",
@@ -1400,15 +1484,69 @@
           },
           {
             "name": "Edgeless/frame/border/default",
-            "value": "#0000002b",
-            "var": "transparent/black/300",
-            "rootAlias": "transparent/black/300"
+            "value": "#ffffff2b",
+            "var": "transparent/white/300",
+            "rootAlias": "transparent/white/300"
+          },
+          {
+            "name": "Edgeless/frame/border/locked",
+            "value": "#ffffff8f",
+            "var": "transparent/white/500",
+            "rootAlias": "transparent/white/500"
           },
           {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
             "var": "transparent/black/950",
             "rootAlias": "transparent/black/950"
+          },
+          {
+            "name": "Edgeless/group/background/background",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/group/border/active",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/border/borderHint",
+            "value": "#8fd1ff",
+            "var": "AFFiNE/100",
+            "rootAlias": "AFFiNE/100"
+          },
+          {
+            "name": "Edgeless/group/border/hover",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/active",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/default",
+            "value": "#ffffff8f",
+            "var": "transparent/white/500",
+            "rootAlias": "transparent/white/500"
+          },
+          {
+            "name": "Edgeless/group/fontColor/hover",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Edgeless/group/fontColor/rename",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
           },
           {
             "name": "Edgeless/line/black",
@@ -1475,6 +1613,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Edgeless/mindMap/line",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Edgeless/note/black",
@@ -1837,28 +1981,16 @@
             "rootAlias": "Green/800"
           },
           {
-            "name": "Switch/background/background",
-            "value": "#252525",
-            "var": "Grey/900",
-            "rootAlias": "Grey/900"
-          },
-          {
-            "name": "Switch/buttonBackground/buttonBackground",
+            "name": "Switch/buttonBackground/active",
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
           },
           {
-            "name": "Switch/buttonStatus/active",
-            "value": "#1e96eb",
-            "var": "Button/primary",
-            "rootAlias": "AFFiNE/600"
-          },
-          {
-            "name": "Switch/buttonStatus/default",
-            "value": "#7a7a7a",
-            "var": "Grey/600",
-            "rootAlias": "Grey/600"
+            "name": "Switch/buttonBackground/hover",
+            "value": "#ffffff0d",
+            "var": "transparent/white/50",
+            "rootAlias": "transparent/white/50"
           },
           {
             "name": "Switch/fontColor/primary",
@@ -1879,16 +2011,40 @@
             "rootAlias": "Grey/500"
           },
           {
-            "name": "Tab/divider/divider",
-            "value": "#565656",
-            "var": "Grey/700",
-            "rootAlias": "Grey/700"
+            "name": "Switch/iconColor/active",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
           },
           {
-            "name": "Tab/fontColor/active",
+            "name": "Switch/iconColor/default",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Switch/switchBackground/background",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Tab/divider/divider",
+            "value": "#ffffff21",
+            "var": "transparent/white/200",
+            "rootAlias": "transparent/white/200"
+          },
+          {
+            "name": "Tab/divider/indicator",
             "value": "#1e96eb",
             "var": "Button/primary",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Tab/fontColor/active",
+            "value": "#141414",
+            "var": "Text/primary",
+            "rootAlias": "Grey/950"
           },
           {
             "name": "Tab/fontColor/default",
@@ -1904,39 +2060,33 @@
           },
           {
             "name": "Tab/iconColor/active",
-            "value": "#1e96eb",
-            "var": "Button/primary",
-            "rootAlias": "AFFiNE/600"
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
           },
           {
             "name": "Tab/iconColor/default",
-            "value": "#929292",
-            "var": "Grey/500",
-            "rootAlias": "Grey/500"
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Tab/iconColor/hover",
-            "value": "#b3b3b3",
-            "var": "Grey/400",
-            "rootAlias": "Grey/400"
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
           },
           {
             "name": "Tab/tabBackground/active",
-            "value": "#414141",
-            "var": "Grey/800",
-            "rootAlias": "Grey/800"
+            "value": "#ffffff21",
+            "var": "transparent/white/200",
+            "rootAlias": "transparent/white/200"
           },
           {
             "name": "Tab/tabBackground/default",
-            "value": "#252525",
-            "var": "Grey/900",
-            "rootAlias": "Grey/900"
-          },
-          {
-            "name": "Tab/tabBackground/hover",
-            "value": "#414141",
-            "var": "Grey/800",
-            "rootAlias": "Grey/800"
+            "value": "#ffffff0d",
+            "var": "transparent/white/50",
+            "rootAlias": "transparent/white/50"
           },
           {
             "name": "Text/disable",
@@ -1991,6 +2141,12 @@
             "value": "#7a7a7a",
             "var": "Grey/600",
             "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Text/highlight/border",
+            "value": "#ffffff3b",
+            "var": "transparent/white/400",
+            "rootAlias": "transparent/white/400"
           },
           {
             "name": "Text/highlight/bg/blue",
