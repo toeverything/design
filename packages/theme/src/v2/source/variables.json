@@ -9,6 +9,12 @@
         },
         "color": [
           {
+            "name": "redMedium",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Badge/Believer",
             "value": "#374151",
             "var": "",
@@ -143,8 +149,8 @@
           {
             "name": "Button/InnerBlackBorder",
             "value": "#00000012",
-            "var": "transparent/black/100",
-            "rootAlias": "transparent/black/100"
+            "var": "Transparent/black/100 (7%)",
+            "rootAlias": "Transparent/black/100 (7%)"
           },
           {
             "name": "Button/badgesColor",
@@ -161,8 +167,8 @@
           {
             "name": "Button/emptyIconBackground",
             "value": "#0000000d",
-            "var": "transparent/black/50",
-            "rootAlias": "transparent/black/50"
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Button/error",
@@ -203,38 +209,56 @@
           {
             "name": "Button/grabber/Select",
             "value": "#00000038",
-            "var": "transparent/black/400",
-            "rootAlias": "transparent/black/400"
+            "var": "Transparent/black/400 (22%)",
+            "rootAlias": "Transparent/black/400 (22%)"
           },
           {
             "name": "Button/grabber/default",
             "value": "#0000001a",
-            "var": "transparent/black/200",
-            "rootAlias": "transparent/black/200"
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
           },
           {
             "name": "Button/sidebarButton/background",
             "value": "#ffffff08",
-            "var": "transparent/white/25",
-            "rootAlias": "transparent/white/25"
+            "var": "Transparent/white/25 (3%)",
+            "rootAlias": "Transparent/white/25 (3%)"
           },
           {
             "name": "Button/siderbarPrimary/background",
             "value": "#ffffffab",
-            "var": "transparent/white/600",
-            "rootAlias": "transparent/white/600"
+            "var": "Transparent/white/600 (67%)",
+            "rootAlias": "Transparent/white/600 (67%)"
+          },
+          {
+            "name": "CenterPeek/background",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "CenterPeek/icon",
+            "value": "#7a7a7a",
+            "var": "Icon/primary",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "CenterPeek/overlay",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
           },
           {
             "name": "Database/border",
             "value": "#0000001a",
-            "var": "transparent/black/200",
-            "rootAlias": "transparent/black/200"
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
           },
           {
             "name": "Database/textSecondary",
             "value": "#00000085",
-            "var": "transparent/black/500",
-            "rootAlias": "transparent/black/500"
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Dialog/bg",
@@ -265,6 +289,12 @@
             "value": "#f3f3f3",
             "var": "Grey/100",
             "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Edgeless/frame/background/magenta",
+            "value": "#ffecf6",
+            "var": "Magenta/25",
+            "rootAlias": "Magenta/25"
           },
           {
             "name": "Edgeless/frame/background/orange",
@@ -311,20 +341,20 @@
           {
             "name": "Edgeless/frame/border/default",
             "value": "#0000002b",
-            "var": "transparent/black/300",
-            "rootAlias": "transparent/black/300"
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
           },
           {
             "name": "Edgeless/frame/border/locked",
             "value": "#00000085",
-            "var": "transparent/black/500",
-            "rootAlias": "transparent/black/500"
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
-            "var": "transparent/black/950",
-            "rootAlias": "transparent/black/950"
+            "var": "Transparent/black/950 (95%)",
+            "rootAlias": "Transparent/black/950 (95%)"
           },
           {
             "name": "Edgeless/group/background/background",
@@ -359,8 +389,8 @@
           {
             "name": "Edgeless/group/fontColor/default",
             "value": "#00000085",
-            "var": "transparent/black/500",
-            "rootAlias": "transparent/black/500"
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Edgeless/group/fontColor/hover",
@@ -513,6 +543,156 @@
             "rootAlias": "Amber/200"
           },
           {
+            "name": "Edgeless/palette/black",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Edgeless/palette/white",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/palette/heavy/blue",
+            "value": "#1c70a5",
+            "var": "Blue/900",
+            "rootAlias": "Blue/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/green",
+            "value": "#447756",
+            "var": "Emerald/700",
+            "rootAlias": "Emerald/700"
+          },
+          {
+            "name": "Edgeless/palette/heavy/magenta",
+            "value": "#941555",
+            "var": "Magenta/900",
+            "rootAlias": "Magenta/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/orange",
+            "value": "#b55309",
+            "var": "Amber/700",
+            "rootAlias": "Amber/700"
+          },
+          {
+            "name": "Edgeless/palette/heavy/purple",
+            "value": "#5a21b6",
+            "var": "Violet/800",
+            "rootAlias": "Violet/800"
+          },
+          {
+            "name": "Edgeless/palette/heavy/red",
+            "value": "#761717",
+            "var": "Red/900",
+            "rootAlias": "Red/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/yellow",
+            "value": "#ac7400",
+            "var": "Yellow/800",
+            "rootAlias": "Yellow/800"
+          },
+          {
+            "name": "Edgeless/palette/light/blueLight",
+            "value": "#e6f5ff",
+            "var": "Blue/50",
+            "rootAlias": "Blue/50"
+          },
+          {
+            "name": "Edgeless/palette/light/greenLight",
+            "value": "#f1fdf4",
+            "var": "Emerald/50",
+            "rootAlias": "Emerald/50"
+          },
+          {
+            "name": "Edgeless/palette/light/greyLight",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Edgeless/palette/light/magentaLight",
+            "value": "#ffecf6",
+            "var": "Magenta/25",
+            "rootAlias": "Magenta/25"
+          },
+          {
+            "name": "Edgeless/palette/light/orangeLight",
+            "value": "#ffebd5",
+            "var": "Orange/50",
+            "rootAlias": "Orange/50"
+          },
+          {
+            "name": "Edgeless/palette/light/purpleLight",
+            "value": "#ede9ff",
+            "var": "Purple/50",
+            "rootAlias": "Purple/50"
+          },
+          {
+            "name": "Edgeless/palette/light/redLight",
+            "value": "#fce5e6",
+            "var": "Red/50",
+            "rootAlias": "Red/50"
+          },
+          {
+            "name": "Edgeless/palette/light/yellowLight",
+            "value": "#fffbd5",
+            "var": "Yellow/50",
+            "rootAlias": "Yellow/50"
+          },
+          {
+            "name": "Edgeless/palette/medium/blueMedium",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
+            "name": "Edgeless/palette/medium/greenMedium",
+            "value": "#3cbc36",
+            "var": "Green/600",
+            "rootAlias": "Green/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/greyMedium",
+            "value": "#929292",
+            "var": "Grey/500",
+            "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Edgeless/palette/medium/magentaMedium",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/orangeMedium",
+            "value": "#ff8c38",
+            "var": "Orange/600",
+            "rootAlias": "Orange/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/purpleMedium",
+            "value": "#6e52df",
+            "var": "Purple/600",
+            "rootAlias": "Purple/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/redMedium",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/yellowMedium",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
+          },
+          {
             "name": "Edgeless/shape/black",
             "value": "#000000",
             "var": "Base/Black",
@@ -653,8 +833,8 @@
           {
             "name": "Label/text",
             "value": "#00000085",
-            "var": "transparent/black/500",
-            "rootAlias": "transparent/black/500"
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Label/white",
@@ -669,34 +849,52 @@
             "rootAlias": "Amber/100"
           },
           {
-            "name": "Layer/border",
+            "name": "Layer/black",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Layer/pureBlack",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Layer/pureWhite",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Layer/white",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Layer/InsideBorder/blackBorder",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Layer/InsideBorder/border",
             "value": "#e6e6e6",
             "var": "Grey/200",
             "rootAlias": "Grey/200"
           },
           {
-            "name": "Layer/toolTips",
-            "value": "#141414",
-            "var": "Grey/950",
-            "rootAlias": "Grey/950"
-          },
-          {
-            "name": "Layer/InsideBorder/black",
-            "value": "#0000001a",
-            "var": "transparent/black/200",
-            "rootAlias": "transparent/black/200"
-          },
-          {
-            "name": "Layer/InsideBorder/primary",
+            "name": "Layer/InsideBorder/primaryBorder",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
           },
           {
-            "name": "Layer/InsideBorder/white",
+            "name": "Layer/InsideBorder/whiteBorder",
             "value": "#ffffff8f",
-            "var": "transparent/white/500",
-            "rootAlias": "transparent/white/500"
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Layer/background/codeBlock",
@@ -713,14 +911,20 @@
           {
             "name": "Layer/background/hoverOverlay",
             "value": "#0000000d",
-            "var": "transparent/black/50",
-            "rootAlias": "transparent/black/50"
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Layer/background/modal",
             "value": "#000000b2",
-            "var": "transparent/black/700",
-            "rootAlias": "transparent/black/700"
+            "var": "Transparent/black/700 (70%)",
+            "rootAlias": "Transparent/black/700 (70%)"
+          },
+          {
+            "name": "Layer/background/modalWhite",
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           },
           {
             "name": "Layer/background/overlayPanel",
@@ -761,8 +965,8 @@
           {
             "name": "Layer/background/translucentUI",
             "value": "#ffffffb8",
-            "var": "transparent/white/700",
-            "rootAlias": "transparent/white/700"
+            "var": "Transparent/white/700 (72%)",
+            "rootAlias": "Transparent/white/700 (72%)"
           },
           {
             "name": "Layer/background/warning",
@@ -771,10 +975,22 @@
             "rootAlias": "Orange/25"
           },
           {
+            "name": "Layer/mobile/iOSControl",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Layer/mobile/modal",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
+          },
+          {
             "name": "Loading/background",
             "value": "#0000001a",
-            "var": "transparent/black/200",
-            "rootAlias": "transparent/black/200"
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
           },
           {
             "name": "Loading/foreground",
@@ -793,6 +1009,18 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Portrait/localPortrait",
+            "value": "#00000038",
+            "var": "Transparent/black/400 (22%)",
+            "rootAlias": "Transparent/black/400 (22%)"
+          },
+          {
+            "name": "Portrait/localPortraitBackground",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
           },
           {
             "name": "Status/error",
@@ -815,8 +1043,8 @@
           {
             "name": "Switch/buttonBackground/hover",
             "value": "#0000000d",
-            "var": "transparent/black/50",
-            "rootAlias": "transparent/black/50"
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Switch/fontColor/primary",
@@ -857,8 +1085,8 @@
           {
             "name": "Tab/divider/divider",
             "value": "#00000012",
-            "var": "transparent/black/100",
-            "rootAlias": "transparent/black/100"
+            "var": "Transparent/black/100 (7%)",
+            "rootAlias": "Transparent/black/100 (7%)"
           },
           {
             "name": "Tab/divider/indicator",
@@ -869,19 +1097,19 @@
           {
             "name": "Tab/fontColor/active",
             "value": "#141414",
-            "var": "Text/primary",
+            "var": "Grey/950",
             "rootAlias": "Grey/950"
           },
           {
             "name": "Tab/fontColor/default",
             "value": "#7a7a7a",
-            "var": "Text/secondary",
+            "var": "Grey/600",
             "rootAlias": "Grey/600"
           },
           {
             "name": "Tab/fontColor/hover",
             "value": "#141414",
-            "var": "Text/primary",
+            "var": "Grey/950",
             "rootAlias": "Grey/950"
           },
           {
@@ -905,14 +1133,14 @@
           {
             "name": "Tab/tabBackground/active",
             "value": "#00000012",
-            "var": "transparent/black/100",
-            "rootAlias": "transparent/black/100"
+            "var": "Transparent/black/100 (7%)",
+            "rootAlias": "Transparent/black/100 (7%)"
           },
           {
             "name": "Tab/tabBackground/default",
-            "value": "#00000008",
-            "var": "transparent/black/25",
-            "rootAlias": "transparent/black/25"
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Text/disable",
@@ -971,8 +1199,8 @@
           {
             "name": "Text/highlight/border",
             "value": "#00000038",
-            "var": "transparent/black/400",
-            "rootAlias": "transparent/black/400"
+            "var": "Transparent/black/400 (22%)",
+            "rootAlias": "Transparent/black/400 (22%)"
           },
           {
             "name": "Text/highlight/bg/blue",
@@ -1115,14 +1343,14 @@
           {
             "name": "Toast/overlay/secondary",
             "value": "#00000008",
-            "var": "transparent/black/25",
-            "rootAlias": "transparent/black/25"
+            "var": "Transparent/black/25 (3%)",
+            "rootAlias": "Transparent/black/25 (3%)"
           },
           {
             "name": "Toast/overlay/tertiary",
             "value": "#0000000d",
-            "var": "transparent/black/50",
-            "rootAlias": "transparent/black/50"
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Toggle/background",
@@ -1169,8 +1397,8 @@
           {
             "name": "Tooltips/secondaryBackground",
             "value": "#ffffff2b",
-            "var": "transparent/white/300",
-            "rootAlias": "transparent/white/300"
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           }
         ],
         "number": [],
@@ -1182,6 +1410,12 @@
           "id": "296:0"
         },
         "color": [
+          {
+            "name": "redMedium",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
           {
             "name": "Badge/Believer",
             "value": "#374151",
@@ -1317,8 +1551,8 @@
           {
             "name": "Button/InnerBlackBorder",
             "value": "#ffffff17",
-            "var": "transparent/white/100",
-            "rootAlias": "transparent/white/100"
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Button/badgesColor",
@@ -1335,8 +1569,8 @@
           {
             "name": "Button/emptyIconBackground",
             "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
           },
           {
             "name": "Button/error",
@@ -1389,26 +1623,44 @@
           {
             "name": "Button/sidebarButton/background",
             "value": "#ffffff08",
-            "var": "transparent/white/25",
-            "rootAlias": "transparent/white/25"
+            "var": "Transparent/white/25 (3%)",
+            "rootAlias": "Transparent/white/25 (3%)"
           },
           {
             "name": "Button/siderbarPrimary/background",
             "value": "#0000002b",
-            "var": "transparent/black/300",
-            "rootAlias": "transparent/black/300"
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
+          },
+          {
+            "name": "CenterPeek/background",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "CenterPeek/icon",
+            "value": "#b3b3b3",
+            "var": "Icon/secondary",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "CenterPeek/overlay",
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Database/border",
             "value": "#ffffff21",
-            "var": "transparent/white/200",
-            "rootAlias": "transparent/white/200"
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Database/textSecondary",
             "value": "#ffffff8f",
-            "var": "transparent/white/500",
-            "rootAlias": "transparent/white/500"
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Dialog/bg",
@@ -1439,6 +1691,12 @@
             "value": "#f3f3f3",
             "var": "Grey/100",
             "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Edgeless/frame/background/magenta",
+            "value": "#ffecf6",
+            "var": "Magenta/25",
+            "rootAlias": "Magenta/25"
           },
           {
             "name": "Edgeless/frame/background/orange",
@@ -1485,20 +1743,20 @@
           {
             "name": "Edgeless/frame/border/default",
             "value": "#ffffff2b",
-            "var": "transparent/white/300",
-            "rootAlias": "transparent/white/300"
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           },
           {
             "name": "Edgeless/frame/border/locked",
             "value": "#ffffff8f",
-            "var": "transparent/white/500",
-            "rootAlias": "transparent/white/500"
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
-            "var": "transparent/black/950",
-            "rootAlias": "transparent/black/950"
+            "var": "Transparent/black/950 (95%)",
+            "rootAlias": "Transparent/black/950 (95%)"
           },
           {
             "name": "Edgeless/group/background/background",
@@ -1533,8 +1791,8 @@
           {
             "name": "Edgeless/group/fontColor/default",
             "value": "#ffffff8f",
-            "var": "transparent/white/500",
-            "rootAlias": "transparent/white/500"
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Edgeless/group/fontColor/hover",
@@ -1687,6 +1945,156 @@
             "rootAlias": "Yellow/900"
           },
           {
+            "name": "Edgeless/palette/black",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Edgeless/palette/white",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/palette/heavy/blue",
+            "value": "#1c70a5",
+            "var": "Blue/900",
+            "rootAlias": "Blue/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/green",
+            "value": "#447756",
+            "var": "Emerald/700",
+            "rootAlias": "Emerald/700"
+          },
+          {
+            "name": "Edgeless/palette/heavy/magenta",
+            "value": "#941555",
+            "var": "Magenta/900",
+            "rootAlias": "Magenta/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/orange",
+            "value": "#b55309",
+            "var": "Amber/700",
+            "rootAlias": "Amber/700"
+          },
+          {
+            "name": "Edgeless/palette/heavy/purple",
+            "value": "#5a21b6",
+            "var": "Violet/800",
+            "rootAlias": "Violet/800"
+          },
+          {
+            "name": "Edgeless/palette/heavy/red",
+            "value": "#761717",
+            "var": "Red/900",
+            "rootAlias": "Red/900"
+          },
+          {
+            "name": "Edgeless/palette/heavy/yellow",
+            "value": "#ac7400",
+            "var": "Yellow/800",
+            "rootAlias": "Yellow/800"
+          },
+          {
+            "name": "Edgeless/palette/light/blueLight",
+            "value": "#e6f5ff",
+            "var": "Blue/50",
+            "rootAlias": "Blue/50"
+          },
+          {
+            "name": "Edgeless/palette/light/greenLight",
+            "value": "#f1fdf4",
+            "var": "Emerald/50",
+            "rootAlias": "Emerald/50"
+          },
+          {
+            "name": "Edgeless/palette/light/greyLight",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Edgeless/palette/light/magentaLight",
+            "value": "#ffecf6",
+            "var": "Magenta/25",
+            "rootAlias": "Magenta/25"
+          },
+          {
+            "name": "Edgeless/palette/light/orangeLight",
+            "value": "#ffebd5",
+            "var": "Orange/50",
+            "rootAlias": "Orange/50"
+          },
+          {
+            "name": "Edgeless/palette/light/purpleLight",
+            "value": "#d7cdff",
+            "var": "Purple/100",
+            "rootAlias": "Purple/100"
+          },
+          {
+            "name": "Edgeless/palette/light/redLight",
+            "value": "#fce5e6",
+            "var": "Red/50",
+            "rootAlias": "Red/50"
+          },
+          {
+            "name": "Edgeless/palette/light/yellowLight",
+            "value": "#fffbd5",
+            "var": "Yellow/50",
+            "rootAlias": "Yellow/50"
+          },
+          {
+            "name": "Edgeless/palette/medium/blueMedium",
+            "value": "#29a3fa",
+            "var": "AFFiNE/500",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
+            "name": "Edgeless/palette/medium/greenMedium",
+            "value": "#3cbc36",
+            "var": "Green/600",
+            "rootAlias": "Green/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/greyMedium",
+            "value": "#929292",
+            "var": "Grey/500",
+            "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Edgeless/palette/medium/magentaMedium",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/orangeMedium",
+            "value": "#ff8c38",
+            "var": "Orange/600",
+            "rootAlias": "Orange/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/purpleMedium",
+            "value": "#6e52df",
+            "var": "Purple/600",
+            "rootAlias": "Purple/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/redMedium",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Edgeless/palette/medium/yellowMedium",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
+          },
+          {
             "name": "Edgeless/shape/black",
             "value": "#000000",
             "var": "Base/Black",
@@ -1694,9 +2102,9 @@
           },
           {
             "name": "Edgeless/shape/blue",
-            "value": "#84cfff",
-            "var": "Blue/600",
-            "rootAlias": "Blue/600"
+            "value": "#9fd9ff",
+            "var": "Blue/500",
+            "rootAlias": "Blue/500"
           },
           {
             "name": "Edgeless/shape/green",
@@ -1706,15 +2114,15 @@
           },
           {
             "name": "Edgeless/shape/grey",
-            "value": "#b3b3b3",
-            "var": "Grey/400",
-            "rootAlias": "Grey/400"
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
           },
           {
             "name": "Edgeless/shape/magenta",
-            "value": "#f58ec3",
-            "var": "Magenta/300",
-            "rootAlias": "Magenta/300"
+            "value": "#ffc0e0",
+            "var": "Magenta/100",
+            "rootAlias": "Magenta/100"
           },
           {
             "name": "Edgeless/shape/orange",
@@ -1724,15 +2132,15 @@
           },
           {
             "name": "Edgeless/shape/purple",
-            "value": "#a693f3",
-            "var": "Purple/300",
-            "rootAlias": "Purple/300"
+            "value": "#d7cdff",
+            "var": "Purple/100",
+            "rootAlias": "Purple/100"
           },
           {
             "name": "Edgeless/shape/red",
-            "value": "#fc7979",
-            "var": "Red/400",
-            "rootAlias": "Red/400"
+            "value": "#fbb7b7",
+            "var": "Red/200",
+            "rootAlias": "Red/200"
           },
           {
             "name": "Edgeless/shape/teal",
@@ -1843,34 +2251,52 @@
             "rootAlias": "Yellow/800"
           },
           {
-            "name": "Layer/border",
+            "name": "Layer/black",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Layer/pureBlack",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Layer/pureWhite",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Layer/white",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Layer/InsideBorder/blackBorder",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Layer/InsideBorder/border",
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
           },
           {
-            "name": "Layer/toolTips",
-            "value": "#e6e6e6",
-            "var": "Grey/200",
-            "rootAlias": "Grey/200"
-          },
-          {
-            "name": "Layer/InsideBorder/black",
-            "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
-          },
-          {
-            "name": "Layer/InsideBorder/primary",
+            "name": "Layer/InsideBorder/primaryBorder",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
           },
           {
-            "name": "Layer/InsideBorder/white",
+            "name": "Layer/InsideBorder/whiteBorder",
             "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
           },
           {
             "name": "Layer/background/codeBlock",
@@ -1887,14 +2313,20 @@
           {
             "name": "Layer/background/hoverOverlay",
             "value": "#ffffff17",
-            "var": "transparent/white/100",
-            "rootAlias": "transparent/white/100"
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Layer/background/modal",
             "value": "#00000038",
-            "var": "transparent/black/400",
-            "rootAlias": "transparent/black/400"
+            "var": "Transparent/black/400 (22%)",
+            "rootAlias": "Transparent/black/400 (22%)"
+          },
+          {
+            "name": "Layer/background/modalWhite",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
           },
           {
             "name": "Layer/background/overlayPanel",
@@ -1935,8 +2367,8 @@
           {
             "name": "Layer/background/translucentUI",
             "value": "#000000a6",
-            "var": "transparent/black/600",
-            "rootAlias": "transparent/black/600"
+            "var": "Transparent/black/600 (65%)",
+            "rootAlias": "Transparent/black/600 (65%)"
           },
           {
             "name": "Layer/background/warning",
@@ -1945,10 +2377,22 @@
             "rootAlias": "Yellow/950"
           },
           {
+            "name": "Layer/mobile/iOSControl",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Layer/mobile/modal",
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
+          },
+          {
             "name": "Loading/background",
             "value": "#ffffffd1",
-            "var": "transparent/white/800",
-            "rootAlias": "transparent/white/800"
+            "var": "Transparent/white/800 (82%)",
+            "rootAlias": "Transparent/white/800 (82%)"
           },
           {
             "name": "Loading/foreground",
@@ -1967,6 +2411,18 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Portrait/localPortrait",
+            "value": "#ffffff3b",
+            "var": "Transparent/white/400 (23%)",
+            "rootAlias": "Transparent/white/400 (23%)"
+          },
+          {
+            "name": "Portrait/localPortraitBackground",
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           },
           {
             "name": "Status/error",
@@ -1989,8 +2445,8 @@
           {
             "name": "Switch/buttonBackground/hover",
             "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
           },
           {
             "name": "Switch/fontColor/primary",
@@ -2031,8 +2487,8 @@
           {
             "name": "Tab/divider/divider",
             "value": "#ffffff21",
-            "var": "transparent/white/200",
-            "rootAlias": "transparent/white/200"
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Tab/divider/indicator",
@@ -2042,21 +2498,21 @@
           },
           {
             "name": "Tab/fontColor/active",
-            "value": "#141414",
-            "var": "Text/primary",
-            "rootAlias": "Grey/950"
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Tab/fontColor/default",
-            "value": "#929292",
-            "var": "Text/tertiary",
-            "rootAlias": "Grey/500"
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Tab/fontColor/hover",
-            "value": "#141414",
-            "var": "Text/primary",
-            "rootAlias": "Grey/950"
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Tab/iconColor/active",
@@ -2079,14 +2535,14 @@
           {
             "name": "Tab/tabBackground/active",
             "value": "#ffffff21",
-            "var": "transparent/white/200",
-            "rootAlias": "transparent/white/200"
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Tab/tabBackground/default",
             "value": "#ffffff0d",
-            "var": "transparent/white/50",
-            "rootAlias": "transparent/white/50"
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
           },
           {
             "name": "Text/disable",
@@ -2145,8 +2601,8 @@
           {
             "name": "Text/highlight/border",
             "value": "#ffffff3b",
-            "var": "transparent/white/400",
-            "rootAlias": "transparent/white/400"
+            "var": "Transparent/white/400 (23%)",
+            "rootAlias": "Transparent/white/400 (23%)"
           },
           {
             "name": "Text/highlight/bg/blue",
@@ -2289,14 +2745,14 @@
           {
             "name": "Toast/overlay/secondary",
             "value": "#0000000d",
-            "var": "transparent/black/50",
-            "rootAlias": "transparent/black/50"
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Toast/overlay/tertiary",
             "value": "#00000008",
-            "var": "transparent/black/25",
-            "rootAlias": "transparent/black/25"
+            "var": "Transparent/black/25 (3%)",
+            "rootAlias": "Transparent/black/25 (3%)"
           },
           {
             "name": "Toggle/background",
@@ -2319,8 +2775,8 @@
           {
             "name": "Toggle/foreground",
             "value": "#fffffffa",
-            "var": "transparent/white/950",
-            "rootAlias": "transparent/white/950"
+            "var": "Transparent/white/950 (98%)",
+            "rootAlias": "Transparent/white/950 (98%)"
           },
           {
             "name": "Toggle/foregroundDisable",
@@ -2343,8 +2799,8 @@
           {
             "name": "Tooltips/secondaryBackground",
             "value": "#ffffff2b",
-            "var": "transparent/white/300",
-            "rootAlias": "transparent/white/300"
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           }
         ],
         "number": [],
