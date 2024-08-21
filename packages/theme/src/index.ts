@@ -36,6 +36,7 @@ export type AffineCssVariables = {
 };
 
 const basicFontFamily = `apple-system, BlinkMacSystemFont, 'Helvetica Neue', Tahoma, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
+const basicPrintFontFamily = `'Helvetica Neue', Tahoma, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 
 export const baseTheme = {
   // font
@@ -431,7 +432,17 @@ export const darkTheme = {
   noteBackgroundWhite: 'rgba(0, 0, 0, 1)',
 } satisfies Omit<AffineTheme, 'editorMode'>;
 
-const createVariables = (theme: typeof lightTheme) => {
+export const printTheme = {
+  fontFamily: `'Inter', 'Source Sans 3', Poppins, ${basicPrintFontFamily}`,
+  fontSerifFamily: `'Source Serif 4', 'Noto Serif' , serif, 'Cambria', ${basicPrintFontFamily}`,
+  fontMonoFamily: `'Source Code Pro', 'IBM Plex Mono', 'Roboto Mono','Noto Sans Mono', 'Noto Sans CJK',  ${basicPrintFontFamily}`,
+  fontSansFamily: `'Inter', 'Source Sans 3', Poppins, ${basicPrintFontFamily}`,
+
+  fontNumberFamily: `'Roboto Mono', 'Noto Sans Mono', ${basicPrintFontFamily}`,
+  fontCodeFamily: `'IBM Plex Mono', 'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicPrintFontFamily}`,
+}
+
+const createVariables = (theme: Partial<AffineTheme>) => {
   return objectEntries(theme).reduce((variables, [key, value]) => {
     return { ...variables, [themeToVar(key)]: value };
   }, {} as AffineCssVariables);
@@ -439,6 +450,7 @@ const createVariables = (theme: typeof lightTheme) => {
 
 export const lightCssVariables = createVariables(lightTheme);
 export const darkCssVariables = createVariables(darkTheme);
+export const printCssVariables = createVariables(printTheme);
 
 /**
  * Get AFFiNE css variable name type safely
