@@ -147,6 +147,18 @@
             "rootAlias": "Base/White"
           },
           {
+            "name": "Block/notSupportedBlock/inlineBg/Default",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Block/notSupportedBlock/inlineBg/Hover",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
             "name": "Button/InnerBlackBorder",
             "value": "#00000012",
             "var": "Transparent/black/100 (7%)",
@@ -155,7 +167,7 @@
           {
             "name": "Button/badgesColor",
             "value": "#ed3f3f",
-            "var": "Status/error",
+            "var": "Red/600",
             "rootAlias": "Red/600"
           },
           {
@@ -173,7 +185,7 @@
           {
             "name": "Button/error",
             "value": "#ed3f3f",
-            "var": "Status/error",
+            "var": "Red/600",
             "rootAlias": "Red/600"
           },
           {
@@ -203,7 +215,7 @@
           {
             "name": "Button/success",
             "value": "#44b931",
-            "var": "Status/success",
+            "var": "Green/500",
             "rootAlias": "Green/500"
           },
           {
@@ -253,6 +265,12 @@
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
             "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Database/focusBackground",
+            "value": "#1e96eb0a",
+            "var": "Transparent/AFFiNE Blue/400",
+            "rootAlias": "Transparent/AFFiNE Blue/400"
           },
           {
             "name": "Database/textSecondary",
@@ -646,9 +664,9 @@
           },
           {
             "name": "Edgeless/palette/medium/blueMedium",
-            "value": "#29a3fa",
-            "var": "AFFiNE/500",
-            "rootAlias": "AFFiNE/500"
+            "value": "#84cfff",
+            "var": "Blue/600",
+            "rootAlias": "Blue/600"
           },
           {
             "name": "Edgeless/palette/medium/greenMedium",
@@ -664,9 +682,9 @@
           },
           {
             "name": "Edgeless/palette/medium/magentaMedium",
-            "value": "#e660a4",
-            "var": "Magenta/600",
-            "rootAlias": "Magenta/600"
+            "value": "#e96cab",
+            "var": "Magenta/500",
+            "rootAlias": "Magenta/500"
           },
           {
             "name": "Edgeless/palette/medium/orangeMedium",
@@ -682,15 +700,15 @@
           },
           {
             "name": "Edgeless/palette/medium/redMedium",
-            "value": "#ed3f3f",
-            "var": "Red/600",
-            "rootAlias": "Red/600"
+            "value": "#fb7081",
+            "var": "Rose/400",
+            "rootAlias": "Rose/400"
           },
           {
             "name": "Edgeless/palette/medium/yellowMedium",
-            "value": "#facc15",
-            "var": "Yellow/600",
-            "rootAlias": "Yellow/600"
+            "value": "#fcd34d",
+            "var": "Amber/300",
+            "rootAlias": "Amber/300"
           },
           {
             "name": "Edgeless/shape/black",
@@ -1023,6 +1041,18 @@
             "rootAlias": "Transparent/black/200 (10%)"
           },
           {
+            "name": "Shadow/Mobile/Menu/menuShadow-color-1",
+            "value": "#00000014",
+            "var": "Shadow/color/8",
+            "rootAlias": "Shadow/color/8"
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-color-2",
+            "value": "#00000024",
+            "var": "Shadow/color/14",
+            "rootAlias": "Shadow/color/14"
+          },
+          {
             "name": "Status/error",
             "value": "#ed3f3f",
             "var": "Red/600",
@@ -1102,9 +1132,9 @@
           },
           {
             "name": "Tab/fontColor/default",
-            "value": "#7a7a7a",
-            "var": "Grey/600",
-            "rootAlias": "Grey/600"
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
           },
           {
             "name": "Tab/fontColor/hover",
@@ -1120,9 +1150,9 @@
           },
           {
             "name": "Tab/iconColor/default",
-            "value": "#929292",
-            "var": "Grey/500",
-            "rootAlias": "Grey/500"
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
           },
           {
             "name": "Tab/iconColor/hover",
@@ -1132,15 +1162,21 @@
           },
           {
             "name": "Tab/tabBackground/active",
-            "value": "#00000012",
-            "var": "Transparent/black/100 (7%)",
-            "rootAlias": "Transparent/black/100 (7%)"
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Tab/tabBackground/default",
-            "value": "#0000000d",
-            "var": "Transparent/black/50 (5%)",
-            "rootAlias": "Transparent/black/50 (5%)"
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Tab/tabBackground/hover",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
           },
           {
             "name": "Text/disable",
@@ -1401,7 +1437,32 @@
             "rootAlias": "Transparent/white/300 (17%)"
           }
         ],
-        "number": [],
+        "number": [
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-y-2",
+            "value": "-0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-y",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-blur-2",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-blur",
+            "value": "1.125rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
         "string": []
       },
       {
@@ -1549,6 +1610,18 @@
             "rootAlias": "Base/Black"
           },
           {
+            "name": "Block/notSupportedBlock/inlineBg/Default",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Block/notSupportedBlock/inlineBg/Hover",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
             "name": "Button/InnerBlackBorder",
             "value": "#ffffff17",
             "var": "Transparent/white/100 (9%)",
@@ -1556,9 +1629,9 @@
           },
           {
             "name": "Button/badgesColor",
-            "value": "#ed3f3f",
-            "var": "Status/error",
-            "rootAlias": "Red/600"
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
           },
           {
             "name": "Button/checkBox",
@@ -1574,9 +1647,9 @@
           },
           {
             "name": "Button/error",
-            "value": "#ed3f3f",
-            "var": "Status/error",
-            "rootAlias": "Red/600"
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
           },
           {
             "name": "Button/iconButtonSolid",
@@ -1604,9 +1677,9 @@
           },
           {
             "name": "Button/success",
-            "value": "#44b931",
-            "var": "Status/success",
-            "rootAlias": "Green/500"
+            "value": "#1d9c07",
+            "var": "Green/800",
+            "rootAlias": "Green/800"
           },
           {
             "name": "Button/grabber/Select",
@@ -1655,6 +1728,12 @@
             "value": "#ffffff21",
             "var": "Transparent/white/200 (13%)",
             "rootAlias": "Transparent/white/200 (13%)"
+          },
+          {
+            "name": "Database/focusBackground",
+            "value": "#1e96eb0a",
+            "var": "Transparent/AFFiNE Blue/400",
+            "rootAlias": "Transparent/AFFiNE Blue/400"
           },
           {
             "name": "Database/textSecondary",
@@ -1946,15 +2025,15 @@
           },
           {
             "name": "Edgeless/palette/black",
-            "value": "#000000",
-            "var": "Base/Black",
-            "rootAlias": "Base/Black"
-          },
-          {
-            "name": "Edgeless/palette/white",
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/palette/white",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
           },
           {
             "name": "Edgeless/palette/heavy/blue",
@@ -2048,9 +2127,9 @@
           },
           {
             "name": "Edgeless/palette/medium/blueMedium",
-            "value": "#29a3fa",
-            "var": "AFFiNE/500",
-            "rootAlias": "AFFiNE/500"
+            "value": "#84cfff",
+            "var": "Blue/600",
+            "rootAlias": "Blue/600"
           },
           {
             "name": "Edgeless/palette/medium/greenMedium",
@@ -2066,9 +2145,9 @@
           },
           {
             "name": "Edgeless/palette/medium/magentaMedium",
-            "value": "#e660a4",
-            "var": "Magenta/600",
-            "rootAlias": "Magenta/600"
+            "value": "#e96cab",
+            "var": "Magenta/500",
+            "rootAlias": "Magenta/500"
           },
           {
             "name": "Edgeless/palette/medium/orangeMedium",
@@ -2084,15 +2163,15 @@
           },
           {
             "name": "Edgeless/palette/medium/redMedium",
-            "value": "#ed3f3f",
-            "var": "Red/600",
-            "rootAlias": "Red/600"
+            "value": "#fb7081",
+            "var": "Rose/400",
+            "rootAlias": "Rose/400"
           },
           {
             "name": "Edgeless/palette/medium/yellowMedium",
-            "value": "#facc15",
-            "var": "Yellow/600",
-            "rootAlias": "Yellow/600"
+            "value": "#fcd34d",
+            "var": "Amber/300",
+            "rootAlias": "Amber/300"
           },
           {
             "name": "Edgeless/shape/black",
@@ -2425,10 +2504,22 @@
             "rootAlias": "Transparent/white/300 (17%)"
           },
           {
+            "name": "Shadow/Mobile/Menu/menuShadow-color-1",
+            "value": "#0000001f",
+            "var": "Shadow/color/12",
+            "rootAlias": "Shadow/color/12"
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-color-2",
+            "value": "#0000004d",
+            "var": "Shadow/color/30(black)",
+            "rootAlias": "Shadow/color/30(black)"
+          },
+          {
             "name": "Status/error",
-            "value": "#9f2d2d",
-            "var": "Red/800",
-            "rootAlias": "Red/800"
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
           },
           {
             "name": "Status/success",
@@ -2504,9 +2595,9 @@
           },
           {
             "name": "Tab/fontColor/default",
-            "value": "#7a7a7a",
-            "var": "Grey/600",
-            "rootAlias": "Grey/600"
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Tab/fontColor/hover",
@@ -2534,15 +2625,21 @@
           },
           {
             "name": "Tab/tabBackground/active",
-            "value": "#ffffff21",
-            "var": "Transparent/white/200 (13%)",
-            "rootAlias": "Transparent/white/200 (13%)"
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
           },
           {
             "name": "Tab/tabBackground/default",
-            "value": "#ffffff0d",
-            "var": "Transparent/white/50 (5%)",
-            "rootAlias": "Transparent/white/50 (5%)"
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Tab/tabBackground/hover",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Text/disable",
@@ -2803,7 +2900,32 @@
             "rootAlias": "Transparent/white/300 (17%)"
           }
         ],
-        "number": [],
+        "number": [
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-y-2",
+            "value": "-0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-blur-2",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-y",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-blur",
+            "value": "1.125rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
         "string": []
       }
     ]
