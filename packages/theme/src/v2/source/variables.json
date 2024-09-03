@@ -261,6 +261,30 @@
             "rootAlias": "Transparent/black/300 (17%)"
           },
           {
+            "name": "ChatBlock/chatBlockBg",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "ChatBlock/chatBlockBoder",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "ChatBlock/chatBlockIcon",
+            "value": "#7a7a7a",
+            "var": "Icon/primary",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "ChatBlock/chatBlockText",
+            "value": "#141414",
+            "var": "Text/primary",
+            "rootAlias": "Grey/950"
+          },
+          {
             "name": "Database/border",
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
@@ -269,8 +293,8 @@
           {
             "name": "Database/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400",
-            "rootAlias": "Transparent/AFFiNE Blue/400"
+            "var": "Transparent/AFFiNE Blue/400 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
           },
           {
             "name": "Database/textSecondary",
@@ -711,6 +735,18 @@
             "rootAlias": "Amber/300"
           },
           {
+            "name": "Edgeless/selection/selectionMarqueeBackground",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/800 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+          },
+          {
+            "name": "Edgeless/selection/selectionMarqueeBorder",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Edgeless/shape/black",
             "value": "#000000",
             "var": "Base/Black",
@@ -1051,6 +1087,12 @@
             "value": "#00000024",
             "var": "Shadow/color/14",
             "rootAlias": "Shadow/color/14"
+          },
+          {
+            "name": "Skeleton/skeleton",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Status/error",
@@ -1724,6 +1766,30 @@
             "rootAlias": "Transparent/black/500 (52%)"
           },
           {
+            "name": "ChatBlock/chatBlockBg",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "ChatBlock/chatBlockBoder",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "ChatBlock/chatBlockIcon",
+            "value": "#b3b3b3",
+            "var": "Icon/secondary",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "ChatBlock/chatBlockText",
+            "value": "#141414",
+            "var": "Text/primary",
+            "rootAlias": "Grey/950"
+          },
+          {
             "name": "Database/border",
             "value": "#ffffff21",
             "var": "Transparent/white/200 (13%)",
@@ -1732,8 +1798,8 @@
           {
             "name": "Database/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400",
-            "rootAlias": "Transparent/AFFiNE Blue/400"
+            "var": "Transparent/AFFiNE Blue/400 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
           },
           {
             "name": "Database/textSecondary",
@@ -2174,6 +2240,18 @@
             "rootAlias": "Amber/300"
           },
           {
+            "name": "Edgeless/selection/selectionMarqueeBackground",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/800 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+          },
+          {
+            "name": "Edgeless/selection/selectionMarqueeBorder",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Edgeless/shape/black",
             "value": "#000000",
             "var": "Base/Black",
@@ -2514,6 +2592,12 @@
             "value": "#0000004d",
             "var": "Shadow/color/30(black)",
             "rootAlias": "Shadow/color/30(black)"
+          },
+          {
+            "name": "Skeleton/skeleton",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Status/error",
