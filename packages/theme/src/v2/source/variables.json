@@ -171,6 +171,12 @@
             "rootAlias": "Red/600"
           },
           {
+            "name": "Button/buttonoOverHover",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
             "name": "Button/checkBox",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
@@ -303,10 +309,10 @@
             "rootAlias": "Transparent/black/500 (52%)"
           },
           {
-            "name": "Dialog/bg",
+            "name": "Dialog/background/primary",
             "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Edgeless/frame/background/black",
@@ -837,6 +843,48 @@
             "rootAlias": "Grey/300"
           },
           {
+            "name": "Illustrations/dotFadeIn",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
+          },
+          {
+            "name": "Illustrations/dotFadeOut",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Illustrations/emptyBackground",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Illustrations/emptySolid",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Input/Background",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Input/Border/active",
+            "value": "#1e96eb",
+            "var": "Layer/InsideBorder/primaryBorder",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/ScrollBar/Handle",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
             "name": "Label/blue",
             "value": "#e6f5ff",
             "var": "Blue/50",
@@ -1075,6 +1123,30 @@
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
             "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-1",
+            "value": "#00000003",
+            "var": "Shadow/color/1",
+            "rootAlias": "Shadow/color/1"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-2",
+            "value": "#0000000d",
+            "var": "Shadow/color/5",
+            "rootAlias": "Shadow/color/5"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-3",
+            "value": "#00000017",
+            "var": "Shadow/color/9",
+            "rootAlias": "Shadow/color/9"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-4",
+            "value": "#0000001a",
+            "var": "Shadow/color/10",
+            "rootAlias": "Shadow/color/10"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
@@ -1676,6 +1748,12 @@
             "rootAlias": "Red/700"
           },
           {
+            "name": "Button/buttonoOverHover",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
             "name": "Button/checkBox",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
@@ -1808,10 +1886,10 @@
             "rootAlias": "Transparent/white/500 (56%)"
           },
           {
-            "name": "Dialog/bg",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "name": "Dialog/background/primary",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Edgeless/frame/background/black",
@@ -2342,6 +2420,48 @@
             "rootAlias": "Grey/700"
           },
           {
+            "name": "Illustrations/dotFadeIn",
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "Illustrations/dotFadeOut",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Illustrations/emptyBackground",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
+            "name": "Illustrations/emptySolid",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Input/Background",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Input/Border/active",
+            "value": "#1e96eb",
+            "var": "Layer/InsideBorder/primaryBorder",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/ScrollBar/Handle",
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
             "name": "Label/blue",
             "value": "#004b7b",
             "var": "Blue/950",
@@ -2580,6 +2700,30 @@
             "value": "#ffffff2b",
             "var": "Transparent/white/300 (17%)",
             "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-1",
+            "value": "#00000003",
+            "var": "Shadow/color/1",
+            "rootAlias": "Shadow/color/1"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-2",
+            "value": "#00000014",
+            "var": "Shadow/color/8",
+            "rootAlias": "Shadow/color/8"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-3",
+            "value": "#0000001f",
+            "var": "Shadow/color/12",
+            "rootAlias": "Shadow/color/12"
+          },
+          {
+            "name": "Shadow/Illustration/illustrationShadow-color-4",
+            "value": "#00000024",
+            "var": "Shadow/color/14",
+            "rootAlias": "Shadow/color/14"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
