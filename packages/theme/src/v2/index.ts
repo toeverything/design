@@ -1,6 +1,7 @@
 import { objectKeys } from '../utils/object-keys';
 import { darkThemeV2, lightThemeV2 } from './variables';
 
+export { darkThemeV2, lightThemeV2 };
 export type AffineThemeV2 = typeof lightThemeV2;
 export type AffineThemeKeyV2 = keyof AffineThemeV2;
 
