@@ -183,6 +183,12 @@
             "rootAlias": "AFFiNE/600"
           },
           {
+            "name": "Button/disable",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
             "name": "Button/emptyIconBackground",
             "value": "#0000000d",
             "var": "Transparent/black/50 (5%)",
@@ -295,6 +301,24 @@
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
             "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Database/cardHover",
+            "value": "#00000008",
+            "var": "Transparent/black/25 (3%)",
+            "rootAlias": "Transparent/black/25 (3%)"
+          },
+          {
+            "name": "Database/filterHeaderFadeIn",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Database/filterHeaderFadeOut",
+            "value": "#ffffff08",
+            "var": "Transparent/white/25 (3%)",
+            "rootAlias": "Transparent/white/25 (3%)"
           },
           {
             "name": "Database/focusBackground",
@@ -819,6 +843,132 @@
             "rootAlias": "Yellow/500"
           },
           {
+            "name": "EdgelessToolbar/Note/background",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "EdgelessToolbar/Note/textColor",
+            "value": "#0000001a",
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/background",
+            "value": "#ffffff1f",
+            "var": "Others/Gradient/12(white)",
+            "rootAlias": "Others/Gradient/12(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/highlightLinearEnd",
+            "value": "#ffffff",
+            "var": "Others/Gradient/100(white)",
+            "rootAlias": "Others/Gradient/100(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/highlightLinearStart",
+            "value": "#ffffff00",
+            "var": "Others/Gradient/0(white)",
+            "rootAlias": "Others/Gradient/0(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearCenter",
+            "value": "#000000c4",
+            "var": "Others/Gradient/77(black)",
+            "rootAlias": "Others/Gradient/77(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearEnd",
+            "value": "#0000001f",
+            "var": "Others/Shadow/12(black)",
+            "rootAlias": "Others/Shadow/12(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearStart",
+            "value": "#ffffff1f",
+            "var": "Others/Gradient/12(white)",
+            "rootAlias": "Others/Gradient/12(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/background",
+            "value": "#f1f1f1",
+            "var": "Others/Illustration/pen",
+            "rootAlias": "Others/Illustration/pen"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-1",
+            "value": "#00000033",
+            "var": "Others/Shadow/20(black)",
+            "rootAlias": "Others/Shadow/20(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-2",
+            "value": "#0000001a",
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-3",
+            "value": "#00000003",
+            "var": "Others/Shadow/1(black)",
+            "rootAlias": "Others/Shadow/1(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-4",
+            "value": "#ffffff14",
+            "var": "Others/Shadow/8(white)",
+            "rootAlias": "Others/Shadow/8(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-1",
+            "value": "#173654",
+            "var": "Others/Illustration/eraserBlue1",
+            "rootAlias": "Others/Illustration/eraserBlue1"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-2",
+            "value": "#effaff",
+            "var": "Others/Illustration/eraserBlue2",
+            "rootAlias": "Others/Illustration/eraserBlue2"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-3",
+            "value": "#1e96eb",
+            "var": "Others/Illustration/eraserBlue3",
+            "rootAlias": "Others/Illustration/eraserBlue3"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBorder",
+            "value": "#e7e7e7",
+            "var": "Others/Illustration/eraserBorder",
+            "rootAlias": "Others/Illustration/eraserBorder"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBorder2",
+            "value": "#e3e2e4",
+            "var": "Others/Illustration/eraserBorderInside",
+            "rootAlias": "Others/Illustration/eraserBorderInside"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserFill",
+            "value": "#f1f1f1",
+            "var": "Others/Illustration/eraserFill",
+            "rootAlias": "Others/Illustration/eraserFill"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserHighlight",
+            "value": "#ffffffb8",
+            "var": "Transparent/white/700 (72%)",
+            "rootAlias": "Transparent/white/700 (72%)"
+          },
+          {
+            "name": "Icon/activated",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Icon/disable",
             "value": "#b3b3b3",
             "var": "Grey/400",
@@ -843,25 +993,25 @@
             "rootAlias": "Grey/300"
           },
           {
-            "name": "Illustrations/dotFadeIn",
+            "name": "Illustrations/emptyIllustration/dotFadeIn",
             "value": "#0000002b",
             "var": "Transparent/black/300 (17%)",
             "rootAlias": "Transparent/black/300 (17%)"
           },
           {
-            "name": "Illustrations/dotFadeOut",
+            "name": "Illustrations/emptyIllustration/dotFadeOut",
             "value": "#ffffff0d",
             "var": "Transparent/white/50 (5%)",
             "rootAlias": "Transparent/white/50 (5%)"
           },
           {
-            "name": "Illustrations/emptyBackground",
+            "name": "Illustrations/emptyIllustration/emptyBackground",
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
           },
           {
-            "name": "Illustrations/emptySolid",
+            "name": "Illustrations/emptyIllustration/emptySolid",
             "value": "#e6e6e6",
             "var": "Grey/200",
             "rootAlias": "Grey/200"
@@ -877,6 +1027,18 @@
             "value": "#1e96eb",
             "var": "Layer/InsideBorder/primaryBorder",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/Border/default",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Input/Border/error",
+            "value": "#f45353",
+            "var": "Red/500",
+            "rootAlias": "Red/500"
           },
           {
             "name": "Input/ScrollBar/Handle",
@@ -1125,40 +1287,106 @@
             "rootAlias": "Transparent/black/200 (10%)"
           },
           {
+            "name": "Radio/disable",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
+          },
+          {
+            "name": "Radio/active/chekced",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Radio/active/default",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-color",
+            "value": "#00000029",
+            "var": "Others/Shadow/16(black)",
+            "rootAlias": "Others/Shadow/16(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-color",
+            "value": "#0000000d",
+            "var": "Others/Shadow/5(black)",
+            "rootAlias": "Others/Shadow/5(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-color",
+            "value": "#00000024",
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-color",
+            "value": "#00000024",
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/noteActiveShadow/Color",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
+            "value": "#ffffff2e",
+            "var": "Others/Shadow/18(white)",
+            "rootAlias": "Others/Shadow/18(white)"
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-2-color",
+            "value": "#00000024",
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-3-color",
+            "value": "#00000038",
+            "var": "Others/Shadow/22(black)",
+            "rootAlias": "Others/Shadow/22(black)"
+          },
+          {
             "name": "Shadow/Illustration/illustrationShadow-color-1",
             "value": "#00000003",
-            "var": "Shadow/color/1",
-            "rootAlias": "Shadow/color/1"
+            "var": "Others/Shadow/1(black)",
+            "rootAlias": "Others/Shadow/1(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-2",
             "value": "#0000000d",
-            "var": "Shadow/color/5",
-            "rootAlias": "Shadow/color/5"
+            "var": "Others/Shadow/5(black)",
+            "rootAlias": "Others/Shadow/5(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-3",
             "value": "#00000017",
-            "var": "Shadow/color/9",
-            "rootAlias": "Shadow/color/9"
+            "var": "Others/Shadow/9(black)",
+            "rootAlias": "Others/Shadow/9(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-4",
             "value": "#0000001a",
-            "var": "Shadow/color/10",
-            "rootAlias": "Shadow/color/10"
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
             "value": "#00000014",
-            "var": "Shadow/color/8",
-            "rootAlias": "Shadow/color/8"
+            "var": "Others/Shadow/8(black)",
+            "rootAlias": "Others/Shadow/8(black)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-2",
             "value": "#00000024",
-            "var": "Shadow/color/14",
-            "rootAlias": "Shadow/color/14"
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
           },
           {
             "name": "Skeleton/skeleton",
@@ -1291,6 +1519,54 @@
             "value": "#f3f3f3",
             "var": "Grey/100",
             "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Tag/blue",
+            "value": "#84cfff",
+            "var": "Blue/600",
+            "rootAlias": "Blue/600"
+          },
+          {
+            "name": "Tag/green",
+            "value": "#69b87d",
+            "var": "Emerald/500",
+            "rootAlias": "Emerald/500"
+          },
+          {
+            "name": "Tag/grey",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Tag/orange",
+            "value": "#ff8c38",
+            "var": "Orange/600",
+            "rootAlias": "Orange/600"
+          },
+          {
+            "name": "Tag/purple",
+            "value": "#7c3aed",
+            "var": "Violet/600",
+            "rootAlias": "Violet/600"
+          },
+          {
+            "name": "Tag/red",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Tag/teal",
+            "value": "#8be7dc",
+            "var": "Teal/500",
+            "rootAlias": "Teal/500"
+          },
+          {
+            "name": "Tag/yellow",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
           },
           {
             "name": "Text/disable",
@@ -1553,6 +1829,114 @@
         ],
         "number": [
           {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-spread",
+            "value": "-1.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-spread",
+            "value": "-0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-blur",
+            "value": "1.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-y",
+            "value": "1.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-y",
+            "value": "1.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-blur",
+            "value": "1.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-y",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-y",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-blur",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-2-y",
+            "value": "-0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-y",
+            "value": "-0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-blur",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-3-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Shadow/Mobile/Menu/menuShadow-y-2",
             "value": "-0.0625rem",
             "var": "",
@@ -1760,6 +2144,12 @@
             "rootAlias": "AFFiNE/600"
           },
           {
+            "name": "Button/disable",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
             "name": "Button/emptyIconBackground",
             "value": "#ffffff0d",
             "var": "Transparent/white/50 (5%)",
@@ -1803,15 +2193,15 @@
           },
           {
             "name": "Button/grabber/Select",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Button/grabber/default",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Button/sidebarButton/background",
@@ -1872,6 +2262,24 @@
             "value": "#ffffff21",
             "var": "Transparent/white/200 (13%)",
             "rootAlias": "Transparent/white/200 (13%)"
+          },
+          {
+            "name": "Database/cardHover",
+            "value": "#ffffff08",
+            "var": "Transparent/white/25 (3%)",
+            "rootAlias": "Transparent/white/25 (3%)"
+          },
+          {
+            "name": "Database/filterHeaderFadeIn",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Database/filterHeaderFadeOut",
+            "value": "#00000008",
+            "var": "Transparent/black/25 (3%)",
+            "rootAlias": "Transparent/black/25 (3%)"
           },
           {
             "name": "Database/focusBackground",
@@ -2396,6 +2804,132 @@
             "rootAlias": "Yellow/500"
           },
           {
+            "name": "EdgelessToolbar/Note/background",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
+            "name": "EdgelessToolbar/Note/textColor",
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/background",
+            "value": "#4a4a4ab2",
+            "var": "Others/Gradient/70(4A4A4A)",
+            "rootAlias": "Others/Gradient/70(4A4A4A)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/highlightLinearEnd",
+            "value": "#ffffff1f",
+            "var": "Others/Gradient/12(white)",
+            "rootAlias": "Others/Gradient/12(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/highlightLinearStart",
+            "value": "#ffffff0f",
+            "var": "Others/Gradient/6(white)",
+            "rootAlias": "Others/Gradient/6(white)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearCenter",
+            "value": "#000000a8",
+            "var": "Others/Gradient/66(black)",
+            "rootAlias": "Others/Gradient/66(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearEnd",
+            "value": "#00000000",
+            "var": "Others/Gradient/0(black)",
+            "rootAlias": "Others/Gradient/0(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Others/linearStart",
+            "value": "#00000000",
+            "var": "Others/Gradient/0(black)",
+            "rootAlias": "Others/Gradient/0(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/background",
+            "value": "#c1c1c1",
+            "var": "Others/Illustration/penDark",
+            "rootAlias": "Others/Illustration/penDark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-1",
+            "value": "#00000099",
+            "var": "Others/Shadow/60(black)",
+            "rootAlias": "Others/Shadow/60(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-2",
+            "value": "#00000066",
+            "var": "Others/Shadow/40(black)",
+            "rootAlias": "Others/Shadow/40(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-3",
+            "value": "#00000033",
+            "var": "Others/Shadow/20(black)",
+            "rootAlias": "Others/Shadow/20(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-4",
+            "value": "#0000001a",
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-1",
+            "value": "#0d2338",
+            "var": "Others/Illustration/eraserBlue1Dark",
+            "rootAlias": "Others/Illustration/eraserBlue1Dark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-2",
+            "value": "#d0dfe5",
+            "var": "Others/Illustration/eraserBlue2Dark",
+            "rootAlias": "Others/Illustration/eraserBlue2Dark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-3",
+            "value": "#1a7cc1",
+            "var": "Others/Illustration/eraserBlue3Dark",
+            "rootAlias": "Others/Illustration/eraserBlue3Dark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBorder",
+            "value": "#7f7f7f",
+            "var": "Others/Illustration/eraserBorderDark",
+            "rootAlias": "Others/Illustration/eraserBorderDark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserBorder2",
+            "value": "#9b9b9b",
+            "var": "Others/Illustration/eraserBorderInsideDark",
+            "rootAlias": "Others/Illustration/eraserBorderInsideDark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserFill",
+            "value": "#c1c1c1",
+            "var": "Others/Illustration/eraserFillDark",
+            "rootAlias": "Others/Illustration/eraserFillDark"
+          },
+          {
+            "name": "EdgelessToolbar/Pen&eraser/eraserHighlight",
+            "value": "#ffffff3b",
+            "var": "Transparent/white/400 (23%)",
+            "rootAlias": "Transparent/white/400 (23%)"
+          },
+          {
+            "name": "Icon/activated",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Icon/disable",
             "value": "#414141",
             "var": "Grey/800",
@@ -2420,25 +2954,25 @@
             "rootAlias": "Grey/700"
           },
           {
-            "name": "Illustrations/dotFadeIn",
+            "name": "Illustrations/emptyIllustration/dotFadeIn",
             "value": "#ffffff2b",
             "var": "Transparent/white/300 (17%)",
             "rootAlias": "Transparent/white/300 (17%)"
           },
           {
-            "name": "Illustrations/dotFadeOut",
+            "name": "Illustrations/emptyIllustration/dotFadeOut",
             "value": "#0000000d",
             "var": "Transparent/black/50 (5%)",
             "rootAlias": "Transparent/black/50 (5%)"
           },
           {
-            "name": "Illustrations/emptyBackground",
+            "name": "Illustrations/emptyIllustration/emptyBackground",
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
           },
           {
-            "name": "Illustrations/emptySolid",
+            "name": "Illustrations/emptyIllustration/emptySolid",
             "value": "#565656",
             "var": "Grey/700",
             "rootAlias": "Grey/700"
@@ -2454,6 +2988,18 @@
             "value": "#1e96eb",
             "var": "Layer/InsideBorder/primaryBorder",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/Border/default",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Input/Border/error",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
           },
           {
             "name": "Input/ScrollBar/Handle",
@@ -2595,15 +3141,15 @@
           },
           {
             "name": "Layer/background/modal",
-            "value": "#00000038",
-            "var": "Transparent/black/400 (22%)",
-            "rootAlias": "Transparent/black/400 (22%)"
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Layer/background/modalWhite",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           },
           {
             "name": "Layer/background/overlayPanel",
@@ -2702,40 +3248,106 @@
             "rootAlias": "Transparent/white/300 (17%)"
           },
           {
+            "name": "Radio/disable",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Radio/active/chekced",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Radio/active/default",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-color",
+            "value": "#0000004d",
+            "var": "Others/Shadow/30(black)",
+            "rootAlias": "Others/Shadow/30(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-color",
+            "value": "#0000001f",
+            "var": "Others/Shadow/12(black)",
+            "rootAlias": "Others/Shadow/12(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-color",
+            "value": "#00000066",
+            "var": "Others/Shadow/40(black)",
+            "rootAlias": "Others/Shadow/40(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-color",
+            "value": "#0000004d",
+            "var": "Others/Shadow/30(black)",
+            "rootAlias": "Others/Shadow/30(black)"
+          },
+          {
+            "name": "Shadow/EdgelessNotes/noteActiveShadow/Color",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
+            "value": "#ffffff14",
+            "var": "Others/Shadow/8(white)",
+            "rootAlias": "Others/Shadow/8(white)"
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-2-color",
+            "value": "#ffffff14",
+            "var": "Others/Shadow/8(white)",
+            "rootAlias": "Others/Shadow/8(white)"
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-3-color",
+            "value": "#00000099",
+            "var": "Others/Shadow/60(black)",
+            "rootAlias": "Others/Shadow/60(black)"
+          },
+          {
             "name": "Shadow/Illustration/illustrationShadow-color-1",
             "value": "#00000003",
-            "var": "Shadow/color/1",
-            "rootAlias": "Shadow/color/1"
+            "var": "Others/Shadow/1(black)",
+            "rootAlias": "Others/Shadow/1(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-2",
             "value": "#00000014",
-            "var": "Shadow/color/8",
-            "rootAlias": "Shadow/color/8"
+            "var": "Others/Shadow/8(black)",
+            "rootAlias": "Others/Shadow/8(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-3",
             "value": "#0000001f",
-            "var": "Shadow/color/12",
-            "rootAlias": "Shadow/color/12"
+            "var": "Others/Shadow/12(black)",
+            "rootAlias": "Others/Shadow/12(black)"
           },
           {
             "name": "Shadow/Illustration/illustrationShadow-color-4",
             "value": "#00000024",
-            "var": "Shadow/color/14",
-            "rootAlias": "Shadow/color/14"
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
             "value": "#0000001f",
-            "var": "Shadow/color/12",
-            "rootAlias": "Shadow/color/12"
+            "var": "Others/Shadow/12(black)",
+            "rootAlias": "Others/Shadow/12(black)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-2",
             "value": "#0000004d",
-            "var": "Shadow/color/30(black)",
-            "rootAlias": "Shadow/color/30(black)"
+            "var": "Others/Shadow/30(black)",
+            "rootAlias": "Others/Shadow/30(black)"
           },
           {
             "name": "Skeleton/skeleton",
@@ -2868,6 +3480,54 @@
             "value": "#252525",
             "var": "Grey/900",
             "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Tag/blue",
+            "value": "#84cfff",
+            "var": "Blue/600",
+            "rootAlias": "Blue/600"
+          },
+          {
+            "name": "Tag/green",
+            "value": "#69b87d",
+            "var": "Emerald/500",
+            "rootAlias": "Emerald/500"
+          },
+          {
+            "name": "Tag/grey",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Tag/orange",
+            "value": "#ff8c38",
+            "var": "Orange/600",
+            "rootAlias": "Orange/600"
+          },
+          {
+            "name": "Tag/purple",
+            "value": "#7c3aed",
+            "var": "Violet/600",
+            "rootAlias": "Violet/600"
+          },
+          {
+            "name": "Tag/red",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Tag/teal",
+            "value": "#8be7dc",
+            "var": "Teal/500",
+            "rootAlias": "Teal/500"
+          },
+          {
+            "name": "Tag/yellow",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
           },
           {
             "name": "Text/disable",
@@ -3129,6 +3789,114 @@
           }
         ],
         "number": [
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-spread",
+            "value": "-1.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-spread",
+            "value": "-0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-blur",
+            "value": "1.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-y",
+            "value": "1.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/1-y",
+            "value": "1.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/StickerShadow/2-blur",
+            "value": "1.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-y",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-x",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-y",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/1-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessNotes/boxShadow/2-blur",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-y",
+            "value": "-0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-2-y",
+            "value": "-0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-blur",
+            "value": "0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/EdgelessToolbar/Note/shadow-3-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-y-2",
             "value": "-0.0625rem",
