@@ -7,7 +7,7 @@ export type AffineThemeKeyV2 = keyof AffineThemeV2;
 
 function themeToVar(theme: AffineThemeKeyV2) {
   const parts = theme.split('/');
-  return `--affine-${parts.join('-')}`;
+  return `--affine-v2-${parts.join('-')}`;
 }
 
 function createVariables(theme: AffineThemeV2) {
