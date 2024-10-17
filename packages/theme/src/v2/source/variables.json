@@ -9,16 +9,10 @@
         },
         "color": [
           {
-            "name": "redMedium",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
             "name": "Badge/Believer",
-            "value": "#374151",
-            "var": "",
-            "rootAlias": ""
+            "value": "#002742",
+            "var": "AFFiNE/950",
+            "rootAlias": "AFFiNE/950"
           },
           {
             "name": "Badge/Free",
@@ -139,6 +133,12 @@
             "value": "#fde047",
             "var": "Yellow/500",
             "rootAlias": "Yellow/500"
+          },
+          {
+            "name": "Block/divider/divider",
+            "value": "#92929238",
+            "var": "Transparent/grey/400 (22%)",
+            "rootAlias": "Transparent/grey/400 (22%)"
           },
           {
             "name": "Block/notSupportedBlock/background",
@@ -1107,30 +1107,6 @@
             "rootAlias": "Grey/300"
           },
           {
-            "name": "Illustrations/emptyIllustration/dotFadeIn",
-            "value": "#0000002b",
-            "var": "Transparent/black/300 (17%)",
-            "rootAlias": "Transparent/black/300 (17%)"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/dotFadeOut",
-            "value": "#ffffff0d",
-            "var": "Transparent/white/50 (5%)",
-            "rootAlias": "Transparent/white/50 (5%)"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/emptyBackground",
-            "value": "#ffffff",
-            "var": "Base/White",
-            "rootAlias": "Base/White"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/emptySolid",
-            "value": "#e6e6e6",
-            "var": "Grey/200",
-            "rootAlias": "Grey/200"
-          },
-          {
             "name": "Input/Background",
             "value": "#ffffff",
             "var": "Layer/background/primary",
@@ -1371,28 +1347,58 @@
             "rootAlias": "Others/Shadow/22(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-1",
+            "name": "Shadow/Illustrations/emptyIllustration/dotFadeIn",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/dotFadeOut",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/emptyBackground",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/emptySolid",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-1",
             "value": "#00000003",
             "var": "Others/Shadow/1(black)",
             "rootAlias": "Others/Shadow/1(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-2",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-2",
             "value": "#0000000d",
             "var": "Others/Shadow/5(black)",
             "rootAlias": "Others/Shadow/5(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-3",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-3",
             "value": "#00000017",
             "var": "Others/Shadow/9(black)",
             "rootAlias": "Others/Shadow/9(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-4",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-4",
             "value": "#0000001a",
             "var": "Others/Shadow/10(black)",
             "rootAlias": "Others/Shadow/10(black)"
+          },
+          {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
@@ -1405,6 +1411,84 @@
             "value": "#00000024",
             "var": "Others/Shadow/14(black)",
             "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/accentColor",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/blockColor",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/border",
+            "value": "#0000001a",
+            "var": "Database/border",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/gradientFadeIn",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/gradientFadeOut",
+            "value": "#ffffff08",
+            "var": "Transparent/white/25 (3%)",
+            "rootAlias": "Transparent/white/25 (3%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/penColor",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/skeltonColor",
+            "value": "#00000012",
+            "var": "Transparent/black/100 (7%)",
+            "rootAlias": "Transparent/black/100 (7%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/solidBackground",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/solidBackground-2",
+            "value": "#f3f3f3",
+            "var": "Layer/background/tertiary",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText",
+            "value": "#929292",
+            "var": "Text/tertiary",
+            "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-2",
+            "value": "#92929285",
+            "var": "Transparent/grey/500 (52%)",
+            "rootAlias": "Transparent/grey/500 (52%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-3",
+            "value": "#92929238",
+            "var": "Transparent/grey/400 (22%)",
+            "rootAlias": "Transparent/grey/400 (22%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-4",
+            "value": "#92929212",
+            "var": "Transparent/grey/100 (7%)",
+            "rootAlias": "Transparent/grey/100 (7%)"
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-color",
@@ -1889,6 +1973,18 @@
             "rootAlias": ""
           },
           {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow-y",
+            "value": "-0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow-blur",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Shadow/Mobile/Menu/menuShadow-y-2",
             "value": "-0.0625rem",
             "var": "",
@@ -2090,16 +2186,10 @@
         },
         "color": [
           {
-            "name": "redMedium",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
             "name": "Badge/Believer",
-            "value": "#374151",
-            "var": "",
-            "rootAlias": ""
+            "value": "#002742",
+            "var": "AFFiNE/950",
+            "rootAlias": "AFFiNE/950"
           },
           {
             "name": "Badge/Free",
@@ -2220,6 +2310,12 @@
             "value": "#e0aa00",
             "var": "Yellow/700",
             "rootAlias": "Yellow/700"
+          },
+          {
+            "name": "Block/divider/divider",
+            "value": "#9292922b",
+            "var": "Transparent/grey/300 (17%)",
+            "rootAlias": "Transparent/grey/300 (17%)"
           },
           {
             "name": "Block/notSupportedBlock/background",
@@ -3188,30 +3284,6 @@
             "rootAlias": "Grey/700"
           },
           {
-            "name": "Illustrations/emptyIllustration/dotFadeIn",
-            "value": "#ffffff2b",
-            "var": "Transparent/white/300 (17%)",
-            "rootAlias": "Transparent/white/300 (17%)"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/dotFadeOut",
-            "value": "#0000000d",
-            "var": "Transparent/black/50 (5%)",
-            "rootAlias": "Transparent/black/50 (5%)"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/emptyBackground",
-            "value": "#414141",
-            "var": "Grey/800",
-            "rootAlias": "Grey/800"
-          },
-          {
-            "name": "Illustrations/emptyIllustration/emptySolid",
-            "value": "#565656",
-            "var": "Grey/700",
-            "rootAlias": "Grey/700"
-          },
-          {
             "name": "Input/Background",
             "value": "#ffffff",
             "var": "Layer/background/primary",
@@ -3452,28 +3524,58 @@
             "rootAlias": "Others/Shadow/60(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-1",
+            "name": "Shadow/Illustrations/emptyIllustration/dotFadeIn",
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/dotFadeOut",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/emptyBackground",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
+            "name": "Shadow/Illustrations/emptyIllustration/emptySolid",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-1",
             "value": "#00000003",
             "var": "Others/Shadow/1(black)",
             "rootAlias": "Others/Shadow/1(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-2",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-2",
             "value": "#00000014",
             "var": "Others/Shadow/8(black)",
             "rootAlias": "Others/Shadow/8(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-3",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-3",
             "value": "#0000001f",
             "var": "Others/Shadow/12(black)",
             "rootAlias": "Others/Shadow/12(black)"
           },
           {
-            "name": "Shadow/Illustration/illustrationShadow-color-4",
+            "name": "Shadow/Illustrations/illustrationShadow/illustrationShadow-color-4",
             "value": "#00000024",
             "var": "Others/Shadow/14(black)",
             "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-color-1",
@@ -3486,6 +3588,84 @@
             "value": "#0000004d",
             "var": "Others/Shadow/30(black)",
             "rootAlias": "Others/Shadow/30(black)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/accentColor",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/blockColor",
+            "value": "#f3f3f3",
+            "var": "Layer/background/tertiary",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/border",
+            "value": "#0000001a",
+            "var": "Database/border",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/gradientFadeIn",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/gradientFadeOut",
+            "value": "#00000054",
+            "var": "Others/Gradient/33(black)",
+            "rootAlias": "Others/Gradient/33(black)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/penColor",
+            "value": "#f3f3f3",
+            "var": "Layer/background/tertiary",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/skeltonColor",
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/solidBackground",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/solidBackground-2",
+            "value": "#f5f5f5",
+            "var": "Layer/background/secondary",
+            "rootAlias": "Grey/50"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText",
+            "value": "#929292",
+            "var": "Text/tertiary",
+            "rootAlias": "Grey/500"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-2",
+            "value": "#92929285",
+            "var": "Transparent/grey/500 (52%)",
+            "rootAlias": "Transparent/grey/500 (52%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-3",
+            "value": "#9292922b",
+            "var": "Transparent/grey/300 (17%)",
+            "rootAlias": "Transparent/grey/300 (17%)"
+          },
+          {
+            "name": "Shadow/Mobile/splashScreen/transparentText-4",
+            "value": "#9292921a",
+            "var": "Transparent/grey/200 (10%)",
+            "rootAlias": "Transparent/grey/200 (10%)"
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-color",
@@ -3966,6 +4146,18 @@
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-3-blur",
             "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow-y",
+            "value": "-0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Keyboard/keyboardShadow-blur",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
