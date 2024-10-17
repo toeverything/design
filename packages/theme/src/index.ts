@@ -204,11 +204,14 @@ export const lightTheme = {
   tagMagenta: 'rgba(249, 232, 255, 1)',
   tooltip: 'rgba(0, 0, 0, 1)',
 
-  buttonShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)',
-  menuShadow:
-    '0px 0px 12px rgba(66, 65, 73, 0.14), inset 0px 0px 0px 0.5px rgba(227, 227, 228, 1)',
-  toolbarShadow: '0px 6px 16px #00000024',
+  buttonShadow:
+    '0px 0px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)',
+  overlayPanelShadow:
+    '0px 1px 6px rgba(0,0,0,0.16), 0px 8px 14px rgba(0,0,0,0.08)',
   activeShadow: '0px 0px 0px 2px rgba(30, 150, 235, 0.30)',
+  embedShadow: '0px 0px 0px 2px rgba(0, 0, 0, 0.08)',
+  menuShadow: '0px 10px 18px rgba(0,0,0,0.14), 0px -1px 12px rgba(0,0,0,0.08)',
+  toolbarShadow: '0px 6px 16px #00000024',
   shadow1: '0px 0px 4px 0px rgba(66, 65, 73, 0.14)',
   shadow2: '0px 0px 12px 0px rgba(66, 65, 73, 0.18)',
   shadow3: '0px 0px 20px 0px rgba(66, 65, 73, 0.22)',
@@ -261,8 +264,6 @@ export const lightTheme = {
   textHighlightForegroundBlue: 'rgba(33, 89, 211, 1)',
   textHighlightForegroundPurple: 'rgba(132, 46, 211, 1)',
   textHighlightForegroundGrey: 'rgba(122, 122, 122, 1)',
-
-  embedShadow: '0px 0px 0px 2px rgba(0, 0, 0, 0.08)',
 
   // --------------------- note background color ------------------------
   noteBackgroundYellow: 'rgba(253, 230, 138, 1)',
@@ -357,11 +358,14 @@ export const darkTheme = {
   tagGray: 'rgba(41, 41, 41, 1)',
   tooltip: 'rgba(234, 234, 234, 1)',
 
-  buttonShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 5px 0px rgba(0, 0, 0, 0.20)',
-  menuShadow:
-    '0px 0px 16px rgba(0, 0, 0, 0.32), 0px 0px 0px 0.5px #2E2E2E inset',
-  toolbarShadow: '0px 6px 18px #00000052',
+  buttonShadow:
+    '0px 0px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 5px 0px rgba(0, 0, 0, 0.20)',
+  overlayPanelShadow:
+    '0px 1px 6px rgba(0,0,0,0.2), 0px 8px 14px rgba(0,0,0,0.3)',
   activeShadow: '0px 0px 0px 2px rgba(28, 158, 228, 0.30)',
+  embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.14)',
+  menuShadow: '0px 10px 18px rgba(0,0,0,0.14), 0px -1px 12px rgba(0,0,0,0.08)',
+  toolbarShadow: '0px 6px 18px #00000052',
   shadow1: '0px 0px 4px 0px rgba(0, 0, 0, 0.24)',
   shadow2: '0px 0px 12px 0px rgba(0, 0, 0, 0.28)',
   shadow3: '0px 0px 20px 0px rgba(0, 0, 0, 0.32)',
@@ -416,8 +420,6 @@ export const darkTheme = {
   textHighlightForegroundPurple: 'rgba(205, 157, 253, 1)',
   textHighlightForegroundGrey: 'rgba(86, 86, 86, 1)',
 
-  embedShadow: '0px 0px 0px 2px rgba(255, 255, 255, 0.08)',
-
   // --------------------- note background color ------------------------
   noteBackgroundYellow: 'rgba(111, 65, 0, 1)',
   noteBackgroundOrange: 'rgba(132, 59, 6, 1)',
@@ -440,7 +442,7 @@ export const printTheme = {
 
   fontNumberFamily: `'Roboto Mono', 'Noto Sans Mono', ${basicPrintFontFamily}`,
   fontCodeFamily: `'IBM Plex Mono', 'Space Mono', Consolas, Menlo, Monaco, Courier, monospace, ${basicPrintFontFamily}`,
-}
+};
 
 const createVariables = (theme: Partial<AffineTheme>) => {
   return objectEntries(theme).reduce((variables, [key, value]) => {
