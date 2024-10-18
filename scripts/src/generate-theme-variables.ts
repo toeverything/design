@@ -174,9 +174,7 @@ function generateThemeChangeLog(prev: Theme, curr: Theme) {
 }
 
 function commit(changeLog: string) {
-  const msg = changeLog
-    .replace(/`/g, '\\`')
-    .replace(/"/g, '\\"')
+  const msg = changeLog.replace(/`/g, '\\`').replace(/"/g, '\\"');
   execSync('git add ' + VARIABLES_SOURCE_PATH);
   execSync('git add ' + VARIABLES_PATH);
   execSync('git add ' + CHANGELOG_PATH);
@@ -187,6 +185,7 @@ function commit(changeLog: string) {
 }
 
 const allowedCollections = ['Color variables'];
+const dismissPrefix = ['Shadow/'];
 async function main() {
   const rawVariables = readFileSync(VARIABLES_SOURCE_PATH, {
     encoding: 'utf-8',
@@ -210,6 +209,7 @@ async function main() {
 
       // resolve color
       mode.color.forEach(color => {
+        if (dismissPrefix.some(prefix => color.name.startsWith(prefix))) return;
         cursor[lowerCamelCaseVarName(color.name)] = color.value;
       });
     });
