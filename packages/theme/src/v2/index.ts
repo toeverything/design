@@ -5,7 +5,7 @@ export { darkThemeV2, lightThemeV2 };
 export type AffineThemeV2 = typeof lightThemeV2;
 export type AffineThemeKeyV2 = keyof AffineThemeV2;
 
-function themeToVar(theme: AffineThemeKeyV2) {
+export function themeToVar(theme: AffineThemeKeyV2) {
   const parts = theme.split('/');
   return `--affine-v2-${parts.join('-')}`;
 }
