@@ -1,4 +1,5 @@
 import { grabbingCursor, grabCursor } from './cursors';
+import { darkCssVariablesV2, lightCssVariablesV2 } from './v2';
 
 export const camelToKebab = (s: string) => {
   if (typeof s !== 'string') return '';
@@ -14,7 +15,7 @@ export const camelToKebab = (s: string) => {
 const toCSSCursor = (cursor: string, fallbacks: string[]) => {
   return `url(${cursor}), ${fallbacks.join(', ')}`;
 };
-const themeToVar = (themeName: keyof AffineTheme) =>
+export const themeToVar = (themeName: keyof AffineTheme) =>
   `--affine-${camelToKebab(themeName)}` as keyof AffineCssVariables;
 const objectEntries = <T extends Record<string, any>>(
   obj: T
@@ -453,6 +454,16 @@ const createVariables = (theme: Partial<AffineTheme>) => {
 export const lightCssVariables = createVariables(lightTheme);
 export const darkCssVariables = createVariables(darkTheme);
 export const printCssVariables = createVariables(printTheme);
+
+export const combinedLightCssVariables = {
+  ...lightCssVariables,
+  ...lightCssVariablesV2,
+};
+
+export const combinedDarkCssVariables = {
+  ...darkCssVariables,
+  ...darkCssVariablesV2,
+};
 
 /**
  * Get AFFiNE css variable name type safely

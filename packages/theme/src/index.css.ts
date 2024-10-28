@@ -1,21 +1,10 @@
 import { globalStyle } from '@vanilla-extract/css';
 
 import {
-  darkCssVariables,
-  lightCssVariables,
+  combinedDarkCssVariables,
+  combinedLightCssVariables,
   printCssVariables,
 } from './index';
-import { darkCssVariablesV2, lightCssVariablesV2 } from './v2';
-
-export const combinedLightCssVariables = {
-  ...lightCssVariables,
-  ...lightCssVariablesV2,
-};
-
-export const combinedDarkCssVariables = {
-  ...darkCssVariables,
-  ...darkCssVariablesV2,
-};
 
 globalStyle(':root', {
   vars: combinedLightCssVariables,
