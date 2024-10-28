@@ -7,11 +7,12 @@ import {
 } from './index';
 import { darkCssVariablesV2, lightCssVariablesV2 } from './v2';
 
-const combinedLightCssVariables = {
+export const combinedLightCssVariables = {
   ...lightCssVariables,
   ...lightCssVariablesV2,
 };
-const combinedDarkCssVariables = {
+
+export const combinedDarkCssVariables = {
   ...darkCssVariables,
   ...darkCssVariablesV2,
 };
