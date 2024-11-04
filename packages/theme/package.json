@@ -10,7 +10,8 @@
   "module": "./src/index.ts",
   "exports": {
     ".": "./src/index.ts",
-    "./v2": "./src/v2/index.ts"
+    "./v2": "./src/v2/index.ts",
+    "./typography": "./src/presets/typography.css.ts"
   },
   "files": [
     "dist"
@@ -30,6 +31,11 @@
         "types": "./dist/v2/index.d.ts",
         "import": "./dist/v2/index.js",
         "require": "./dist/v2/index.cjs"
+      },
+      "./typography": {
+        "types": "./dist/presets/typography.css.d.ts",
+        "import": "./dist/presets/typography.js",
+        "require": "./dist/presets/typography.cjs"
       }
     },
     "types": "./dist/index.d.ts"

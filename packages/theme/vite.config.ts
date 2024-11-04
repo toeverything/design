@@ -18,6 +18,7 @@ export default defineConfig({
         index: resolve(__dirname, 'src/index.ts'),
         css: resolve(__dirname, 'src/index.css.ts'),
         'v2/index': resolve(__dirname, 'src/v2/index.ts'),
+        'presets/typography': resolve(__dirname, 'src/presets/typography.css.ts'),
       },
       name: 'ToEverythingTheme',
     },
