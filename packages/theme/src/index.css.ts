@@ -1,9 +1,10 @@
 import { globalStyle } from '@vanilla-extract/css';
 
 import {
-  combinedDarkCssVariables,
   combinedLightCssVariables,
   printCssVariables,
+  scopedDarkCssVariables,
+  scopedLightCssVariables,
 } from './index';
 
 globalStyle(':root', {
@@ -11,11 +12,11 @@ globalStyle(':root', {
 });
 
 globalStyle('[data-theme="light"]', {
-  vars: combinedLightCssVariables,
+  vars: scopedLightCssVariables,
 });
 
 globalStyle('[data-theme="dark"]', {
-  vars: combinedDarkCssVariables,
+  vars: scopedDarkCssVariables,
 });
 
 globalStyle(':root', {
