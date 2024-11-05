@@ -39,6 +39,9 @@ export type AffineCssVariables = {
 const basicFontFamily = `apple-system, BlinkMacSystemFont, 'Helvetica Neue', Tahoma, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 const basicPrintFontFamily = `'Helvetica Neue', Tahoma, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol', 'Noto Color Emoji'`;
 
+/**
+ * Static theme that should not affected by `data-theme`
+ */
 export const baseTheme = {
   // font
   fontFamily: `'Inter', 'Source Sans 3', Poppins, ${basicFontFamily}`,
@@ -126,9 +129,7 @@ export const baseTheme = {
 };
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
-export const lightTheme = {
-  ...baseTheme,
-
+const pureLightTheme = {
   themeMode: 'light',
 
   brandColor: '#1E96EB',
@@ -279,10 +280,9 @@ export const lightTheme = {
   noteBackgroundGrey: 'rgba(230, 230, 230, 1)',
   noteBackgroundWhite: 'rgba(255, 255, 255, 1)',
 };
+export const lightTheme = { ...baseTheme, ...pureLightTheme };
 
-export const darkTheme = {
-  ...baseTheme,
-
+const pureDarkTheme = {
   themeMode: 'dark',
 
   brandColor: '#1E96EB',
@@ -433,7 +433,8 @@ export const darkTheme = {
   noteBackgroundBlack: 'rgba(255, 255, 255, 1)',
   noteBackgroundGrey: 'rgba(86, 86, 86, 1)',
   noteBackgroundWhite: 'rgba(0, 0, 0, 1)',
-} satisfies Omit<AffineTheme, 'editorMode'>;
+} satisfies typeof pureLightTheme;
+export const darkTheme = { ...baseTheme, ...pureDarkTheme };
 
 export const printTheme = {
   fontFamily: `'Inter', 'Source Sans 3', Poppins, ${basicPrintFontFamily}`,
@@ -462,6 +463,15 @@ export const combinedLightCssVariables = {
 
 export const combinedDarkCssVariables = {
   ...darkCssVariables,
+  ...darkCssVariablesV2,
+};
+
+export const scopedLightCssVariables = {
+  ...createVariables(pureLightTheme),
+  ...lightCssVariablesV2,
+};
+export const scopedDarkCssVariables = {
+  ...createVariables(pureDarkTheme),
   ...darkCssVariablesV2,
 };
 
