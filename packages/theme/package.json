@@ -4,7 +4,7 @@
   "type": "module",
   "repository": "toeverything/design",
   "scripts": {
-    "build": "vite build"
+    "build": "tsup"
   },
   "main": "./src/index.ts",
   "module": "./src/index.ts",
@@ -42,8 +42,7 @@
   },
   "devDependencies": {
     "@vanilla-extract/css": "^1.11.1",
-    "@vanilla-extract/vite-plugin": "^3.8.2",
-    "vite": "^4.3.9",
-    "vite-plugin-dts": "^2.3.0"
+    "@vanilla-extract/esbuild-plugin": "^2.3.11",
+    "tsup": "^8.3.5"
   }
 }
