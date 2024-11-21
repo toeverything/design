@@ -43,6 +43,7 @@
   "devDependencies": {
     "@vanilla-extract/css": "^1.11.1",
     "@vanilla-extract/vite-plugin": "^3.8.2",
+    "dts-bundle-generator": "^9.5.1",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0"
   }
