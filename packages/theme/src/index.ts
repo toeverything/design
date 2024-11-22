@@ -457,12 +457,12 @@ export const darkCssVariables = createVariables(darkTheme);
 export const printCssVariables = createVariables(printTheme);
 
 export const combinedLightCssVariables = {
-  ...lightCssVariables,
+  ...createVariables(lightTheme),
   ...lightCssVariablesV2,
 };
 
 export const combinedDarkCssVariables = {
-  ...darkCssVariables,
+  ...createVariables(darkTheme),
   ...darkCssVariablesV2,
 };
 
@@ -470,6 +470,7 @@ export const scopedLightCssVariables = {
   ...createVariables(pureLightTheme),
   ...lightCssVariablesV2,
 };
+
 export const scopedDarkCssVariables = {
   ...createVariables(pureDarkTheme),
   ...darkCssVariablesV2,
