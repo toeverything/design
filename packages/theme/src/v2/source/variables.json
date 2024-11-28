@@ -249,6 +249,12 @@
             "rootAlias": "Grey/900"
           },
           {
+            "name": "Button/mobile/DeletedAction",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
             "name": "Button/sidebarButton/background",
             "value": "#ffffff08",
             "var": "Transparent/white/25 (3%)",
@@ -1293,6 +1299,12 @@
             "rootAlias": "Base/White"
           },
           {
+            "name": "Layer/background/mobile/tertiary",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
             "name": "Loading/background",
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
@@ -1573,6 +1585,24 @@
             "value": "#00000014",
             "var": "Others/Shadow/8(black)",
             "rootAlias": "Others/Shadow/8(black)"
+          },
+          {
+            "name": "Shadow/popUpShadow/1-color",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Shadow/popUpShadow/2-color",
+            "value": "#0000004d",
+            "var": "Others/Shadow/30(black)",
+            "rootAlias": "Others/Shadow/30(black)"
+          },
+          {
+            "name": "Shadow/popUpShadow/3-color",
+            "value": "#00000033",
+            "var": "Others/Shadow/20(black)",
+            "rootAlias": "Others/Shadow/20(black)"
           },
           {
             "name": "Skeleton/skeleton",
@@ -2193,6 +2223,24 @@
             "value": "Infinityrem",
             "var": "",
             "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/1-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/3-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
           }
         ],
         "string": []
@@ -2442,6 +2490,12 @@
             "value": "#252525",
             "var": "Grey/900",
             "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Button/mobile/DeletedAction",
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
           },
           {
             "name": "Button/sidebarButton/background",
@@ -3488,6 +3542,12 @@
             "rootAlias": "Grey/900"
           },
           {
+            "name": "Layer/background/mobile/tertiary",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
             "name": "Loading/background",
             "value": "#ffffffd1",
             "var": "Transparent/white/800 (82%)",
@@ -3768,6 +3828,24 @@
             "value": "#0000004d",
             "var": "Others/Shadow/30(black)",
             "rootAlias": "Others/Shadow/30(black)"
+          },
+          {
+            "name": "Shadow/popUpShadow/1-color",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Shadow/popUpShadow/2-color",
+            "value": "#00000029",
+            "var": "Others/Shadow/16(black)",
+            "rootAlias": "Others/Shadow/16(black)"
+          },
+          {
+            "name": "Shadow/popUpShadow/3-color",
+            "value": "#0000001a",
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
           },
           {
             "name": "Skeleton/skeleton",
@@ -4385,6 +4463,24 @@
           },
           {
             "name": "Shadow/overlayPanelShadow/2-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/1-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/popUpShadow/3-blur",
             "value": "Infinityrem",
             "var": "",
             "rootAlias": ""
