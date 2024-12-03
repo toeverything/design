@@ -1,9 +1,11 @@
-import { execSync } from 'child_process';
-import { appendFileSync, readFileSync } from 'fs';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
+import { execSync } from 'node:child_process';
+import { appendFileSync, readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-import { jsonToTs, writeIfChanged } from './utils/writer.js';
+import * as prevTheme from '@toeverything/theme/v2';
+
+import { jsonToTs, unflatten, writeIfChanged } from './utils/writer.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -42,15 +44,6 @@ type Theme = {
   lightThemeV2: Record<string, string>;
   darkThemeV2: Record<string, string>;
 };
-
-function resolveVariablesTs() {
-  const raw = readFileSync(VARIABLES_PATH, { encoding: 'utf-8' });
-  const withoutExport = raw.replace(/export /g, '');
-  const func = new Function(
-    `${withoutExport}; return { lightThemeV2, darkThemeV2 };`
-  );
-  return func() as Theme;
-}
 
 type Change = {
   new: Record<string, string>;
@@ -238,13 +231,18 @@ async function main() {
     '// ⚠️ Do not modify this file directly!',
     '',
   ];
+
+  const nestedLightTheme = unflatten(lightTheme);
+  const nestedDarkTheme = unflatten(darkTheme);
+
   const code = await jsonToTs({
     lightThemeV2: { value: lightTheme, prefixLines: doNotModify },
     darkThemeV2: { value: darkTheme },
+    nestedLightTheme: { value: nestedLightTheme, asConst: true },
+    nestedDarkTheme: { value: nestedDarkTheme, asConst: true },
   });
 
-  const previous = resolveVariablesTs();
-  const { md } = generateThemeChangeLog(previous, {
+  const { md } = generateThemeChangeLog(prevTheme, {
     lightThemeV2: lightTheme,
     darkThemeV2: darkTheme,
   });
