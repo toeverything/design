@@ -543,12 +543,6 @@
             "rootAlias": "Transparent/black/300 (17%)"
           },
           {
-            "name": "Edgeless/frame/border/locked",
-            "value": "#00000085",
-            "var": "Transparent/black/500 (52%)",
-            "rootAlias": "Transparent/black/500 (52%)"
-          },
-          {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
             "var": "Transparent/black/950 (95%)",
@@ -667,6 +661,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Edgeless/lock/locked",
+            "value": "#92929285",
+            "var": "Transparent/grey/500 (52%)",
+            "rootAlias": "Transparent/grey/500 (52%)"
           },
           {
             "name": "Edgeless/mindMap/line",
@@ -1017,73 +1017,73 @@
             "rootAlias": "Others/Gradient/12(white)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/background",
+            "name": "EdgelessToolbar/PenEraser/background",
             "value": "#f1f1f1",
             "var": "Others/Illustration/pen",
             "rootAlias": "Others/Illustration/pen"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-1",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-1",
             "value": "#00000033",
             "var": "Others/Shadow/20(black)",
             "rootAlias": "Others/Shadow/20(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-2",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-2",
             "value": "#0000001a",
             "var": "Others/Shadow/10(black)",
             "rootAlias": "Others/Shadow/10(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-3",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-3",
             "value": "#00000003",
             "var": "Others/Shadow/1(black)",
             "rootAlias": "Others/Shadow/1(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-4",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-4",
             "value": "#ffffff14",
             "var": "Others/Shadow/8(white)",
             "rootAlias": "Others/Shadow/8(white)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-1",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-1",
             "value": "#173654",
             "var": "Others/Illustration/eraserBlue1",
             "rootAlias": "Others/Illustration/eraserBlue1"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-2",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-2",
             "value": "#effaff",
             "var": "Others/Illustration/eraserBlue2",
             "rootAlias": "Others/Illustration/eraserBlue2"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-3",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-3",
             "value": "#1e96eb",
             "var": "Others/Illustration/eraserBlue3",
             "rootAlias": "Others/Illustration/eraserBlue3"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBorder",
+            "name": "EdgelessToolbar/PenEraser/eraserBorder",
             "value": "#e7e7e7",
             "var": "Others/Illustration/eraserBorder",
             "rootAlias": "Others/Illustration/eraserBorder"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBorder2",
+            "name": "EdgelessToolbar/PenEraser/eraserBorder2",
             "value": "#e3e2e4",
             "var": "Others/Illustration/eraserBorderInside",
             "rootAlias": "Others/Illustration/eraserBorderInside"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserFill",
+            "name": "EdgelessToolbar/PenEraser/eraserFill",
             "value": "#f1f1f1",
             "var": "Others/Illustration/eraserFill",
             "rootAlias": "Others/Illustration/eraserFill"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserHighlight",
+            "name": "EdgelessToolbar/PenEraser/eraserHighlight",
             "value": "#ffffffb8",
             "var": "Transparent/white/700 (72%)",
             "rootAlias": "Transparent/white/700 (72%)"
@@ -2786,12 +2786,6 @@
             "rootAlias": "Transparent/white/300 (17%)"
           },
           {
-            "name": "Edgeless/frame/border/locked",
-            "value": "#ffffff8f",
-            "var": "Transparent/white/500 (56%)",
-            "rootAlias": "Transparent/white/500 (56%)"
-          },
-          {
             "name": "Edgeless/frame/fontColor/font",
             "value": "#000000f2",
             "var": "Transparent/black/950 (95%)",
@@ -2910,6 +2904,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Edgeless/lock/locked",
+            "value": "#92929285",
+            "var": "Transparent/grey/500 (52%)",
+            "rootAlias": "Transparent/grey/500 (52%)"
           },
           {
             "name": "Edgeless/mindMap/line",
@@ -3260,73 +3260,73 @@
             "rootAlias": "Others/Gradient/0(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/background",
+            "name": "EdgelessToolbar/PenEraser/background",
             "value": "#c1c1c1",
             "var": "Others/Illustration/penDark",
             "rootAlias": "Others/Illustration/penDark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-1",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-1",
             "value": "#00000099",
             "var": "Others/Shadow/60(black)",
             "rootAlias": "Others/Shadow/60(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-2",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-2",
             "value": "#00000066",
             "var": "Others/Shadow/40(black)",
             "rootAlias": "Others/Shadow/40(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-3",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-3",
             "value": "#00000033",
             "var": "Others/Shadow/20(black)",
             "rootAlias": "Others/Shadow/20(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/bodyShadow-4",
+            "name": "EdgelessToolbar/PenEraser/bodyShadow-4",
             "value": "#0000001a",
             "var": "Others/Shadow/10(black)",
             "rootAlias": "Others/Shadow/10(black)"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-1",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-1",
             "value": "#0d2338",
             "var": "Others/Illustration/eraserBlue1Dark",
             "rootAlias": "Others/Illustration/eraserBlue1Dark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-2",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-2",
             "value": "#d0dfe5",
             "var": "Others/Illustration/eraserBlue2Dark",
             "rootAlias": "Others/Illustration/eraserBlue2Dark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBlue-3",
+            "name": "EdgelessToolbar/PenEraser/eraserBlue-3",
             "value": "#1a7cc1",
             "var": "Others/Illustration/eraserBlue3Dark",
             "rootAlias": "Others/Illustration/eraserBlue3Dark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBorder",
+            "name": "EdgelessToolbar/PenEraser/eraserBorder",
             "value": "#7f7f7f",
             "var": "Others/Illustration/eraserBorderDark",
             "rootAlias": "Others/Illustration/eraserBorderDark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserBorder2",
+            "name": "EdgelessToolbar/PenEraser/eraserBorder2",
             "value": "#9b9b9b",
             "var": "Others/Illustration/eraserBorderInsideDark",
             "rootAlias": "Others/Illustration/eraserBorderInsideDark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserFill",
+            "name": "EdgelessToolbar/PenEraser/eraserFill",
             "value": "#c1c1c1",
             "var": "Others/Illustration/eraserFillDark",
             "rootAlias": "Others/Illustration/eraserFillDark"
           },
           {
-            "name": "EdgelessToolbar/Pen&eraser/eraserHighlight",
+            "name": "EdgelessToolbar/PenEraser/eraserHighlight",
             "value": "#ffffff3b",
             "var": "Transparent/white/400 (23%)",
             "rootAlias": "Transparent/white/400 (23%)"
