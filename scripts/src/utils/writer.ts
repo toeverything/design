@@ -1,7 +1,8 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
-import { dirname, join } from 'path';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import prettier from 'prettier';
-import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,7 +16,7 @@ const prettierConfig = JSON.parse(
  * @returns `true` if the file was written, `false` otherwise.
  */
 export const writeIfChanged = (path: string, content: string) => {
-  const folder = path.split('/').slice(0, -1).join('/');
+  const folder = dirname(path);
   if (!existsSync(folder)) mkdirSync(folder);
   const old = existsSync(path) ? readFileSync(path, { encoding: 'utf-8' }) : '';
   if (old && old === content) return false;
@@ -31,6 +32,7 @@ export const jsonToTs = async (
       export?: boolean;
       prefixLines?: string[];
       suffixLines?: string[];
+      asConst?: boolean;
     }
   >
 ) => {
@@ -40,6 +42,7 @@ export const jsonToTs = async (
       export: exportVar = true,
       prefixLines = [],
       suffixLines = [],
+      asConst = false,
     } = options ?? {};
 
     if (prefixLines.length) {
@@ -47,7 +50,7 @@ export const jsonToTs = async (
     }
     code += `${exportVar ? 'export ' : ''}const ${varName} = ${JSON.stringify(
       value
-    )};`;
+    )}${asConst ? ' as const' : ''};`;
     if (suffixLines.length) {
       code += '\n' + suffixLines.join('\n');
     }
@@ -57,4 +60,23 @@ export const jsonToTs = async (
     parser: 'typescript',
     ...prettierConfig,
   });
+};
+
+// { 'a/b/c': 1, 'a/b/d': 2, 'a/e': 3 } => { a: { b: { c: 1, d: 2 }, e: 3 } }
+export const unflatten = (obj: Record<string, any>) => {
+  const result: Record<string, any> = {};
+  for (const [key, value] of Object.entries(obj)) {
+    const keys = key.split('/');
+    let cursor = result;
+    for (let i = 0; i < keys.length; i++) {
+      const k = keys[i];
+      if (i === keys.length - 1) {
+        cursor[k] = value;
+      } else {
+        cursor[k] ??= {};
+        cursor = cursor[k];
+      }
+    }
+  }
+  return result;
 };
