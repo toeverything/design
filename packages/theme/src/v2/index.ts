@@ -46,7 +46,9 @@ function createCssVarProxy(prefix: string = ''): any {
       return _cssVarV2(newPrefix as AffineThemeKeyV2);
     },
     apply(_, __, [varName, fallback]) {
-      return _cssVarV2(varName as AffineThemeKeyV2, fallback);
+      return prefix
+        ? _cssVarV2(prefix as AffineThemeKeyV2, varName)
+        : _cssVarV2(varName, fallback);
     },
   });
 }
