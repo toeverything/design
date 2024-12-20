@@ -239,6 +239,7 @@ const pureLightTheme = {
   noteShadowFloat:
     '0px 12px 60px 0px rgba(66, 65, 73, 0.16), 0px 0px 0px 2px rgba(0, 0, 0, 0.06)',
   noteShadowFilm: '10px 10px 0px 6px #000, 0px 0px 0px 6px #000',
+  aiEmptyShadow: '0px 4px 4px rgba(66, 65, 73, 0.10), 0px 6px 8px rgba(66, 65, 73, 0.05)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #F0F3FD 0%, #FCFCFD 100%)',
   cardBackgroundGreen: 'linear-gradient(180deg, #F3F9FD 0%, #FCFCFD 100%)',
@@ -392,6 +393,7 @@ const pureDarkTheme = {
   noteShadowFloat:
     '0px 12px 70px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 2px rgba(0, 0, 0, 0.10)',
   noteShadowFilm: '10px 10px 0px 6px #B2B2B2, 0px 0px 0px 6px #B2B2B2',
+  aiEmptyShadow: '0px 4px 4px rgba(66, 65, 73, 0.10), 0px 6px 8px rgba(66, 65, 73, 0.05)',
 
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
   cardBackgroundBlue: 'linear-gradient(180deg, #14171F 0%, #202020 100%)',

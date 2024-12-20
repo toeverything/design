@@ -9,6 +9,24 @@
         },
         "color": [
           {
+            "name": "Backlinks/blockBackgroundColor",
+            "value": "#9292920d",
+            "var": "Transparent/grey/50 (5%)",
+            "rootAlias": "Transparent/grey/50 (5%)"
+          },
+          {
+            "name": "Backlinks/blockBorder",
+            "value": "#9292921a",
+            "var": "Transparent/grey/200 (10%)",
+            "rootAlias": "Transparent/grey/200 (10%)"
+          },
+          {
+            "name": "Backlinks/blockHover",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
             "name": "Badge/Believer",
             "value": "#002742",
             "var": "AFFiNE/950",
@@ -159,19 +177,13 @@
             "rootAlias": "Grey/200"
           },
           {
-            "name": "Button/InnerBlackBorder",
-            "value": "#00000012",
-            "var": "Transparent/black/100 (7%)",
-            "rootAlias": "Transparent/black/100 (7%)"
-          },
-          {
             "name": "Button/badgesColor",
             "value": "#ed3f3f",
             "var": "Red/600",
             "rootAlias": "Red/600"
           },
           {
-            "name": "Button/buttonoOverHover",
+            "name": "Button/buttonOverHover",
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
@@ -205,6 +217,12 @@
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
+          },
+          {
+            "name": "Button/innerBlackBorder",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
           },
           {
             "name": "Button/primary",
@@ -1089,6 +1107,18 @@
             "rootAlias": "Transparent/white/700 (72%)"
           },
           {
+            "name": "EdgelessToolbar/media/background",
+            "value": "#f4f9ff",
+            "var": "Others/Illustration/mediaBackground",
+            "rootAlias": "Others/Illustration/mediaBackground"
+          },
+          {
+            "name": "EdgelessToolbar/media/vector",
+            "value": "#3883ff",
+            "var": "Others/Illustration/mediaShape",
+            "rootAlias": "Others/Illustration/mediaShape"
+          },
+          {
             "name": "Icon/activated",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
@@ -1099,6 +1129,12 @@
             "value": "#b3b3b3",
             "var": "Grey/400",
             "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Icon/fileIconBorder",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
           },
           {
             "name": "Icon/primary",
@@ -1119,34 +1155,76 @@
             "rootAlias": "Grey/300"
           },
           {
+            "name": "Icon/fileIconColors/blue",
+            "value": "#0077cb",
+            "var": "AFFiNE/700",
+            "rootAlias": "AFFiNE/700"
+          },
+          {
+            "name": "Icon/fileIconColors/green",
+            "value": "#1d9c07",
+            "var": "Green/800",
+            "rootAlias": "Green/800"
+          },
+          {
+            "name": "Icon/fileIconColors/grey",
+            "value": "#1e1b4b",
+            "var": "Indigo/950",
+            "rootAlias": "Indigo/950"
+          },
+          {
+            "name": "Icon/fileIconColors/magenta",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Icon/fileIconColors/purple",
+            "value": "#6e52df",
+            "var": "Purple/600",
+            "rootAlias": "Purple/600"
+          },
+          {
+            "name": "Icon/fileIconColors/red",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Icon/fileIconColors/yellow",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
+          },
+          {
             "name": "Input/Background",
             "value": "#ffffff",
-            "var": "Layer/background/primary",
+            "var": "Base/White",
             "rootAlias": "Base/White"
-          },
-          {
-            "name": "Input/Border/active",
-            "value": "#1e96eb",
-            "var": "Layer/InsideBorder/primaryBorder",
-            "rootAlias": "AFFiNE/600"
-          },
-          {
-            "name": "Input/Border/default",
-            "value": "#e6e6e6",
-            "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/200"
-          },
-          {
-            "name": "Input/Border/error",
-            "value": "#f45353",
-            "var": "Red/500",
-            "rootAlias": "Red/500"
           },
           {
             "name": "Input/ScrollBar/Handle",
             "value": "#0000001a",
             "var": "Transparent/black/200 (10%)",
             "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Input/border/active",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/border/default",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Input/border/error",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
           },
           {
             "name": "Layer/black",
@@ -1357,6 +1435,18 @@
             "value": "#7a7a7a",
             "var": "Grey/600",
             "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Segment/background",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Segment/button",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
@@ -1735,6 +1825,108 @@
             "value": "#f3f3f3",
             "var": "Grey/100",
             "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Table/border",
+            "value": "#0000001a",
+            "var": "Transparent/black/200 (10%)",
+            "rootAlias": "Transparent/black/200 (10%)"
+          },
+          {
+            "name": "Table/focusBackground",
+            "value": "#1e96eb0a",
+            "var": "Transparent/AFFiNE Blue/400 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+          },
+          {
+            "name": "Table/focusBorder",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Table/textSecondary",
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
+          },
+          {
+            "name": "Table/headerBackground/blue",
+            "value": "#f0f9ff",
+            "var": "Blue/25",
+            "rootAlias": "Blue/25"
+          },
+          {
+            "name": "Table/headerBackground/default",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Table/headerBackground/green",
+            "value": "#efffec",
+            "var": "Green/25",
+            "rootAlias": "Green/25"
+          },
+          {
+            "name": "Table/headerBackground/grey",
+            "value": "#f5f5f5",
+            "var": "Grey/50",
+            "rootAlias": "Grey/50"
+          },
+          {
+            "name": "Table/headerBackground/headerColor",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Table/headerBackground/orange",
+            "value": "#fff7ee",
+            "var": "Orange/25",
+            "rootAlias": "Orange/25"
+          },
+          {
+            "name": "Table/headerBackground/purple",
+            "value": "#f7f5ff",
+            "var": "Purple/25",
+            "rootAlias": "Purple/25"
+          },
+          {
+            "name": "Table/headerBackground/red",
+            "value": "#fff4f5",
+            "var": "Red/25",
+            "rootAlias": "Red/25"
+          },
+          {
+            "name": "Table/headerBackground/teal",
+            "value": "#eefffd",
+            "var": "Teal/25",
+            "rootAlias": "Teal/25"
+          },
+          {
+            "name": "Table/headerBackground/yellow",
+            "value": "#fffded",
+            "var": "Yellow/25",
+            "rootAlias": "Yellow/25"
+          },
+          {
+            "name": "Table/indicator/activated",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Table/indicator/border",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Table/indicator/hover",
+            "value": "#0000000d",
+            "var": "Layer/background/hoverOverlay",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Text/disable",
@@ -2252,6 +2444,24 @@
         },
         "color": [
           {
+            "name": "Backlinks/blockBackgroundColor",
+            "value": "#9292921a",
+            "var": "Transparent/grey/200 (10%)",
+            "rootAlias": "Transparent/grey/200 (10%)"
+          },
+          {
+            "name": "Backlinks/blockBorder",
+            "value": "#9292922b",
+            "var": "Transparent/grey/300 (17%)",
+            "rootAlias": "Transparent/grey/300 (17%)"
+          },
+          {
+            "name": "Backlinks/blockHover",
+            "value": "#9292922b",
+            "var": "Transparent/grey/300 (17%)",
+            "rootAlias": "Transparent/grey/300 (17%)"
+          },
+          {
             "name": "Badge/Believer",
             "value": "#002742",
             "var": "AFFiNE/950",
@@ -2402,19 +2612,13 @@
             "rootAlias": "Grey/800"
           },
           {
-            "name": "Button/InnerBlackBorder",
-            "value": "#ffffff17",
-            "var": "Transparent/white/100 (9%)",
-            "rootAlias": "Transparent/white/100 (9%)"
-          },
-          {
             "name": "Button/badgesColor",
             "value": "#c83030",
             "var": "Red/700",
             "rootAlias": "Red/700"
           },
           {
-            "name": "Button/buttonoOverHover",
+            "name": "Button/buttonOverHover",
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
@@ -2445,9 +2649,15 @@
           },
           {
             "name": "Button/iconButtonSolid",
-            "value": "#252525",
-            "var": "Grey/900",
-            "rootAlias": "Grey/900"
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
+          },
+          {
+            "name": "Button/innerBlackBorder",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
           },
           {
             "name": "Button/primary",
@@ -2463,9 +2673,9 @@
           },
           {
             "name": "Button/secondary",
-            "value": "#000000",
-            "var": "Base/Black",
-            "rootAlias": "Base/Black"
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Button/success",
@@ -3332,6 +3542,18 @@
             "rootAlias": "Transparent/white/400 (23%)"
           },
           {
+            "name": "EdgelessToolbar/media/background",
+            "value": "#333333",
+            "var": "Others/Illustration/mediaBackgroundDark",
+            "rootAlias": "Others/Illustration/mediaBackgroundDark"
+          },
+          {
+            "name": "EdgelessToolbar/media/vector",
+            "value": "#3883ff",
+            "var": "Others/Illustration/mediaShape",
+            "rootAlias": "Others/Illustration/mediaShape"
+          },
+          {
             "name": "Icon/activated",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
@@ -3342,6 +3564,12 @@
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
+          },
+          {
+            "name": "Icon/fileIconBorder",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Icon/primary",
@@ -3362,34 +3590,76 @@
             "rootAlias": "Grey/700"
           },
           {
-            "name": "Input/Background",
-            "value": "#ffffff",
-            "var": "Layer/background/primary",
-            "rootAlias": "Base/White"
+            "name": "Icon/fileIconColors/blue",
+            "value": "#0077cb",
+            "var": "AFFiNE/700",
+            "rootAlias": "AFFiNE/700"
           },
           {
-            "name": "Input/Border/active",
-            "value": "#1e96eb",
-            "var": "Layer/InsideBorder/primaryBorder",
-            "rootAlias": "AFFiNE/600"
+            "name": "Icon/fileIconColors/green",
+            "value": "#1d9c07",
+            "var": "Green/800",
+            "rootAlias": "Green/800"
           },
           {
-            "name": "Input/Border/default",
-            "value": "#e6e6e6",
-            "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/200"
+            "name": "Icon/fileIconColors/grey",
+            "value": "#312e81",
+            "var": "Indigo/900",
+            "rootAlias": "Indigo/900"
           },
           {
-            "name": "Input/Border/error",
+            "name": "Icon/fileIconColors/magenta",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Icon/fileIconColors/purple",
+            "value": "#6e52df",
+            "var": "Purple/600",
+            "rootAlias": "Purple/600"
+          },
+          {
+            "name": "Icon/fileIconColors/red",
             "value": "#ed3f3f",
             "var": "Red/600",
             "rootAlias": "Red/600"
+          },
+          {
+            "name": "Icon/fileIconColors/yellow",
+            "value": "#facc15",
+            "var": "Yellow/600",
+            "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Input/Background",
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Input/ScrollBar/Handle",
             "value": "#ffffff2b",
             "var": "Transparent/white/300 (17%)",
             "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "Input/border/active",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Input/border/default",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Input/border/error",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
           },
           {
             "name": "Layer/black",
@@ -3423,9 +3693,9 @@
           },
           {
             "name": "Layer/InsideBorder/border",
-            "value": "#414141",
-            "var": "Grey/800",
-            "rootAlias": "Grey/800"
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Layer/InsideBorder/primaryBorder",
@@ -3600,6 +3870,18 @@
             "value": "#b3b3b3",
             "var": "Grey/400",
             "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Segment/background",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Segment/button",
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
@@ -3978,6 +4260,108 @@
             "value": "#252525",
             "var": "Grey/900",
             "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Table/border",
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
+          },
+          {
+            "name": "Table/focusBackground",
+            "value": "#1e96eb0a",
+            "var": "Transparent/AFFiNE Blue/400 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+          },
+          {
+            "name": "Table/focusBorder",
+            "value": "#1e96eb",
+            "var": "AFFiNE/600",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Table/textSecondary",
+            "value": "#ffffff8f",
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
+          },
+          {
+            "name": "Table/headerBackground/blue",
+            "value": "#004b7b",
+            "var": "Blue/950",
+            "rootAlias": "Blue/950"
+          },
+          {
+            "name": "Table/headerBackground/default",
+            "value": "#f5f5f5",
+            "var": "Layer/background/secondary",
+            "rootAlias": "Grey/50"
+          },
+          {
+            "name": "Table/headerBackground/green",
+            "value": "#10340a",
+            "var": "Green/950",
+            "rootAlias": "Green/950"
+          },
+          {
+            "name": "Table/headerBackground/grey",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Table/headerBackground/headerColor",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Table/headerBackground/orange",
+            "value": "#843b06",
+            "var": "Orange/950",
+            "rootAlias": "Orange/950"
+          },
+          {
+            "name": "Table/headerBackground/purple",
+            "value": "#25136d",
+            "var": "Purple/950",
+            "rootAlias": "Purple/950"
+          },
+          {
+            "name": "Table/headerBackground/red",
+            "value": "#460606",
+            "var": "Red/950",
+            "rootAlias": "Red/950"
+          },
+          {
+            "name": "Table/headerBackground/teal",
+            "value": "#0e4841",
+            "var": "Teal/950",
+            "rootAlias": "Teal/950"
+          },
+          {
+            "name": "Table/headerBackground/yellow",
+            "value": "#704200",
+            "var": "Yellow/900",
+            "rootAlias": "Yellow/900"
+          },
+          {
+            "name": "Table/indicator/activated",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Table/indicator/border",
+            "value": "#e6e6e6",
+            "var": "Layer/InsideBorder/border",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Table/indicator/hover",
+            "value": "#0000000d",
+            "var": "Layer/background/hoverOverlay",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "Text/disable",
