@@ -1701,6 +1701,12 @@
             "rootAlias": "Grey/200"
           },
           {
+            "name": "SlashMenu/background",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
             "name": "Status/error",
             "value": "#ed3f3f",
             "var": "Red/600",
@@ -1921,6 +1927,12 @@
             "value": "#e6e6e6",
             "var": "Layer/InsideBorder/border",
             "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Table/indicator/drag",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
           },
           {
             "name": "Table/indicator/hover",
@@ -2185,6 +2197,24 @@
             "value": "#ffffff2b",
             "var": "Transparent/white/300 (17%)",
             "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "WorkspacePicker/background",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "WorkspacePicker/border",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "tableOfContent/background",
+            "value": "#ffffff",
+            "var": "Layer/background/primary",
+            "rootAlias": "Base/White"
           }
         ],
         "number": [
@@ -2727,9 +2757,9 @@
           },
           {
             "name": "CenterPeek/icon",
-            "value": "#b3b3b3",
+            "value": "#cdcdcd",
             "var": "Icon/secondary",
-            "rootAlias": "Grey/400"
+            "rootAlias": "Grey/300"
           },
           {
             "name": "CenterPeek/overlay",
@@ -2745,21 +2775,21 @@
           },
           {
             "name": "ChatBlock/chatBlockBoder",
-            "value": "#e6e6e6",
+            "value": "#252525",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/200"
+            "rootAlias": "Grey/900"
           },
           {
             "name": "ChatBlock/chatBlockIcon",
-            "value": "#b3b3b3",
+            "value": "#cdcdcd",
             "var": "Icon/secondary",
-            "rootAlias": "Grey/400"
+            "rootAlias": "Grey/300"
           },
           {
             "name": "ChatBlock/chatBlockText",
-            "value": "#141414",
+            "value": "#e6e6e6",
             "var": "Text/primary",
-            "rootAlias": "Grey/950"
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Chip/Label/blue",
@@ -3975,21 +4005,21 @@
           },
           {
             "name": "Shadow/Mobile/splashScreen/blockColor",
-            "value": "#f3f3f3",
+            "value": "#565656",
             "var": "Layer/background/tertiary",
-            "rootAlias": "Grey/100"
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Shadow/Mobile/splashScreen/border",
-            "value": "#0000001a",
+            "value": "#ffffff21",
             "var": "Database/border",
-            "rootAlias": "Transparent/black/200 (10%)"
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Shadow/Mobile/splashScreen/gradientFadeIn",
-            "value": "#ffffff",
+            "value": "#141414",
             "var": "Layer/background/primary",
-            "rootAlias": "Base/White"
+            "rootAlias": "Grey/950"
           },
           {
             "name": "Shadow/Mobile/splashScreen/gradientFadeOut",
@@ -3999,9 +4029,9 @@
           },
           {
             "name": "Shadow/Mobile/splashScreen/penColor",
-            "value": "#f3f3f3",
+            "value": "#565656",
             "var": "Layer/background/tertiary",
-            "rootAlias": "Grey/100"
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Shadow/Mobile/splashScreen/skeltonColor",
@@ -4011,21 +4041,21 @@
           },
           {
             "name": "Shadow/Mobile/splashScreen/solidBackground",
-            "value": "#ffffff",
+            "value": "#141414",
             "var": "Layer/background/primary",
-            "rootAlias": "Base/White"
+            "rootAlias": "Grey/950"
           },
           {
             "name": "Shadow/Mobile/splashScreen/solidBackground-2",
-            "value": "#f5f5f5",
+            "value": "#252525",
             "var": "Layer/background/secondary",
-            "rootAlias": "Grey/50"
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Shadow/Mobile/splashScreen/transparentText",
-            "value": "#929292",
+            "value": "#7a7a7a",
             "var": "Text/tertiary",
-            "rootAlias": "Grey/500"
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Shadow/Mobile/splashScreen/transparentText-2",
@@ -4113,9 +4143,9 @@
           },
           {
             "name": "Shadow/popUpShadow/1-color",
-            "value": "#e6e6e6",
+            "value": "#252525",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/200"
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Shadow/popUpShadow/2-color",
@@ -4133,6 +4163,12 @@
             "name": "Skeleton/skeleton",
             "value": "#252525",
             "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "SlashMenu/background",
+            "value": "#252525",
+            "var": "Layer/background/secondary",
             "rootAlias": "Grey/900"
           },
           {
@@ -4293,9 +4329,9 @@
           },
           {
             "name": "Table/headerBackground/default",
-            "value": "#f5f5f5",
+            "value": "#252525",
             "var": "Layer/background/secondary",
-            "rootAlias": "Grey/50"
+            "rootAlias": "Grey/900"
           },
           {
             "name": "Table/headerBackground/green",
@@ -4353,15 +4389,21 @@
           },
           {
             "name": "Table/indicator/border",
-            "value": "#e6e6e6",
+            "value": "#252525",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/200"
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Table/indicator/drag",
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Table/indicator/hover",
-            "value": "#0000000d",
+            "value": "#ffffff17",
             "var": "Layer/background/hoverOverlay",
-            "rootAlias": "Transparent/black/50 (5%)"
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Text/disable",
@@ -4389,9 +4431,9 @@
           },
           {
             "name": "Text/placeholder",
-            "value": "#565656",
-            "var": "Grey/700",
-            "rootAlias": "Grey/700"
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Text/primary",
@@ -4545,9 +4587,9 @@
           },
           {
             "name": "Toast/iconState/error",
-            "value": "#ed3f3f",
+            "value": "#c83030",
             "var": "Status/error",
-            "rootAlias": "Red/600"
+            "rootAlias": "Red/700"
           },
           {
             "name": "Toast/iconState/regular",
@@ -4557,9 +4599,9 @@
           },
           {
             "name": "Toast/iconState/success",
-            "value": "#44b931",
+            "value": "#1d9c07",
             "var": "Status/success",
-            "rootAlias": "Green/500"
+            "rootAlias": "Green/800"
           },
           {
             "name": "Toast/overlay/secondary",
@@ -4620,6 +4662,24 @@
             "value": "#ffffff2b",
             "var": "Transparent/white/300 (17%)",
             "rootAlias": "Transparent/white/300 (17%)"
+          },
+          {
+            "name": "WorkspacePicker/background",
+            "value": "#252525",
+            "var": "Layer/background/secondary",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "WorkspacePicker/border",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
+            "name": "tableOfContent/background",
+            "value": "#252525",
+            "var": "Layer/background/secondary",
+            "rootAlias": "Grey/900"
           }
         ],
         "number": [
