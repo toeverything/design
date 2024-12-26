@@ -291,6 +291,12 @@
             "rootAlias": "Base/White"
           },
           {
+            "name": "CenterPeek/buttonBackground",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
             "name": "CenterPeek/icon",
             "value": "#7a7a7a",
             "var": "Icon/primary",
@@ -2754,6 +2760,12 @@
             "value": "#000000",
             "var": "Base/Black",
             "rootAlias": "Base/Black"
+          },
+          {
+            "name": "CenterPeek/buttonBackground",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
           },
           {
             "name": "CenterPeek/icon",

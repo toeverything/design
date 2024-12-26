@@ -50,6 +50,7 @@ export const lightThemeV2 = {
   'button/sidebarButton/background': '#ffffff08',
   'button/siderbarPrimary/background': '#ffffffab',
   'centerPeek/background': '#ffffff',
+  'centerPeek/buttonBackground': '#ffffff',
   'centerPeek/icon': '#7a7a7a',
   'centerPeek/overlay': '#0000002b',
   'chatBlock/chatBlockBg': '#ffffff',
@@ -379,6 +380,7 @@ export const darkThemeV2 = {
   'button/sidebarButton/background': '#ffffff08',
   'button/siderbarPrimary/background': '#0000002b',
   'centerPeek/background': '#000000',
+  'centerPeek/buttonBackground': '#252525',
   'centerPeek/icon': '#cdcdcd',
   'centerPeek/overlay': '#00000085',
   'chatBlock/chatBlockBg': '#252525',
@@ -716,7 +718,12 @@ export const nestedLightTheme = {
     sidebarButton: { background: '#ffffff08' },
     siderbarPrimary: { background: '#ffffffab' },
   },
-  centerPeek: { background: '#ffffff', icon: '#7a7a7a', overlay: '#0000002b' },
+  centerPeek: {
+    background: '#ffffff',
+    buttonBackground: '#ffffff',
+    icon: '#7a7a7a',
+    overlay: '#0000002b',
+  },
   chatBlock: {
     chatBlockBg: '#ffffff',
     chatBlockBoder: '#e6e6e6',
@@ -1112,7 +1119,12 @@ export const nestedDarkTheme = {
     sidebarButton: { background: '#ffffff08' },
     siderbarPrimary: { background: '#0000002b' },
   },
-  centerPeek: { background: '#000000', icon: '#cdcdcd', overlay: '#00000085' },
+  centerPeek: {
+    background: '#000000',
+    buttonBackground: '#252525',
+    icon: '#cdcdcd',
+    overlay: '#00000085',
+  },
   chatBlock: {
     chatBlockBg: '#252525',
     chatBlockBoder: '#252525',
