@@ -11,10 +11,13 @@
   "exports": {
     ".": "./src/index.ts",
     "./v2": "./src/v2/index.ts",
-    "./typography": "./src/presets/typography.css.ts"
+    "./typography": "./src/presets/typography.css.ts",
+    "./fonts": "./fonts",
+    "./fonts.css": "./fonts/fonts.css"
   },
   "files": [
-    "dist"
+    "dist",
+    "fonts"
   ],
   "publishConfig": {
     "access": "public",
@@ -36,7 +39,9 @@
         "types": "./dist/presets/typography.css.d.ts",
         "import": "./dist/presets/typography.js",
         "require": "./dist/presets/typography.cjs"
-      }
+      },
+      "./fonts": "./fonts",
+      "./fonts.css": "./fonts/fonts.css"
     },
     "types": "./dist/index.d.ts"
   },
