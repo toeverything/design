@@ -857,3 +857,29 @@ None
 ### Updated
 
 None
+
+# 2025-1-16 15:42
+### New
+
+- `button/templateLabelBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb0a" /></svg> `#1e96eb0a`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb14" /></svg> `#1e96eb14`
+- `layer/insideBorder/splitviewActived`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#0000002b" /></svg> `#0000002b`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffffab" /></svg> `#ffffffab`
+
+### Removed
+
+None
+
+### Updated
+
+- `edgeless/palette/medium/blueMedium`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#84cfff" /></svg> `#84cfff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#53b2ef" /></svg> `#53b2ef`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#84cfff" /></svg> `#84cfff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#53b2ef" /></svg> `#53b2ef`
+- `chatBlock/chatBlockBoder`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `layer/insideBorder/border`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `table/indicator/border`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`

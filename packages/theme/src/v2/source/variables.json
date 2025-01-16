@@ -249,6 +249,12 @@
             "rootAlias": "Green/500"
           },
           {
+            "name": "Button/templateLabelBackground",
+            "value": "#1e96eb0a",
+            "var": "Transparent/AFFiNE Blue/400 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+          },
+          {
             "name": "Button/grabber/Select",
             "value": "#00000038",
             "var": "Transparent/black/400 (22%)",
@@ -868,9 +874,9 @@
           },
           {
             "name": "Edgeless/palette/medium/blueMedium",
-            "value": "#84cfff",
-            "var": "Blue/600",
-            "rootAlias": "Blue/600"
+            "value": "#53b2ef",
+            "var": "Blue/700",
+            "rootAlias": "Blue/700"
           },
           {
             "name": "Edgeless/palette/medium/greenMedium",
@@ -1273,6 +1279,12 @@
             "value": "#1e96eb",
             "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Layer/InsideBorder/splitviewActived",
+            "value": "#0000002b",
+            "var": "Transparent/black/300 (17%)",
+            "rootAlias": "Transparent/black/300 (17%)"
           },
           {
             "name": "Layer/InsideBorder/whiteBorder",
@@ -2720,6 +2732,12 @@
             "rootAlias": "Green/800"
           },
           {
+            "name": "Button/templateLabelBackground",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/800 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+          },
+          {
             "name": "Button/grabber/Select",
             "value": "#ffffff21",
             "var": "Transparent/white/200 (13%)",
@@ -2787,9 +2805,9 @@
           },
           {
             "name": "ChatBlock/chatBlockBoder",
-            "value": "#252525",
+            "value": "#414141",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/900"
+            "rootAlias": "Grey/800"
           },
           {
             "name": "ChatBlock/chatBlockIcon",
@@ -3339,9 +3357,9 @@
           },
           {
             "name": "Edgeless/palette/medium/blueMedium",
-            "value": "#84cfff",
-            "var": "Blue/600",
-            "rootAlias": "Blue/600"
+            "value": "#53b2ef",
+            "var": "Blue/700",
+            "rootAlias": "Blue/700"
           },
           {
             "name": "Edgeless/palette/medium/greenMedium",
@@ -3735,15 +3753,21 @@
           },
           {
             "name": "Layer/InsideBorder/border",
-            "value": "#252525",
-            "var": "Grey/900",
-            "rootAlias": "Grey/900"
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
           },
           {
             "name": "Layer/InsideBorder/primaryBorder",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Layer/InsideBorder/splitviewActived",
+            "value": "#ffffffab",
+            "var": "Transparent/white/600 (67%)",
+            "rootAlias": "Transparent/white/600 (67%)"
           },
           {
             "name": "Layer/InsideBorder/whiteBorder",
@@ -4155,9 +4179,9 @@
           },
           {
             "name": "Shadow/popUpShadow/1-color",
-            "value": "#252525",
+            "value": "#414141",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/900"
+            "rootAlias": "Grey/800"
           },
           {
             "name": "Shadow/popUpShadow/2-color",
@@ -4401,9 +4425,9 @@
           },
           {
             "name": "Table/indicator/border",
-            "value": "#252525",
+            "value": "#414141",
             "var": "Layer/InsideBorder/border",
-            "rootAlias": "Grey/900"
+            "rootAlias": "Grey/800"
           },
           {
             "name": "Table/indicator/drag",
