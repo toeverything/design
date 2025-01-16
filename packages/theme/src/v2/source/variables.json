@@ -1467,6 +1467,30 @@
             "rootAlias": "Base/White"
           },
           {
+            "name": "Selfhost/button/sidebarButton/bg/hover",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Selfhost/button/sidebarButton/bg/select",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/icon/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/icon/secondary",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
             "value": "#ffffff2e",
             "var": "Others/Shadow/18(white)",
@@ -1957,6 +1981,18 @@
             "value": "#0000000d",
             "var": "Layer/background/hoverOverlay",
             "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Table/indicator/pointerActive",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Table/indicator/pointerDefault",
+            "value": "#b3b3b3",
+            "var": "Icon/secondary",
+            "rootAlias": "Grey/400"
           },
           {
             "name": "Text/disable",
@@ -3950,6 +3986,30 @@
             "rootAlias": "Transparent/white/100 (9%)"
           },
           {
+            "name": "Selfhost/button/sidebarButton/bg/hover",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Selfhost/button/sidebarButton/bg/select",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Selfhost/icon/primary",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Selfhost/icon/secondary",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
             "value": "#ffffff14",
             "var": "Others/Shadow/8(white)",
@@ -4440,6 +4500,18 @@
             "value": "#ffffff17",
             "var": "Layer/background/hoverOverlay",
             "rootAlias": "Transparent/white/100 (9%)"
+          },
+          {
+            "name": "Table/indicator/pointerActive",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Table/indicator/pointerDefault",
+            "value": "#cdcdcd",
+            "var": "Icon/secondary",
+            "rootAlias": "Grey/300"
           },
           {
             "name": "Text/disable",
