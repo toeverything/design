@@ -12,7 +12,7 @@
     ".": "./src/index.ts",
     "./v2": "./src/v2/index.ts",
     "./typography": "./src/presets/typography.css.ts",
-    "./fonts": "./fonts",
+    "./fonts/*": "./fonts/*",
     "./fonts.css": "./fonts/fonts.css"
   },
   "files": [
