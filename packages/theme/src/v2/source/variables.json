@@ -159,6 +159,12 @@
             "rootAlias": "Transparent/grey/400 (22%)"
           },
           {
+            "name": "Block/list/header",
+            "value": "#0077cb",
+            "var": "Text/listDotAndNumber",
+            "rootAlias": "AFFiNE/700"
+          },
+          {
             "name": "Block/notSupportedBlock/background",
             "value": "#ffffff",
             "var": "Base/White",
@@ -175,6 +181,30 @@
             "value": "#e6e6e6",
             "var": "Grey/200",
             "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Block/recordBlock/buttonBg",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Block/recordBlock/primary",
+            "value": "#f45353",
+            "var": "Red/500",
+            "rootAlias": "Red/500"
+          },
+          {
+            "name": "Block/recordBlock/secordary",
+            "value": "#ff9a9a",
+            "var": "Red/300",
+            "rootAlias": "Red/300"
+          },
+          {
+            "name": "Block/recordBlock/timelineIndeicator",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
           },
           {
             "name": "Button/badgesColor",
@@ -289,6 +319,12 @@
             "value": "#ffffffab",
             "var": "Transparent/white/600 (67%)",
             "rootAlias": "Transparent/white/600 (67%)"
+          },
+          {
+            "name": "Button/signinbutton/background",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "CenterPeek/background",
@@ -459,6 +495,12 @@
             "rootAlias": "Transparent/black/200 (10%)"
           },
           {
+            "name": "Database/buttonBackground",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
             "name": "Database/cardHover",
             "value": "#00000008",
             "var": "Transparent/black/25 (3%)",
@@ -489,10 +531,28 @@
             "rootAlias": "Transparent/black/500 (52%)"
           },
           {
+            "name": "Database/attachment/fileSolidBackground",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
             "name": "Dialog/background/primary",
             "value": "#ffffff",
             "var": "Base/White",
             "rootAlias": "Base/White"
+          },
+          {
+            "name": "Edgeless/alignment/edgeGuides",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Edgeless/alignment/guides",
+            "value": "#6366f1",
+            "var": "Indigo/500",
+            "rootAlias": "Indigo/500"
           },
           {
             "name": "Edgeless/frame/background/black",
@@ -1119,16 +1179,10 @@
             "rootAlias": "Transparent/white/700 (72%)"
           },
           {
-            "name": "EdgelessToolbar/media/background",
-            "value": "#f4f9ff",
-            "var": "Others/Illustration/mediaBackground",
-            "rootAlias": "Others/Illustration/mediaBackground"
-          },
-          {
-            "name": "EdgelessToolbar/media/vector",
-            "value": "#3883ff",
-            "var": "Others/Illustration/mediaShape",
-            "rootAlias": "Others/Illustration/mediaShape"
+            "name": "EdgelessToolbar/media/whiteVector",
+            "value": "#ffffff8f",
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Icon/activated",
@@ -1165,6 +1219,12 @@
             "value": "#cdcdcd",
             "var": "Grey/300",
             "rootAlias": "Grey/300"
+          },
+          {
+            "name": "Icon/transparentBlack",
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
           },
           {
             "name": "Icon/fileIconColors/blue",
@@ -1237,6 +1297,12 @@
             "value": "#ed3f3f",
             "var": "Red/600",
             "rootAlias": "Red/600"
+          },
+          {
+            "name": "Integrations/background/iconSolid",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Layer/black",
@@ -1455,6 +1521,18 @@
             "rootAlias": "Grey/600"
           },
           {
+            "name": "Readwise/quoteBackground",
+            "value": "#f9f9f9",
+            "var": "Grey/25",
+            "rootAlias": "Grey/25"
+          },
+          {
+            "name": "Readwise/quoteDivider",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Segment/background",
             "value": "#0000000d",
             "var": "Transparent/black/50 (5%)",
@@ -1467,6 +1545,30 @@
             "rootAlias": "Base/White"
           },
           {
+            "name": "Selfhost/Portrait/localPortraitBackground",
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Selfhost/button/disable",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Selfhost/button/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/button/secondary",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
             "name": "Selfhost/button/sidebarButton/bg/hover",
             "value": "#0000000d",
             "var": "Transparent/black/50 (5%)",
@@ -1474,9 +1576,27 @@
           },
           {
             "name": "Selfhost/button/sidebarButton/bg/select",
-            "value": "#141414",
-            "var": "Grey/950",
-            "rootAlias": "Grey/950"
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
+          },
+          {
+            "name": "Selfhost/icon/buttonIcon",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/icon/buttonIconError",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/icon/disable",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
           },
           {
             "name": "Selfhost/icon/primary",
@@ -1489,6 +1609,114 @@
             "value": "#7a7a7a",
             "var": "Grey/600",
             "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Selfhost/icon/tertiary",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Selfhost/layer/background/hoverOverlay",
+            "value": "#ffffff3b",
+            "var": "Transparent/white/400 (23%)",
+            "rootAlias": "Transparent/white/400 (23%)"
+          },
+          {
+            "name": "Selfhost/layer/background/primary",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/layer/background/secondary",
+            "value": "#f9f9f9",
+            "var": "Grey/25",
+            "rootAlias": "Grey/25"
+          },
+          {
+            "name": "Selfhost/layer/background/sidebarBg/sidebarBg",
+            "value": "#f9f9f9",
+            "var": "Grey/25",
+            "rootAlias": "Grey/25"
+          },
+          {
+            "name": "Selfhost/layer/border/border",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/progress/error",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
+          },
+          {
+            "name": "Selfhost/progress/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/text/placeholder",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Selfhost/text/button/error",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/text/button/primary",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/text/sidebar/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/text/sidebar/secondary",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundDisable",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundOff",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundOn",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/toggle/foreground",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/toggle/foregroundDisable",
+            "value": "#f9f9f9",
+            "var": "Grey/25",
+            "rootAlias": "Grey/25"
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
@@ -2678,6 +2906,12 @@
             "rootAlias": "Transparent/grey/300 (17%)"
           },
           {
+            "name": "Block/list/header",
+            "value": "#4ab1fa",
+            "var": "Text/listDotAndNumber",
+            "rootAlias": "AFFiNE/400"
+          },
+          {
             "name": "Block/notSupportedBlock/background",
             "value": "#000000",
             "var": "Base/Black",
@@ -2694,6 +2928,30 @@
             "value": "#414141",
             "var": "Grey/800",
             "rootAlias": "Grey/800"
+          },
+          {
+            "name": "Block/recordBlock/buttonBg",
+            "value": "#761717",
+            "var": "Red/900",
+            "rootAlias": "Red/900"
+          },
+          {
+            "name": "Block/recordBlock/primary",
+            "value": "#f45353",
+            "var": "Red/500",
+            "rootAlias": "Red/500"
+          },
+          {
+            "name": "Block/recordBlock/secordary",
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
+          },
+          {
+            "name": "Block/recordBlock/timelineIndeicator",
+            "value": "#ed3f3f",
+            "var": "Red/600",
+            "rootAlias": "Red/600"
           },
           {
             "name": "Button/badgesColor",
@@ -2808,6 +3066,12 @@
             "value": "#0000002b",
             "var": "Transparent/black/300 (17%)",
             "rootAlias": "Transparent/black/300 (17%)"
+          },
+          {
+            "name": "Button/signinbutton/background",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
           },
           {
             "name": "CenterPeek/background",
@@ -2978,6 +3242,12 @@
             "rootAlias": "Transparent/white/200 (13%)"
           },
           {
+            "name": "Database/buttonBackground",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
             "name": "Database/cardHover",
             "value": "#ffffff08",
             "var": "Transparent/white/25 (3%)",
@@ -3008,10 +3278,28 @@
             "rootAlias": "Transparent/white/500 (56%)"
           },
           {
+            "name": "Database/attachment/fileSolidBackground",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
             "name": "Dialog/background/primary",
             "value": "#252525",
             "var": "Grey/900",
             "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Edgeless/alignment/edgeGuides",
+            "value": "#e660a4",
+            "var": "Magenta/600",
+            "rootAlias": "Magenta/600"
+          },
+          {
+            "name": "Edgeless/alignment/guides",
+            "value": "#6366f1",
+            "var": "Indigo/500",
+            "rootAlias": "Indigo/500"
           },
           {
             "name": "Edgeless/frame/background/black",
@@ -3638,16 +3926,10 @@
             "rootAlias": "Transparent/white/400 (23%)"
           },
           {
-            "name": "EdgelessToolbar/media/background",
-            "value": "#333333",
-            "var": "Others/Illustration/mediaBackgroundDark",
-            "rootAlias": "Others/Illustration/mediaBackgroundDark"
-          },
-          {
-            "name": "EdgelessToolbar/media/vector",
-            "value": "#3883ff",
-            "var": "Others/Illustration/mediaShape",
-            "rootAlias": "Others/Illustration/mediaShape"
+            "name": "EdgelessToolbar/media/whiteVector",
+            "value": "#00000038",
+            "var": "Transparent/black/400 (22%)",
+            "rootAlias": "Transparent/black/400 (22%)"
           },
           {
             "name": "Icon/activated",
@@ -3684,6 +3966,12 @@
             "value": "#565656",
             "var": "Grey/700",
             "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Icon/transparentBlack",
+            "value": "#ffffffb8",
+            "var": "Transparent/white/700 (72%)",
+            "rootAlias": "Transparent/white/700 (72%)"
           },
           {
             "name": "Icon/fileIconColors/blue",
@@ -3756,6 +4044,12 @@
             "value": "#ed3f3f",
             "var": "Red/600",
             "rootAlias": "Red/600"
+          },
+          {
+            "name": "Integrations/background/iconSolid",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Layer/black",
@@ -3974,6 +4268,18 @@
             "rootAlias": "Grey/400"
           },
           {
+            "name": "Readwise/quoteBackground",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Readwise/quoteDivider",
+            "value": "#1e96eb",
+            "var": "Button/primary",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
             "name": "Segment/background",
             "value": "#ffffff0d",
             "var": "Transparent/white/50 (5%)",
@@ -3986,28 +4292,178 @@
             "rootAlias": "Transparent/white/100 (9%)"
           },
           {
+            "name": "Selfhost/Portrait/localPortraitBackground",
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
+          },
+          {
+            "name": "Selfhost/button/disable",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Selfhost/button/primary",
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
+          },
+          {
+            "name": "Selfhost/button/secondary",
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
+          },
+          {
             "name": "Selfhost/button/sidebarButton/bg/hover",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
           },
           {
             "name": "Selfhost/button/sidebarButton/bg/select",
+            "value": "#ffffff17",
+            "var": "Transparent/white/100 (9%)",
+            "rootAlias": "Transparent/white/100 (9%)"
+          },
+          {
+            "name": "Selfhost/icon/buttonIcon",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/icon/buttonIconError",
             "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/icon/disable",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Selfhost/icon/primary",
-            "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "value": "#f3f3f3",
+            "var": "Grey/100",
+            "rootAlias": "Grey/100"
           },
           {
             "name": "Selfhost/icon/secondary",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
+          },
+          {
+            "name": "Selfhost/icon/tertiary",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Selfhost/layer/background/hoverOverlay",
+            "value": "#fffffffa",
+            "var": "Transparent/white/950 (98%)",
+            "rootAlias": "Transparent/white/950 (98%)"
+          },
+          {
+            "name": "Selfhost/layer/background/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/layer/background/secondary",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Selfhost/layer/background/sidebarBg/sidebarBg",
+            "value": "#252525",
+            "var": "Grey/900",
+            "rootAlias": "Grey/900"
+          },
+          {
+            "name": "Selfhost/layer/border/border",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Selfhost/progress/error",
+            "value": "#c83030",
+            "var": "Red/700",
+            "rootAlias": "Red/700"
+          },
+          {
+            "name": "Selfhost/progress/primary",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Selfhost/text/placeholder",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Selfhost/text/button/error",
             "value": "#ffffff",
-            "var": "",
-            "rootAlias": ""
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Selfhost/text/button/primary",
+            "value": "#141414",
+            "var": "Grey/950",
+            "rootAlias": "Grey/950"
+          },
+          {
+            "name": "Selfhost/text/sidebar/primary",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
+            "name": "Selfhost/text/sidebar/secondary",
+            "value": "#cdcdcd",
+            "var": "Grey/300",
+            "rootAlias": "Grey/300"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundDisable",
+            "value": "#414141",
+            "var": "Grey/800",
+            "rootAlias": "Grey/800"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundOff",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
+            "name": "Selfhost/toggle/backgroundOn",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Selfhost/toggle/foreground",
+            "value": "#fffffffa",
+            "var": "Transparent/white/950 (98%)",
+            "rootAlias": "Transparent/white/950 (98%)"
+          },
+          {
+            "name": "Selfhost/toggle/foregroundDisable",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-color",
