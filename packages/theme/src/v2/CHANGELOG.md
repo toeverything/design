@@ -913,3 +913,148 @@ None
 ### Updated
 
 None
+
+# 2025-2-12 13:46
+### New
+
+- `block/list/header`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#0077cb" /></svg> `#0077cb`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#4ab1fa" /></svg> `#4ab1fa`
+- `block/recordBlock/buttonBg`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f3f3f3" /></svg> `#f3f3f3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#761717" /></svg> `#761717`
+- `block/recordBlock/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f45353" /></svg> `#f45353`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f45353" /></svg> `#f45353`
+- `block/recordBlock/secordary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ff9a9a" /></svg> `#ff9a9a`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#c83030" /></svg> `#c83030`
+- `block/recordBlock/timelineIndeicator`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ed3f3f" /></svg> `#ed3f3f`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ed3f3f" /></svg> `#ed3f3f`
+- `button/signinbutton/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `database/buttonBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `database/attachment/fileSolidBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `edgeless/alignment/edgeGuides`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e660a4" /></svg> `#e660a4`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e660a4" /></svg> `#e660a4`
+- `edgeless/alignment/guides`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#6366f1" /></svg> `#6366f1`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#6366f1" /></svg> `#6366f1`
+- `edgelessToolbar/media/whiteVector`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff8f" /></svg> `#ffffff8f`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000038" /></svg> `#00000038`
+- `icon/transparentBlack`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000085" /></svg> `#00000085`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffffb8" /></svg> `#ffffffb8`
+- `integrations/background/iconSolid`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+- `readwise/quoteBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f9f9f9" /></svg> `#f9f9f9`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+- `readwise/quoteDivider`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb" /></svg> `#1e96eb`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb" /></svg> `#1e96eb`
+- `selfhost/portrait/localPortraitBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#0000000d" /></svg> `#0000000d`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff21" /></svg> `#ffffff21`
+- `selfhost/button/disable`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#7a7a7a" /></svg> `#7a7a7a`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+- `selfhost/button/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f3f3f3" /></svg> `#f3f3f3`
+- `selfhost/button/secondary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff17" /></svg> `#ffffff17`
+- `selfhost/icon/buttonIcon`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+- `selfhost/icon/buttonIconError`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+- `selfhost/icon/disable`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#b3b3b3" /></svg> `#b3b3b3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+- `selfhost/icon/tertiary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#b3b3b3" /></svg> `#b3b3b3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+- `selfhost/layer/background/hoverOverlay`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff3b" /></svg> `#ffffff3b`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#fffffffa" /></svg> `#fffffffa`
+- `selfhost/layer/background/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+- `selfhost/layer/background/secondary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f9f9f9" /></svg> `#f9f9f9`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+- `selfhost/layer/background/sidebarBg/sidebarBg`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f9f9f9" /></svg> `#f9f9f9`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+- `selfhost/layer/border/border`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+- `selfhost/progress/error`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ed3f3f" /></svg> `#ed3f3f`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#c83030" /></svg> `#c83030`
+- `selfhost/progress/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+- `selfhost/text/placeholder`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#b3b3b3" /></svg> `#b3b3b3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#7a7a7a" /></svg> `#7a7a7a`
+- `selfhost/text/button/error`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+- `selfhost/text/button/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+- `selfhost/text/sidebar/primary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+- `selfhost/text/sidebar/secondary`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#cdcdcd" /></svg> `#cdcdcd`
+- `selfhost/toggle/backgroundDisable`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#414141" /></svg> `#414141`
+- `selfhost/toggle/backgroundOff`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#cdcdcd" /></svg> `#cdcdcd`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+- `selfhost/toggle/backgroundOn`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#b3b3b3" /></svg> `#b3b3b3`
+- `selfhost/toggle/foreground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#fffffffa" /></svg> `#fffffffa`
+- `selfhost/toggle/foregroundDisable`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f9f9f9" /></svg> `#f9f9f9`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+
+### Removed
+
+- `edgelessToolbar/media/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f4f9ff" /></svg> ~~`#f4f9ff`~~
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#333333" /></svg> ~~`#333333`~~
+- `edgelessToolbar/media/vector`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#3883ff" /></svg> ~~`#3883ff`~~
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#3883ff" /></svg> ~~`#3883ff`~~
+
+### Updated
+
+- `selfhost/button/sidebarButton/bg/select`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#141414" /></svg> `#141414` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#0000000d" /></svg> `#0000000d`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff17" /></svg> `#ffffff17`
+- `selfhost/button/sidebarButton/bg/hover`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff17" /></svg> `#ffffff17`
+- `selfhost/icon/primary`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f3f3f3" /></svg> `#f3f3f3`
+- `selfhost/icon/secondary`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#cdcdcd" /></svg> `#cdcdcd`
