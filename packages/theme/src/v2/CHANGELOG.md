@@ -1058,3 +1058,104 @@ None
   - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f3f3f3" /></svg> `#f3f3f3`
 - `selfhost/icon/secondary`
   - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#cdcdcd" /></svg> `#cdcdcd`
+
+# 2025-2-20 11:57
+### New
+
+- `adjustmentHandle/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000038" /></svg> `#00000038`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff8f" /></svg> `#ffffff8f`
+- `block/footnote/numberBg`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+- `block/footnote/numberBgHover`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb" /></svg> `#1e96eb`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb" /></svg> `#1e96eb`
+- `edgelessToolbar/highlightPen/body`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#fafafa" /></svg> `#fafafa`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#3d3d3d" /></svg> `#3d3d3d`
+- `edgelessToolbar/highlightPen/body1Linear1-1`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body1Linear1-2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body1Linear1-3`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+- `edgelessToolbar/highlightPen/body1Linear2-1`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff00" /></svg> `#ffffff00`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body1Linear2-2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff00" /></svg> `#ffffff00`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000080" /></svg> `#00000080`
+- `edgelessToolbar/highlightPen/body1Linear2-3`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff00" /></svg> `#ffffff00`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+- `edgelessToolbar/highlightPen/body1Linear2-4`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff00" /></svg> `#ffffff00`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+- `edgelessToolbar/highlightPen/body2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f3f3f3" /></svg> `#f3f3f3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#303030" /></svg> `#303030`
+- `edgelessToolbar/highlightPen/body2Linear1-1`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear1-2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear1-3`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear2-1`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear2-2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear2-3`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/body2Linear2-4`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+- `edgelessToolbar/highlightPen/body2Linear2-5`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#797979" /></svg> `#797979`
+- `edgelessToolbar/highlightPen/bodyColorLinear-1`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000000" /></svg> `#00000000`
+- `edgelessToolbar/highlightPen/bodyColorLinear-2`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000fc" /></svg> `#000000fc`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000`
+- `edgelessToolbar/highlightPen/bodyColorLinear-3`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000c4" /></svg> `#000000c4`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000c4" /></svg> `#000000c4`
+- `edgelessToolbar/penEraser/penBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#fafafa" /></svg> `#fafafa`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#3d3d3d" /></svg> `#3d3d3d`
+- `edgelessToolbar/penEraser/penInlineShadow`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff00" /></svg> `#ffffff00`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000040" /></svg> `#00000040`
+- `workspacePicker/secondaryBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#9292921a" /></svg> `#9292921a`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#9292922b" /></svg> `#9292922b`
+
+### Removed
+
+- `edgelessToolbar/penEraser/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f1f1f1" /></svg> ~~`#f1f1f1`~~
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#c1c1c1" /></svg> ~~`#c1c1c1`~~
+- `workspacePicker/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> ~~`#ffffff`~~
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> ~~`#252525`~~
+
+### Updated
+
+- `edgeless/alignment/edgeGuides`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e660a4" /></svg> `#e660a4` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#cc4187" /></svg> `#cc4187`
+- `edgeless/alignment/guides`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#6366f1" /></svg> `#6366f1` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#8b5cf6" /></svg> `#8b5cf6`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#6366f1" /></svg> `#6366f1` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#8b5cf6" /></svg> `#8b5cf6`
+- `edgelessToolbar/penEraser/eraserFill`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#c1c1c1" /></svg> `#c1c1c1` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#3d3d3d" /></svg> `#3d3d3d`
