@@ -261,6 +261,12 @@
             "rootAlias": "Red/600"
           },
           {
+            "name": "Button/actionActive",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/800 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+          },
+          {
             "name": "Button/badgesColor",
             "value": "#ed3f3f",
             "var": "Red/600",
@@ -1473,6 +1479,12 @@
             "rootAlias": "Grey/300"
           },
           {
+            "name": "Icon/monotone",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
             "name": "Icon/primary",
             "value": "#7a7a7a",
             "var": "Grey/600",
@@ -1630,9 +1642,9 @@
           },
           {
             "name": "Layer/background/codeBlock",
-            "value": "#f9f9f9",
-            "var": "Grey/25",
-            "rootAlias": "Grey/25"
+            "value": "#f5f5f5",
+            "var": "Grey/50",
+            "rootAlias": "Grey/50"
           },
           {
             "name": "Layer/background/error",
@@ -1743,6 +1755,12 @@
             "rootAlias": "Transparent/black/200 (10%)"
           },
           {
+            "name": "Loading/backgroundLayer",
+            "value": "#9292921a",
+            "var": "Transparent/grey/200 (10%)",
+            "rootAlias": "Transparent/grey/200 (10%)"
+          },
+          {
             "name": "Loading/foreground",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
@@ -1759,6 +1777,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Pagelist/hoverBorder",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
           },
           {
             "name": "Portrait/localPortrait",
@@ -2163,10 +2187,58 @@
             "rootAlias": "Others/Shadow/14(black)"
           },
           {
+            "name": "Shadow/NoteShadow/filmShadow/1-color",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/2-color",
+            "value": "#000000",
+            "var": "Base/Black",
+            "rootAlias": "Base/Black"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-color",
+            "value": "#0000001f",
+            "var": "Others/Shadow/12(black)",
+            "rootAlias": "Others/Shadow/12(black)"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-color",
+            "value": "#0000000d",
+            "var": "Others/Shadow/5(black)",
+            "rootAlias": "Others/Shadow/5(black)"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/3-color",
+            "value": "#00000014",
+            "var": "Others/Shadow/8(black)",
+            "rootAlias": "Others/Shadow/8(black)"
+          },
+          {
             "name": "Shadow/NoteShadow/noteActiveShadow/Color",
             "value": "#ffffff",
             "var": "",
             "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/1-color",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-color",
+            "value": "#00000024",
+            "var": "Others/Shadow/14(black)",
+            "rootAlias": "Others/Shadow/14(black)"
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-color",
+            "value": "#0000000d",
+            "var": "Others/Shadow/5(black)",
+            "rootAlias": "Others/Shadow/5(black)"
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-color",
@@ -2867,6 +2939,96 @@
             "rootAlias": ""
           },
           {
+            "name": "Shadow/NoteShadow/filmShadow/1-spead",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-x",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/2-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/3-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/1-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Shadow/NoteShadow/stickerShadow/1-spread",
             "value": "-Infinityrem",
             "var": "",
@@ -3288,6 +3450,12 @@
             "value": "#ed3f3f",
             "var": "Red/600",
             "rootAlias": "Red/600"
+          },
+          {
+            "name": "Button/actionActive",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/800 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
           },
           {
             "name": "Button/badgesColor",
@@ -4502,6 +4670,12 @@
             "rootAlias": "Grey/700"
           },
           {
+            "name": "Icon/monotone",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
             "name": "Icon/primary",
             "value": "#f3f3f3",
             "var": "Grey/100",
@@ -4772,6 +4946,12 @@
             "rootAlias": "Transparent/white/200 (13%)"
           },
           {
+            "name": "Loading/backgroundLayer",
+            "value": "#929292e5",
+            "var": "Transparent/grey/900 (90%)",
+            "rootAlias": "Transparent/grey/900 (90%)"
+          },
+          {
             "name": "Loading/foreground",
             "value": "#0077cb",
             "var": "AFFiNE/700",
@@ -4788,6 +4968,12 @@
             "value": "#facc15",
             "var": "Yellow/600",
             "rootAlias": "Yellow/600"
+          },
+          {
+            "name": "Pagelist/hoverBorder",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
           },
           {
             "name": "Portrait/localPortrait",
@@ -5181,15 +5367,45 @@
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-color",
-            "value": "#00000066",
-            "var": "Others/Shadow/40(black)",
-            "rootAlias": "Others/Shadow/40(black)"
+            "value": "#ffffff21",
+            "var": "Transparent/white/200 (13%)",
+            "rootAlias": "Transparent/white/200 (13%)"
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/2-color",
-            "value": "#0000004d",
-            "var": "Others/Shadow/30(black)",
-            "rootAlias": "Others/Shadow/30(black)"
+            "value": "#00000099",
+            "var": "Others/Shadow/60(black)",
+            "rootAlias": "Others/Shadow/60(black)"
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-color",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/2-color",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-color",
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-color",
+            "value": "#00000033",
+            "var": "Others/Shadow/20(black)",
+            "rootAlias": "Others/Shadow/20(black)"
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/3-color",
+            "value": "#ffffff14",
+            "var": "Others/Shadow/8(white)",
+            "rootAlias": "Others/Shadow/8(white)"
           },
           {
             "name": "Shadow/NoteShadow/noteActiveShadow/Color",
@@ -5198,16 +5414,34 @@
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/stickerShadow/1-color",
+            "name": "Shadow/NoteShadow/paperShadow/1-color",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-color",
+            "value": "#00000066",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-color",
             "value": "#0000004d",
-            "var": "Others/Shadow/30(black)",
-            "rootAlias": "Others/Shadow/30(black)"
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-color",
+            "value": "#ffffff0f",
+            "var": "Others/Shadow/6(white)",
+            "rootAlias": "Others/Shadow/6(white)"
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-color",
-            "value": "#0000001f",
-            "var": "Others/Shadow/12(black)",
-            "rootAlias": "Others/Shadow/12(black)"
+            "value": "#00000099",
+            "var": "Others/Shadow/60(black)",
+            "rootAlias": "Others/Shadow/60(black)"
           },
           {
             "name": "Shadow/activeShadow/Color",
@@ -5896,13 +6130,109 @@
             "rootAlias": ""
           },
           {
+            "name": "Shadow/NoteShadow/filmShadow/1-spead",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-x",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/2-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/1-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/2-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/floatShadow/3-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/1-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-spread",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-blur",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-y",
+            "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
             "name": "Shadow/NoteShadow/stickerShadow/1-spread",
-            "value": "-Infinityrem",
+            "value": "NaNrem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-x",
+            "value": "NaNrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-y",
             "value": "NaNrem",
             "var": "",
             "rootAlias": ""
@@ -5915,12 +6245,6 @@
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/1-y",
             "value": "Infinityrem",
             "var": "",
             "rootAlias": ""
