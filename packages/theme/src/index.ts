@@ -231,13 +231,13 @@ const pureLightTheme = {
   cmdShadow: '0px 10px 80px 0px rgba(0, 0, 0, 0.20)',
   largeButtonEffect: '0px 12px 21px 4px rgba(30, 150, 235, 0.15)',
   noteShadowBox:
-    '0px 2px 12px 0px rgba(66, 65, 73, 0.20), 0px 0px 4px 0px rgba(66, 65, 73, 0.20)',
+    '0px 0px 4px 0px rgba(0, 0, 0, 0.14), 0px 2px 12px 0px rgba(0, 0, 0, 0.14)',
   noteShadowSticker:
-    '0px 24px 26px -10px rgba(66, 65, 73, 0.07), 0px 26px 18px -20px rgba(66, 65, 73, 0.22)',
+    '0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 26px 18px -20px rgba(0, 0, 0, 0.10)',
   noteShadowPaper:
-    '0px 0px 0px 10px #FFF, 0px 3px 6px 12px rgba(66, 65, 73, 0.16)',
+    '0px 2px 4px 0px rgba(0, 0, 0, 0.05), 0px 0px 0px 10px #FFF, 0px 3px 6px 12px rgba(0, 0, 0, 0.14)',
   noteShadowFloat:
-    '0px 12px 60px 0px rgba(66, 65, 73, 0.16), 0px 0px 0px 2px rgba(0, 0, 0, 0.06)',
+    '0px 0px 32px 0px rgba(0, 0, 0, 0.09), 0px 0px 3px 0px rgba(0, 0, 0, 0.10)',
   noteShadowFilm: '10px 10px 0px 6px #000, 0px 0px 0px 6px #000',
   aiEmptyShadow: '0px 4px 4px rgba(66, 65, 73, 0.10), 0px 6px 8px rgba(66, 65, 73, 0.05)',
   buttonGrayColor: 'rgba(245, 245, 245, 1)',
@@ -385,14 +385,14 @@ const pureDarkTheme = {
   cmdShadow: '0px 16px 80px 0px rgba(0, 0, 0, 0.80)',
   largeButtonEffect: '0px 12px 20px 4px rgba(28, 158, 228, 0.18)',
   noteShadowBox:
-    '0px 2px 12px 0px rgba(0, 0, 0, 0.26), 0px 0px 4px 0px rgba(0, 0, 0, 0.44)',
+    '0px 0px 2px 0px rgba(255, 255, 255, 0.44), 0px 2px 12px 0px rgba(0, 0, 0, 0.30)',
   noteShadowSticker:
-    '0px 24px 26px -10px rgba(0, 0, 0, 0.11), 0px 26px 18px -20px rgba(0, 0, 0, 0.32)',
+    '0px 24px 26px -10px rgba(0, 0, 0, 0.22), 0px 26px 18px -18px rgba(0, 0, 0, 0.52)',
   noteShadowPaper:
-    '0px 0px 0px 10px rgba(255, 255, 255, 0.20), 0px 3px 6px 12px rgba(0, 0, 0, 0.22)',
+    '0px 2px 4px 0px rgba(0, 0, 0, 0.30), 0px 0px 10px #7A7A7A, 0px 6px 12px rgba(0, 0, 0, 0.40)',
   noteShadowFloat:
-    '0px 12px 70px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 2px rgba(0, 0, 0, 0.10)',
-  noteShadowFilm: '10px 10px 0px 6px #B2B2B2, 0px 0px 0px 6px #B2B2B2',
+    '0px 0px 32px 0px rgba(0, 0, 0, 0.30), 0px 0px 2px 0px rgba(255, 255, 255, 0.44)',
+  noteShadowFilm: '10px 10px 0px 6px #7A7A7A, 0px 0px 0px 6px #7A7A7A',
   aiEmptyShadow: '0px 4px 4px rgba(66, 65, 73, 0.10), 0px 6px 8px rgba(66, 65, 73, 0.05)',
 
   buttonGrayColor: 'rgba(85, 85, 85, 1)',
