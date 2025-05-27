@@ -46,9 +46,15 @@
           },
           {
             "name": "AdjustmentHandle/background",
-            "value": "#00000038",
-            "var": "Transparent/black/400 (22%)",
-            "rootAlias": "Transparent/black/400 (22%)"
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
+          },
+          {
+            "name": "AdjustmentHandle/border",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Backlinks/blockBackgroundColor",
@@ -195,6 +201,36 @@
             "rootAlias": "Yellow/500"
           },
           {
+            "name": "Block/code/lineNum",
+            "value": "#b3b3b3",
+            "var": "Grey/400",
+            "rootAlias": "Grey/400"
+          },
+          {
+            "name": "Block/comment/hanelActive",
+            "value": "#1e96eb05",
+            "var": "Transparent/AFFiNE Blue/20 (2%)",
+            "rootAlias": "Transparent/AFFiNE Blue/20 (2%)"
+          },
+          {
+            "name": "Block/comment/highlightActive",
+            "value": "#1e96eb4d",
+            "var": "Transparent/AFFiNE Blue/300 (30%)",
+            "rootAlias": "Transparent/AFFiNE Blue/300 (30%)"
+          },
+          {
+            "name": "Block/comment/highlightDefault",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
+          },
+          {
+            "name": "Block/comment/highlightUnderline",
+            "value": "#1e96ebb2",
+            "var": "Transparent/AFFiNE Blue/700 (70%)",
+            "rootAlias": "Transparent/AFFiNE Blue/700 (70%)"
+          },
+          {
             "name": "Block/divider/divider",
             "value": "#92929238",
             "var": "Transparent/grey/400 (22%)",
@@ -263,8 +299,8 @@
           {
             "name": "Button/actionActive",
             "value": "#1e96eb14",
-            "var": "Transparent/AFFiNE Blue/800 (8%)",
-            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
           },
           {
             "name": "Button/badgesColor",
@@ -341,8 +377,8 @@
           {
             "name": "Button/templateLabelBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400 (4%)",
-            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+            "var": "Transparent/AFFiNE Blue/40 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/40 (4%)"
           },
           {
             "name": "Button/grabber/Select",
@@ -635,8 +671,8 @@
           {
             "name": "Database/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400 (4%)",
-            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+            "var": "Transparent/AFFiNE Blue/40 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/40 (4%)"
           },
           {
             "name": "Database/textSecondary",
@@ -1097,8 +1133,8 @@
           {
             "name": "Edgeless/selection/selectionMarqueeBackground",
             "value": "#1e96eb14",
-            "var": "Transparent/AFFiNE Blue/800 (8%)",
-            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
           },
           {
             "name": "Edgeless/selection/selectionMarqueeBorder",
@@ -1647,6 +1683,12 @@
             "rootAlias": "Grey/50"
           },
           {
+            "name": "Layer/background/edgelessGrid",
+            "value": "#e6e6e6",
+            "var": "Grey/200",
+            "rootAlias": "Grey/200"
+          },
+          {
             "name": "Layer/background/error",
             "value": "#fff1f1",
             "var": "Rose/50",
@@ -1762,15 +1804,27 @@
           },
           {
             "name": "Loading/backgroundLayer",
-            "value": "#9292921a",
-            "var": "Transparent/grey/200 (10%)",
-            "rootAlias": "Transparent/grey/200 (10%)"
+            "value": "#92929238",
+            "var": "Transparent/grey/400 (22%)",
+            "rootAlias": "Transparent/grey/400 (22%)"
           },
           {
             "name": "Loading/foreground",
             "value": "#1e96eb",
             "var": "AFFiNE/600",
             "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "Loading/imageLoadingBackground",
+            "value": "#92929238",
+            "var": "Transparent/grey/400 (22%)",
+            "rootAlias": "Transparent/grey/400 (22%)"
+          },
+          {
+            "name": "Loading/imageLoadingLayer",
+            "value": "#ffffff8f",
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Others/warnLabel/black",
@@ -2242,15 +2296,15 @@
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-color",
-            "value": "#00000029",
-            "var": "Others/Shadow/16(black)",
-            "rootAlias": "Others/Shadow/16(black)"
+            "value": "#0000001a",
+            "var": "Others/Shadow/10(black)",
+            "rootAlias": "Others/Shadow/10(black)"
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-color",
-            "value": "#0000000d",
-            "var": "Others/Shadow/5(black)",
-            "rootAlias": "Others/Shadow/5(black)"
+            "value": "#00000014",
+            "var": "Others/Shadow/8(black)",
+            "rootAlias": "Others/Shadow/8(black)"
           },
           {
             "name": "Shadow/activeShadow/Color",
@@ -2453,8 +2507,8 @@
           {
             "name": "Table/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400 (4%)",
-            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+            "var": "Transparent/AFFiNE Blue/40 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/40 (4%)"
           },
           {
             "name": "Table/focusBorder",
@@ -3029,20 +3083,14 @@
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/stickerShadow/1-x",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/2-spread",
-            "value": "-Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
             "name": "Shadow/NoteShadow/stickerShadow/1-blur",
             "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-x",
+            "value": "NaNrem",
             "var": "",
             "rootAlias": ""
           },
@@ -3055,6 +3103,12 @@
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-blur",
             "value": "Infinityrem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/2-spread",
+            "value": "NaNrem",
             "var": "",
             "rootAlias": ""
           },
@@ -3231,9 +3285,15 @@
           },
           {
             "name": "AdjustmentHandle/background",
-            "value": "#ffffff8f",
-            "var": "Transparent/white/500 (56%)",
-            "rootAlias": "Transparent/white/500 (56%)"
+            "value": "#00000085",
+            "var": "Transparent/black/500 (52%)",
+            "rootAlias": "Transparent/black/500 (52%)"
+          },
+          {
+            "name": "AdjustmentHandle/border",
+            "value": "#ffffff",
+            "var": "Base/White",
+            "rootAlias": "Base/White"
           },
           {
             "name": "Backlinks/blockBackgroundColor",
@@ -3378,6 +3438,36 @@
             "value": "#e0aa00",
             "var": "Yellow/700",
             "rootAlias": "Yellow/700"
+          },
+          {
+            "name": "Block/code/lineNum",
+            "value": "#7a7a7a",
+            "var": "Grey/600",
+            "rootAlias": "Grey/600"
+          },
+          {
+            "name": "Block/comment/hanelActive",
+            "value": "#ffffff0d",
+            "var": "Transparent/white/50 (5%)",
+            "rootAlias": "Transparent/white/50 (5%)"
+          },
+          {
+            "name": "Block/comment/highlightActive",
+            "value": "#1e96eb4d",
+            "var": "Transparent/AFFiNE Blue/300 (30%)",
+            "rootAlias": "Transparent/AFFiNE Blue/300 (30%)"
+          },
+          {
+            "name": "Block/comment/highlightDefault",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
+          },
+          {
+            "name": "Block/comment/highlightUnderline",
+            "value": "#1e96ebb2",
+            "var": "Transparent/AFFiNE Blue/700 (70%)",
+            "rootAlias": "Transparent/AFFiNE Blue/700 (70%)"
           },
           {
             "name": "Block/divider/divider",
@@ -3526,8 +3616,8 @@
           {
             "name": "Button/templateLabelBackground",
             "value": "#1e96eb14",
-            "var": "Transparent/AFFiNE Blue/800 (8%)",
-            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
           },
           {
             "name": "Button/grabber/Select",
@@ -3820,8 +3910,8 @@
           {
             "name": "Database/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400 (4%)",
-            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+            "var": "Transparent/AFFiNE Blue/40 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/40 (4%)"
           },
           {
             "name": "Database/textSecondary",
@@ -4282,8 +4372,8 @@
           {
             "name": "Edgeless/selection/selectionMarqueeBackground",
             "value": "#1e96eb14",
-            "var": "Transparent/AFFiNE Blue/800 (8%)",
-            "rootAlias": "Transparent/AFFiNE Blue/800 (8%)"
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
           },
           {
             "name": "Edgeless/selection/selectionMarqueeBorder",
@@ -4832,6 +4922,12 @@
             "rootAlias": "Grey/900"
           },
           {
+            "name": "Layer/background/edgelessGrid",
+            "value": "#565656",
+            "var": "Grey/700",
+            "rootAlias": "Grey/700"
+          },
+          {
             "name": "Layer/background/error",
             "value": "#460606",
             "var": "Red/950",
@@ -4941,21 +5037,33 @@
           },
           {
             "name": "Loading/background",
-            "value": "#ffffff21",
-            "var": "Transparent/white/200 (13%)",
-            "rootAlias": "Transparent/white/200 (13%)"
+            "value": "#ffffff2b",
+            "var": "Transparent/white/300 (17%)",
+            "rootAlias": "Transparent/white/300 (17%)"
           },
           {
             "name": "Loading/backgroundLayer",
-            "value": "#929292e5",
-            "var": "Transparent/grey/900 (90%)",
-            "rootAlias": "Transparent/grey/900 (90%)"
+            "value": "#929292f2",
+            "var": "Transparent/grey/950 (95%)",
+            "rootAlias": "Transparent/grey/950 (95%)"
           },
           {
             "name": "Loading/foreground",
             "value": "#0077cb",
             "var": "AFFiNE/700",
             "rootAlias": "AFFiNE/700"
+          },
+          {
+            "name": "Loading/imageLoadingBackground",
+            "value": "#92929238",
+            "var": "Transparent/grey/400 (22%)",
+            "rootAlias": "Transparent/grey/400 (22%)"
+          },
+          {
+            "name": "Loading/imageLoadingLayer",
+            "value": "#ffffff8f",
+            "var": "Transparent/white/500 (56%)",
+            "rootAlias": "Transparent/white/500 (56%)"
           },
           {
             "name": "Others/warnLabel/black",
@@ -5638,8 +5746,8 @@
           {
             "name": "Table/focusBackground",
             "value": "#1e96eb0a",
-            "var": "Transparent/AFFiNE Blue/400 (4%)",
-            "rootAlias": "Transparent/AFFiNE Blue/400 (4%)"
+            "var": "Transparent/AFFiNE Blue/40 (4%)",
+            "rootAlias": "Transparent/AFFiNE Blue/40 (4%)"
           },
           {
             "name": "Table/focusBorder",
