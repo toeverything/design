@@ -1307,3 +1307,49 @@ None
   - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f9f9f9" /></svg> `#f9f9f9` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#f5f5f5" /></svg> `#f5f5f5`
 - `edgeless/note/white`
   - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#000000" /></svg> `#000000` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#252525" /></svg> `#252525`
+
+# 2025-5-27 11:44
+### New
+
+- `adjustmentHandle/border`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff" /></svg> `#ffffff`
+- `block/code/lineNum`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#b3b3b3" /></svg> `#b3b3b3`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#7a7a7a" /></svg> `#7a7a7a`
+- `block/comment/hanelActive`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb05" /></svg> `#1e96eb05`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff0d" /></svg> `#ffffff0d`
+- `block/comment/highlightActive`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb4d" /></svg> `#1e96eb4d`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb4d" /></svg> `#1e96eb4d`
+- `block/comment/highlightDefault`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb14" /></svg> `#1e96eb14`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96eb14" /></svg> `#1e96eb14`
+- `block/comment/highlightUnderline`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96ebb2" /></svg> `#1e96ebb2`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#1e96ebb2" /></svg> `#1e96ebb2`
+- `layer/background/edgelessGrid`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#e6e6e6" /></svg> `#e6e6e6`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#565656" /></svg> `#565656`
+- `loading/imageLoadingBackground`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#92929238" /></svg> `#92929238`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#92929238" /></svg> `#92929238`
+- `loading/imageLoadingLayer`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff8f" /></svg> `#ffffff8f`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff8f" /></svg> `#ffffff8f`
+
+### Removed
+
+None
+
+### Updated
+
+- `adjustmentHandle/background`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000038" /></svg> `#00000038` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000085" /></svg> `#00000085`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff8f" /></svg> `#ffffff8f` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#00000085" /></svg> `#00000085`
+- `loading/backgroundLayer`
+  - light:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#9292921a" /></svg> `#9292921a` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#92929238" /></svg> `#92929238`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#929292e5" /></svg> `#929292e5` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#929292f2" /></svg> `#929292f2`
+- `loading/background`
+  - dark:  <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff21" /></svg> `#ffffff21` → <svg width="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect stroke="rgba(0,0,0,0.1)" width="20" height="20" rx="4" fill="#ffffff2b" /></svg> `#ffffff2b`
