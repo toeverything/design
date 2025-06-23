@@ -3,10 +3,14 @@
 // ⚠️ Do not modify this file directly!
 
 export const lightThemeV2 = {
+  'aI/applyBackground': '#92929212',
+  'aI/applyDeleteHighlight': '#ed3f3f21',
+  'aI/applyTextHighlight': '#1e96eb',
+  'aI/applyTextHighlightBackground': '#1e96eb14',
   'aI/errorBackground': '#fff4f5',
   'aI/errorDetailBackground': '#ffffff99',
   'aI/errorText': '#ed3f3f',
-  'aI/thinkingOutputBackground': '#f9f9f9',
+  'aI/thinkingOutputBackground': '#0000000d',
   'aI/thinkingOutputText': '#000000a6',
   'aI/userTextBackground': '#f3f3f3',
   'adjustmentHandle/background': '#00000085',
@@ -438,6 +442,10 @@ export const lightThemeV2 = {
   'tableOfContent/background': '#ffffff',
 };
 export const darkThemeV2 = {
+  'aI/applyBackground': '#9292921a',
+  'aI/applyDeleteHighlight': '#ed3f3f3b',
+  'aI/applyTextHighlight': '#29a3fa',
+  'aI/applyTextHighlightBackground': '#1e96eb1a',
   'aI/errorBackground': '#ed3f3f2e',
   'aI/errorDetailBackground': '#00000054',
   'aI/errorText': '#fff4f5',
@@ -874,10 +882,14 @@ export const darkThemeV2 = {
 };
 export const nestedLightTheme = {
   aI: {
+    applyBackground: '#92929212',
+    applyDeleteHighlight: '#ed3f3f21',
+    applyTextHighlight: '#1e96eb',
+    applyTextHighlightBackground: '#1e96eb14',
     errorBackground: '#fff4f5',
     errorDetailBackground: '#ffffff99',
     errorText: '#ed3f3f',
-    thinkingOutputBackground: '#f9f9f9',
+    thinkingOutputBackground: '#0000000d',
     thinkingOutputText: '#000000a6',
     userTextBackground: '#f3f3f3',
   },
@@ -1400,6 +1412,10 @@ export const nestedLightTheme = {
 } as const;
 export const nestedDarkTheme = {
   aI: {
+    applyBackground: '#9292921a',
+    applyDeleteHighlight: '#ed3f3f3b',
+    applyTextHighlight: '#29a3fa',
+    applyTextHighlightBackground: '#1e96eb1a',
     errorBackground: '#ed3f3f2e',
     errorDetailBackground: '#00000054',
     errorText: '#fff4f5',

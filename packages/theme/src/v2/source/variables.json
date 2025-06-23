@@ -9,6 +9,30 @@
         },
         "color": [
           {
+            "name": "AI/applyBackground",
+            "value": "#92929212",
+            "var": "Transparent/grey/100 (7%)",
+            "rootAlias": "Transparent/grey/100 (7%)"
+          },
+          {
+            "name": "AI/applyDeleteHighlight",
+            "value": "#ed3f3f21",
+            "var": "Transparent/red/100 (13%)",
+            "rootAlias": "Transparent/red/100 (13%)"
+          },
+          {
+            "name": "AI/applyTextHighlight",
+            "value": "#1e96eb",
+            "var": "Text/emphasis",
+            "rootAlias": "AFFiNE/600"
+          },
+          {
+            "name": "AI/applyTextHighlightBackground",
+            "value": "#1e96eb14",
+            "var": "Transparent/AFFiNE Blue/80 (8%)",
+            "rootAlias": "Transparent/AFFiNE Blue/80 (8%)"
+          },
+          {
             "name": "AI/errorBackground",
             "value": "#fff4f5",
             "var": "Red/25",
@@ -28,9 +52,9 @@
           },
           {
             "name": "AI/thinkingOutputBackground",
-            "value": "#f9f9f9",
-            "var": "Grey/25",
-            "rootAlias": "Grey/25"
+            "value": "#0000000d",
+            "var": "Transparent/black/50 (5%)",
+            "rootAlias": "Transparent/black/50 (5%)"
           },
           {
             "name": "AI/thinkingOutputText",
@@ -3247,6 +3271,30 @@
           "id": "296:0"
         },
         "color": [
+          {
+            "name": "AI/applyBackground",
+            "value": "#9292921a",
+            "var": "Transparent/grey/200 (10%)",
+            "rootAlias": "Transparent/grey/200 (10%)"
+          },
+          {
+            "name": "AI/applyDeleteHighlight",
+            "value": "#ed3f3f3b",
+            "var": "Transparent/red/300 (23%)",
+            "rootAlias": "Transparent/red/300 (23%)"
+          },
+          {
+            "name": "AI/applyTextHighlight",
+            "value": "#29a3fa",
+            "var": "Text/emphasis",
+            "rootAlias": "AFFiNE/500"
+          },
+          {
+            "name": "AI/applyTextHighlightBackground",
+            "value": "#1e96eb1a",
+            "var": "Transparent/AFFiNE Blue/100 (10%)",
+            "rootAlias": "Transparent/AFFiNE Blue/100 (10%)"
+          },
           {
             "name": "AI/errorBackground",
             "value": "#ed3f3f2e",
