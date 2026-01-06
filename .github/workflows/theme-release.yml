@@ -33,10 +33,11 @@ jobs:
         name: Install pnpm
         id: pnpm-install
       - name: Use Node.js LTS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
+          registry-url: 'https://registry.npmjs.org'
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
@@ -63,7 +64,7 @@ jobs:
           PACKAGEJSON_DIR: 'packages/theme'
 
       - name: Try publishing to NPM
-        run: ./scripts/publish.sh
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          PACKAGE_NAME: theme
+        run: |
+          cd packages/theme
+          pnpm run build
+          pnpm publish
