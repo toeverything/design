@@ -70,4 +70,4 @@ jobs:
         run: |
           cd packages/components
           pnpm run build
-          pnpm publish
+          npm publish
