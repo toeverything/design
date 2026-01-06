@@ -118,57 +118,57 @@
           },
           {
             "name": "Block/callout/background/blue",
-            "value": "#f0f9ff",
-            "var": "Blue/25",
-            "rootAlias": "Blue/25"
+            "value": "#e6f5ff",
+            "var": "Blue/50",
+            "rootAlias": "Blue/50"
           },
           {
             "name": "Block/callout/background/green",
-            "value": "#fbfef1",
-            "var": "Lime/25",
-            "rootAlias": "Lime/25"
+            "value": "#f9fee7",
+            "var": "Lime/50",
+            "rootAlias": "Lime/50"
           },
           {
             "name": "Block/callout/background/grey",
-            "value": "#f9f9f9",
-            "var": "Grey/25",
-            "rootAlias": "Grey/25"
+            "value": "#f5f5f5",
+            "var": "Grey/50",
+            "rootAlias": "Grey/50"
           },
           {
             "name": "Block/callout/background/magenta",
-            "value": "#fefaff",
-            "var": "Fuchsia/25",
-            "rootAlias": "Fuchsia/25"
+            "value": "#fcf4ff",
+            "var": "Fuchsia/50",
+            "rootAlias": "Fuchsia/50"
           },
           {
             "name": "Block/callout/background/orange",
-            "value": "#fff7ee",
-            "var": "Orange/25",
-            "rootAlias": "Orange/25"
+            "value": "#ffebd5",
+            "var": "Orange/50",
+            "rootAlias": "Orange/50"
           },
           {
             "name": "Block/callout/background/purple",
-            "value": "#f9f7ff",
-            "var": "Violet/25",
-            "rootAlias": "Violet/25"
+            "value": "#f5f3ff",
+            "var": "Violet/50",
+            "rootAlias": "Violet/50"
           },
           {
             "name": "Block/callout/background/red",
-            "value": "#fff4f5",
-            "var": "Red/25",
-            "rootAlias": "Red/25"
+            "value": "#fce5e6",
+            "var": "Red/50",
+            "rootAlias": "Red/50"
           },
           {
             "name": "Block/callout/background/teal",
-            "value": "#eefffd",
-            "var": "Teal/25",
-            "rootAlias": "Teal/25"
+            "value": "#e2fdf9",
+            "var": "Teal/50",
+            "rootAlias": "Teal/50"
           },
           {
             "name": "Block/callout/background/yellow",
-            "value": "#fdfcf4",
-            "var": "Amber/25",
-            "rootAlias": "Amber/25"
+            "value": "#fffbeb",
+            "var": "Amber/50",
+            "rootAlias": "Amber/50"
           },
           {
             "name": "Block/callout/icon/blue",
@@ -2921,344 +2921,344 @@
         ],
         "number": [
           {
-            "name": "Shadow/EdgelessToolbar/Note/shadow-1-y",
-            "value": "-Infinityrem",
+            "name": "Shadow/EdgelessToolbar/Note/shadow-2-y",
+            "value": "-0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/EdgelessToolbar/Note/shadow-2-y",
-            "value": "-Infinityrem",
+            "name": "Shadow/EdgelessToolbar/Note/shadow-1-y",
+            "value": "-0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-blur",
-            "value": "Infinityrem",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-3-blur",
-            "value": "Infinityrem",
+            "value": "0.25rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Keyboard/keyboardShadow-y",
-            "value": "-Infinityrem",
+            "value": "-0.25rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Keyboard/keyboardShadow-blur",
-            "value": "Infinityrem",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-y-2",
-            "value": "-Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/Mobile/Menu/menuShadow-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/Mobile/Menu/menuShadow-blur-2",
-            "value": "Infinityrem",
+            "value": "-0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-y",
-            "value": "Infinityrem",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/boxShadow/1-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/Mobile/Menu/menuShadow-blur-2",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/Mobile/Menu/menuShadow-blur",
+            "value": "1.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/boxShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/boxShadow/1-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/boxShadow/2-blur",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/filmShadow/1-spead",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/filmShadow/1-x",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/filmShadow/1-y",
-            "value": "Infinityrem",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/filmShadow/2-spread",
-            "value": "Infinityrem",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/floatShadow/1-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/filmShadow/1-x",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-y",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/floatShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/floatShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/floatShadow/2-y",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/paperShadow/1-spread",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/floatShadow/2-blur",
+            "value": "0.1875rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/paperShadow/2-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/2-spread",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/2-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/3-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/floatShadow/1-blur",
+            "value": "2rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/paperShadow/3-y",
-            "value": "Infinityrem",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-y",
+            "value": "0.1875rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-blur",
+            "value": "0.375rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/1-spread",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-spread",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-spread",
-            "value": "-Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/1-blur",
-            "value": "Infinityrem",
+            "value": "-1rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-x",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/1-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-spread",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.375rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/2-blur",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-blur",
+            "value": "1.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-y",
+            "value": "1.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/activeShadow/spread",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/buttonShadow/1-blur",
-            "value": "Infinityrem",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/1-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/buttonShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/buttonShadow/1-blur",
+            "value": "0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/buttonShadow/2-blur",
+            "value": "0.3125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/embedShadow/spread",
-            "value": "Infinityrem",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/glowBrush/1-blur",
-            "value": "Infinityrem",
+            "value": "0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/glowBrush/2-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/1-blur",
-            "value": "Infinityrem",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/1-x",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/1-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/1-y",
+            "value": "0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/1-blur",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/2-blur",
+            "value": "0.875rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/1-spread",
-            "value": "Infinityrem",
+            "value": "0.0313rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0.25rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/3-blur",
-            "value": "Infinityrem",
+            "value": "1.875rem",
             "var": "",
             "rootAlias": ""
           }
@@ -3291,9 +3291,9 @@
           },
           {
             "name": "AI/applyTextHighlightBackground",
-            "value": "#1e96eb1a",
-            "var": "Transparent/AFFiNE Blue/100 (10%)",
-            "rootAlias": "Transparent/AFFiNE Blue/100 (10%)"
+            "value": "#1e96eb33",
+            "var": "Transparent/AFFiNE Blue/200 (20%)",
+            "rootAlias": "Transparent/AFFiNE Blue/200 (20%)"
           },
           {
             "name": "AI/errorBackground",
@@ -6185,343 +6185,343 @@
         "number": [
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-y",
-            "value": "-Infinityrem",
+            "value": "-0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-2-y",
-            "value": "-Infinityrem",
+            "value": "-0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-1-blur",
-            "value": "Infinityrem",
+            "value": "0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/EdgelessToolbar/Note/shadow-3-blur",
-            "value": "Infinityrem",
+            "value": "0.25rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Keyboard/keyboardShadow-y",
-            "value": "-Infinityrem",
+            "value": "-0.25rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Keyboard/keyboardShadow-blur",
-            "value": "Infinityrem",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-y-2",
-            "value": "-Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/Mobile/Menu/menuShadow-blur",
-            "value": "Infinityrem",
+            "value": "-0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-blur-2",
-            "value": "Infinityrem",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/Mobile/Menu/menuShadow-y",
-            "value": "Infinityrem",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/boxShadow/1-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/Mobile/Menu/menuShadow-blur",
+            "value": "1.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/boxShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/boxShadow/1-blur",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/boxShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/boxShadow/2-blur",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/filmShadow/1-spead",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/filmShadow/1-x",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/filmShadow/1-y",
-            "value": "Infinityrem",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/filmShadow/2-spread",
-            "value": "Infinityrem",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/floatShadow/1-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/filmShadow/1-x",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/filmShadow/1-y",
+            "value": "0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/floatShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/floatShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/floatShadow/2-y",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/paperShadow/1-spread",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/floatShadow/2-blur",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/paperShadow/2-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/2-spread",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/2-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/paperShadow/3-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/floatShadow/1-blur",
+            "value": "2rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/paperShadow/3-y",
-            "value": "Infinityrem",
+            "value": "0.125rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-y",
+            "value": "0.1875rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/3-blur",
+            "value": "0.25rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/1-spread",
+            "value": "0.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-blur",
+            "value": "0.75rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/paperShadow/2-spread",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/1-spread",
-            "value": "-Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/1-x",
-            "value": "NaNrem",
+            "value": "-1.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-spread",
-            "value": "-Infinityrem",
+            "value": "-0.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
-            "name": "Shadow/NoteShadow/stickerShadow/1-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/1-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/NoteShadow/stickerShadow/2-blur",
-            "value": "Infinityrem",
+            "name": "Shadow/NoteShadow/stickerShadow/1-x",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-blur",
+            "value": "1.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/NoteShadow/stickerShadow/2-y",
-            "value": "Infinityrem",
+            "value": "1.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/1-y",
+            "value": "1.625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/NoteShadow/stickerShadow/2-blur",
+            "value": "1.625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/activeShadow/spread",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/buttonShadow/1-blur",
-            "value": "Infinityrem",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/1-x",
-            "value": "NaNrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/1-y",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/buttonShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/buttonShadow/1-blur",
+            "value": "0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/buttonShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/buttonShadow/2-blur",
+            "value": "0.3125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/embedShadow/spread",
-            "value": "Infinityrem",
+            "value": "0.125rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/glowBrush/1-blur",
-            "value": "Infinityrem",
+            "value": "0.0625rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/glowBrush/2-blur",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/1-blur",
-            "value": "Infinityrem",
+            "value": "0.75rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/1-x",
-            "value": "NaNrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/1-y",
-            "value": "Infinityrem",
-            "var": "",
-            "rootAlias": ""
-          },
-          {
-            "name": "Shadow/overlayPanelShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/2-x",
-            "value": "NaNrem",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/1-y",
+            "value": "0.0625rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/1-blur",
+            "value": "0.375rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/overlayPanelShadow/2-y",
-            "value": "Infinityrem",
+            "value": "0.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Shadow/overlayPanelShadow/2-blur",
+            "value": "0.875rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/1-spread",
-            "value": "Infinityrem",
+            "value": "0.0313rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/2-blur",
-            "value": "Infinityrem",
+            "value": "0.5rem",
             "var": "",
             "rootAlias": ""
           },
           {
             "name": "Shadow/popUpShadow/3-blur",
-            "value": "Infinityrem",
+            "value": "1.875rem",
             "var": "",
             "rootAlias": ""
           }
