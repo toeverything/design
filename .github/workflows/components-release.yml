@@ -70,4 +70,5 @@ jobs:
         run: |
           cd packages/components
           pnpm run build
-          pnpm publish
+          npm install -g npm@11
+          npm publish
