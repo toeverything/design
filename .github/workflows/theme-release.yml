@@ -67,4 +67,4 @@ jobs:
         run: |
           cd packages/theme
           pnpm run build
-          pnpm publish
+          npm publish
